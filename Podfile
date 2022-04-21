@@ -15,3 +15,9 @@ target 'FlexiPassApp' do
   project 'FlexiPassApp.xcodeproj'
   applibs
 end
+
+target 'FlexiPassApp-SIT' do
+  workspace 'FlexiPassApp.xcworkspace'
+  project 'FlexiPassApp.xcodeproj'
+  applibs
+end
