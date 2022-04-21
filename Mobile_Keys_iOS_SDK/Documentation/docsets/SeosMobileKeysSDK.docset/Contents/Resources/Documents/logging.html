@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Logging  Reference</title>
+    <link rel="stylesheet" type="text/css" href="css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="css/highlight.css" />
+    <meta charset="utf-8">
+    <script src="js/jquery.min.js" defer></script>
+    <script src="js/jazzy.js" defer></script>
+    
+    <script src="js/lunr.min.js" defer></script>
+    <script src="js/typeahead.jquery.js" defer></script>
+    <script src="js/jazzy.search.js" defer></script>
+  </head>
+  <body>
+
+
+    <a title="Logging  Reference"></a>
+
+    <header class="header">
+      <p class="header-col header-col--primary">
+        <a class="header-link" href="index.html">
+          SeosMobileKeysSDK 7.5.2 Docs
+        </a>
+        
+      </p>
+    
+      <p class="header-col--secondary">
+        <form role="search" action="search.json">
+          <input type="text" placeholder="Search documentation" data-typeahead>
+        </form>
+      </p>
+    
+    
+    </header>
+
+    <p class="breadcrumbs">
+      <a class="breadcrumb" href="index.html">SeosMobileKeysSDK Reference</a>
+      <img class="carat" src="img/carat.png" />
+      Logging  Reference
+    </p>
+
+    <div class="content-wrapper">
+      <nav class="navigation">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="Getting%20started.html">Getting started</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="getting-started-with-the-sdk.html">Getting started with the SDK</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="installation-without-cocoapods.html">Installation without CocoaPods</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="logging.html">Logging</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="Mobile%20Keys.html">Mobile Keys</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/MobileKeysManager.html">MobileKeysManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/MobileKeysManagerDelegate.html">MobileKeysManagerDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/MobileKeysEndpointUpdateSummary.html">MobileKeysEndpointUpdateSummary</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/MobileKeysEndpointInfo.html">MobileKeysEndpointInfo</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/MobileKeysKey.html">MobileKeysKey</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/MobileKeysLastAuthenticationInfo.html">MobileKeysLastAuthenticationInfo</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Mobile%20Keys.html#/c:@MobileKeysErrorDomain">MobileKeysErrorDomain</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Mobile%20Keys.html#/c:@MobileKeysHttpErrorDomain">MobileKeysHttpErrorDomain</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Mobile%20Keys.html#/c:@MobileKeysOptionApplicationId">MobileKeysOptionApplicationId</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Mobile%20Keys.html#/c:@MobileKeysOptionVersion">MobileKeysOptionVersion</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Enums/EnvironmentType.html">EnvironmentType</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Enums/MobileKeysInfoType.html">MobileKeysInfoType</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Enums/MobileKeysErrorCode.html">MobileKeysErrorCode</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Mobile%20Keys.html#/c:@MobileKeysPreconditionFailedException">MobileKeysPreconditionFailedException</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Mobile%20Keys.html#/c:@F@MobileKeysPreconditionCheckTriggered">MobileKeysPreconditionCheckTriggered</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="Bluetooth.html">Bluetooth</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/MobileKeysOpeningResult.html">MobileKeysOpeningResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/MobileKeysTimeoutConfiguration.html">MobileKeysTimeoutConfiguration</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Enums/MobileKeysOpeningStatusType.html">MobileKeysOpeningStatusType</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Enums/MobileKeysOpeningType.html">MobileKeysOpeningType</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/MobileKeysReader.html">MobileKeysReader</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Enums/MobileKeysScanMode.html">MobileKeysScanMode</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Enums/MobileKeysReaderProtocolVersion.html">MobileKeysReaderProtocolVersion</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="Seos%20Access%20API.html">Seos Access API</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/MobileKeysSeosSession.html">MobileKeysSeosSession</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/MobileKeysSeosTag.html">MobileKeysSeosTag</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/MobileKeysApduCommand.html">MobileKeysApduCommand</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/MobileKeysApduConnectionProtocol.html">MobileKeysApduConnectionProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/MobileKeysApduResponse.html">MobileKeysApduResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/MobileKeysAuthenticationKeySet.html">MobileKeysAuthenticationKeySet</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/MobileKeysMasterAuthenticationKeySet.html">MobileKeysMasterAuthenticationKeySet</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/MobileKeysGetDataApduCommand.html">MobileKeysGetDataApduCommand</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/MobileKeysPrivacyKeySet.html">MobileKeysPrivacyKeySet</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/MobileKeysPutDataApduCommand.html">MobileKeysPutDataApduCommand</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/MobileKeysSeosProvider.html">MobileKeysSeosProvider</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/MobileKeysSessionParameters.html">MobileKeysSessionParameters</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/MobileKeysSymmetricKeyPair.html">MobileKeysSymmetricKeyPair</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/MobileKeysSelectionResult.html">MobileKeysSelectionResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Enums/MobileKeysKeyNumber.html">MobileKeysKeyNumber</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Enums/MobileKeysHashAlgorithm.html">MobileKeysHashAlgorithm</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Enums/MobileKeysSelectionType.html">MobileKeysSelectionType</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Enums/MobileKeysSeosSessionType.html">MobileKeysSeosSessionType</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Enums/MobileKeysEncryptionAlgorithm.html">MobileKeysEncryptionAlgorithm</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Enums/SeosStatusWord.html">SeosStatusWord</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="Seos%20Access%20API%20-%20sample%20code.html">Seos Access API - sample code</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="credential-for-test.html">Credential for test</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="read--write-tags-on-adf.html">Read &amp; write tags on ADF</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="read-adf-metadata.html">Read ADF metadata</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="master-authentication-keyset.html">Master authentication keyset</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="remote-session.html">Remote session</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="ake-session-setup.html">AKE Session Setup</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="Advanced%20use%20cases.html">Advanced use cases</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/MobileKeysMotionRecognizer.html">MobileKeysMotionRecognizer</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/MobileKeysMotionRecognizerDelegate.html">MobileKeysMotionRecognizerDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/MobileKeysManagerExtendedDelegate.html">MobileKeysManagerExtendedDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="custom-tsm-configuration.html">Custom TSM Configuration</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="Advanced%20use%20cases%20-%20sample%20code.html">Advanced use cases - sample code</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="custom-opening-method.html">Custom opening method</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="protected-data-handling.html">Protected Data handling</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="Other%20Constants.html">Other Constants</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other%20Constants.html#/c:@MobileKeysOptionBeaconUUID">MobileKeysOptionBeaconUUID</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other%20Constants.html#/c:@MobileKeysOptionCustomEventValue">MobileKeysOptionCustomEventValue</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other%20Constants.html#/c:@MobileKeysOptionCustomSetupAkeKey">MobileKeysOptionCustomSetupAkeKey</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other%20Constants.html#/c:@MobileKeysOptionMotionManager">MobileKeysOptionMotionManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other%20Constants.html#/c:@MobileKeysOptionTSMBaseURL">MobileKeysOptionTSMBaseURL</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other%20Constants.html#/c:@MobileKeysOptionTSMPublicCert">MobileKeysOptionTSMPublicCert</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="Other%20Enums.html">Other Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Enums/MobileKeysReaderType.html">MobileKeysReaderType</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Enums/MobileKeysSessionClientIdentifier.html">MobileKeysSessionClientIdentifier</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="Other%20Protocols.html">Other Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/MotionRecognizerProtocol.html">MotionRecognizerProtocol</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+
+        <section class="section">
+          <div class="section-content top-matter">
+            
+            <h2 id='logging' class='heading'>Logging</h2>
+
+<p>The Mobile Keys SDK uses a logging framework called CocoaLumberjack. In the Release version of the Mobile Keys SDK this
+feature is turned off, meaning that no logs are written by the SDK. The Mobile Keys SDK uses different log categories that can be turned on and off individually. To enable a
+log category, add it as an environment variable in your current scheme in Xcode:</p>
+
+<ul>
+<li><code>Product -&gt; Scheme -&gt; Edit Scheme... -&gt; Select Run in the left menu -&gt; Arguments -&gt; Environment Variables -&gt; (+) -&gt; Name: [One of the categories below] Value: YES</code></li>
+</ul>
+
+<p>If you want to enable all of the logging, just add the category LogEverything</p>
+
+<p>These are the log categories currently available:</p>
+
+<ul>
+<li><code>LogEverything</code></li>
+<li><code>LogUncategorized</code></li>
+<li><code>LogNotifications</code></li>
+<li><code>LogStatistics</code></li>
+<li><code>LogRSSIScanning</code></li>
+<li><code>LogBeacon</code></li>
+<li><code>LogSeosApdus</code></li>
+<li><code>LogSeosApi</code></li>
+<li><code>LogSeosAccessApi</code></li>
+<li><code>LogApduDesc</code></li>
+<li><code>LogBleCommunication</code></li>
+<li><code>LogBleConnection</code></li>
+<li><code>LogLifecycle</code></li>
+<li><code>LogNetwork</code></li>
+<li><code>LogPersonalization</code></li>
+<li><code>LogAPI</code></li>
+<li><code>LogSettings</code></li>
+<li><code>LogOpening</code></li>
+<li><code>LogFileSystem</code></li>
+</ul>
+
+<p>You also need to enable one of the CocoaLumberjack loggers:</p>
+
+<p>Add the following import statements to your AppDelegate class</p>
+<pre class="highlight objective_c"><code><span class="cp">#import &lt;CocoaLumberjack/DDLog.h&gt;
+#import &lt;CocoaLumberjack/DDOSLogger.h&gt;
+</span></code></pre>
+
+<p>Add the following method calls to your application:didFinishLaunchingWithOptions: method in your AppDelegate</p>
+<pre class="highlight objective_c"><code><span class="p">[</span><span class="n">DDLog</span> <span class="nf">addLogger</span><span class="p">:[</span><span class="n">DDOSLogger</span> <span class="nf">sharedInstance</span><span class="p">]];</span>
+</code></pre>
+
+<p>And make sure the Pods xcodeproj is build for debug</p>
+
+          </div>
+        </section>
+
+
+      </article>
+    </div>
+    <section class="footer">
+      <p>© 2017 ASSA ABLOY Mobile Services. All rights reserved.</p>
+      <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.13.1</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+    </section>
+  </body>
+</div>
+</html>

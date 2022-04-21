@@ -1,0 +1,60 @@
+{
+  "name": "SeosMobileKeysSDK-Debug",
+  "version": "7.5.2",
+  "summary": "Open readers with your iOS device",
+  "homepage": "http://www.assaabloy.com/seos",
+  "license": {
+    "type": "Copyright",
+    "text": "       Copyright (c) 2019 ASSA ABLOY Mobile Services. Version 7.5.2. All rights reserved.\n"
+  },
+  "authors": {
+    "ASSA ABLOY Mobile Services": "mobilekeys@assaabloy.com"
+  },
+  "source": {
+    "path": "."
+  },
+  "requires_arc": true,
+  "platforms": {
+    "ios": "11.0",
+    "watchos": "4.0"
+  },
+  "ios": {
+    "frameworks": [
+      "Foundation",
+      "CoreTelephony",
+      "Security",
+      "CoreLocation",
+      "CoreBluetooth",
+      "CoreMotion",
+      "UIKit",
+      "SystemConfiguration",
+      "LocalAuthentication"
+    ]
+  },
+  "watchos": {
+    "frameworks": [
+      "Foundation",
+      "Security",
+      "CoreLocation",
+      "CoreBluetooth",
+      "CoreMotion",
+      "UIKit"
+    ]
+  },
+  "module_name": "SeosMobileKeysSDK",
+  "dependencies": {
+    "JSONModel": [
+      "~> 1.8.0"
+    ],
+    "CocoaLumberjack/Swift": [
+      "~> 3.5.3"
+    ],
+    "Mixpanel": [
+      "~> 3.4.9"
+    ],
+    "BerTlv": [
+      "~> 0.2.5"
+    ]
+  },
+  "vendored_frameworks": "SeosMobileKeysSDK.framework"
+}

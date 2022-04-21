@@ -1,0 +1,851 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Mobile Keys  Reference</title>
+    <link rel="stylesheet" type="text/css" href="css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="css/highlight.css" />
+    <meta charset="utf-8">
+    <script src="js/jquery.min.js" defer></script>
+    <script src="js/jazzy.js" defer></script>
+    
+    <script src="js/lunr.min.js" defer></script>
+    <script src="js/typeahead.jquery.js" defer></script>
+    <script src="js/jazzy.search.js" defer></script>
+  </head>
+  <body>
+
+    <a name="//apple_ref/objc/Section/Mobile Keys" class="dashAnchor"></a>
+
+    <a title="Mobile Keys  Reference"></a>
+
+    <header class="header">
+      <p class="header-col header-col--primary">
+        <a class="header-link" href="index.html">
+          SeosMobileKeysSDK 7.5.2 Docs
+        </a>
+        
+      </p>
+    
+      <p class="header-col--secondary">
+        <form role="search" action="search.json">
+          <input type="text" placeholder="Search documentation" data-typeahead>
+        </form>
+      </p>
+    
+    
+    </header>
+
+    <p class="breadcrumbs">
+      <a class="breadcrumb" href="index.html">SeosMobileKeysSDK Reference</a>
+      <img class="carat" src="img/carat.png" />
+      Mobile Keys  Reference
+    </p>
+
+    <div class="content-wrapper">
+      <nav class="navigation">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="Getting%20started.html">Getting started</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="getting-started-with-the-sdk.html">Getting started with the SDK</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="installation-without-cocoapods.html">Installation without CocoaPods</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="logging.html">Logging</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="Mobile%20Keys.html">Mobile Keys</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/MobileKeysManager.html">MobileKeysManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/MobileKeysManagerDelegate.html">MobileKeysManagerDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/MobileKeysEndpointUpdateSummary.html">MobileKeysEndpointUpdateSummary</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/MobileKeysEndpointInfo.html">MobileKeysEndpointInfo</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/MobileKeysKey.html">MobileKeysKey</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/MobileKeysLastAuthenticationInfo.html">MobileKeysLastAuthenticationInfo</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Mobile%20Keys.html#/c:@MobileKeysErrorDomain">MobileKeysErrorDomain</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Mobile%20Keys.html#/c:@MobileKeysHttpErrorDomain">MobileKeysHttpErrorDomain</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Mobile%20Keys.html#/c:@MobileKeysOptionApplicationId">MobileKeysOptionApplicationId</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Mobile%20Keys.html#/c:@MobileKeysOptionVersion">MobileKeysOptionVersion</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Enums/EnvironmentType.html">EnvironmentType</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Enums/MobileKeysInfoType.html">MobileKeysInfoType</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Enums/MobileKeysErrorCode.html">MobileKeysErrorCode</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Mobile%20Keys.html#/c:@MobileKeysPreconditionFailedException">MobileKeysPreconditionFailedException</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Mobile%20Keys.html#/c:@F@MobileKeysPreconditionCheckTriggered">MobileKeysPreconditionCheckTriggered</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="Bluetooth.html">Bluetooth</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/MobileKeysOpeningResult.html">MobileKeysOpeningResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/MobileKeysTimeoutConfiguration.html">MobileKeysTimeoutConfiguration</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Enums/MobileKeysOpeningStatusType.html">MobileKeysOpeningStatusType</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Enums/MobileKeysOpeningType.html">MobileKeysOpeningType</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/MobileKeysReader.html">MobileKeysReader</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Enums/MobileKeysScanMode.html">MobileKeysScanMode</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Enums/MobileKeysReaderProtocolVersion.html">MobileKeysReaderProtocolVersion</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="Seos%20Access%20API.html">Seos Access API</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/MobileKeysSeosSession.html">MobileKeysSeosSession</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/MobileKeysSeosTag.html">MobileKeysSeosTag</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/MobileKeysApduCommand.html">MobileKeysApduCommand</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/MobileKeysApduConnectionProtocol.html">MobileKeysApduConnectionProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/MobileKeysApduResponse.html">MobileKeysApduResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/MobileKeysAuthenticationKeySet.html">MobileKeysAuthenticationKeySet</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/MobileKeysMasterAuthenticationKeySet.html">MobileKeysMasterAuthenticationKeySet</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/MobileKeysGetDataApduCommand.html">MobileKeysGetDataApduCommand</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/MobileKeysPrivacyKeySet.html">MobileKeysPrivacyKeySet</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/MobileKeysPutDataApduCommand.html">MobileKeysPutDataApduCommand</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/MobileKeysSeosProvider.html">MobileKeysSeosProvider</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/MobileKeysSessionParameters.html">MobileKeysSessionParameters</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/MobileKeysSymmetricKeyPair.html">MobileKeysSymmetricKeyPair</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/MobileKeysSelectionResult.html">MobileKeysSelectionResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Enums/MobileKeysKeyNumber.html">MobileKeysKeyNumber</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Enums/MobileKeysHashAlgorithm.html">MobileKeysHashAlgorithm</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Enums/MobileKeysSelectionType.html">MobileKeysSelectionType</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Enums/MobileKeysSeosSessionType.html">MobileKeysSeosSessionType</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Enums/MobileKeysEncryptionAlgorithm.html">MobileKeysEncryptionAlgorithm</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Enums/SeosStatusWord.html">SeosStatusWord</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="Seos%20Access%20API%20-%20sample%20code.html">Seos Access API - sample code</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="credential-for-test.html">Credential for test</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="read--write-tags-on-adf.html">Read &amp; write tags on ADF</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="read-adf-metadata.html">Read ADF metadata</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="master-authentication-keyset.html">Master authentication keyset</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="remote-session.html">Remote session</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="ake-session-setup.html">AKE Session Setup</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="Advanced%20use%20cases.html">Advanced use cases</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/MobileKeysMotionRecognizer.html">MobileKeysMotionRecognizer</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/MobileKeysMotionRecognizerDelegate.html">MobileKeysMotionRecognizerDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/MobileKeysManagerExtendedDelegate.html">MobileKeysManagerExtendedDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="custom-tsm-configuration.html">Custom TSM Configuration</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="Advanced%20use%20cases%20-%20sample%20code.html">Advanced use cases - sample code</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="custom-opening-method.html">Custom opening method</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="protected-data-handling.html">Protected Data handling</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="Other%20Constants.html">Other Constants</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other%20Constants.html#/c:@MobileKeysOptionBeaconUUID">MobileKeysOptionBeaconUUID</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other%20Constants.html#/c:@MobileKeysOptionCustomEventValue">MobileKeysOptionCustomEventValue</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other%20Constants.html#/c:@MobileKeysOptionCustomSetupAkeKey">MobileKeysOptionCustomSetupAkeKey</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other%20Constants.html#/c:@MobileKeysOptionMotionManager">MobileKeysOptionMotionManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other%20Constants.html#/c:@MobileKeysOptionTSMBaseURL">MobileKeysOptionTSMBaseURL</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other%20Constants.html#/c:@MobileKeysOptionTSMPublicCert">MobileKeysOptionTSMPublicCert</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="Other%20Enums.html">Other Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Enums/MobileKeysReaderType.html">MobileKeysReaderType</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Enums/MobileKeysSessionClientIdentifier.html">MobileKeysSessionClientIdentifier</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="Other%20Protocols.html">Other Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/MotionRecognizerProtocol.html">MotionRecognizerProtocol</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+
+        <section class="section">
+          <div class="section-content top-matter">
+            <h1>Mobile Keys</h1>
+            
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="section-content">
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)MobileKeysManager"></a>
+                    <a name="//apple_ref/objc/Class/MobileKeysManager" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)MobileKeysManager">MobileKeysManager</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This is the main class of the ASSA ABLOY Mobile Keys API.</p>
+
+<p>
+This API is used to communicate with the Seos TSM and to read/write mobile keys to the
+Seos application, located in a secure storage file on the device.
+</p>
+
+<p>
+The API contains some asynchronous methods. The API will not allow for  multiple asynchronous tasks to be
+launched at the same time. If you launch an asynchronous task while another has not yet finished
+a NSError` will be returned with error code `MobileKeysErrorCode MobileKeysApiIsBusyError`.
+</p>
+
+<p>When initializing the BLE scan, the SDK can optionally enable Location Monitoring as well. This will improve
+the responsiveness when finding Readers, but will consume more power, especially if the application is running
+in the background.</p>
+
+                        <a href="Classes/MobileKeysManager.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@interface</span> <span class="nc">MobileKeysManager</span> <span class="p">:</span> <span class="nc">NSObject</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kt">MobileKeysManager</span> <span class="p">:</span> <span class="kt">NSObject</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)MobileKeysManagerDelegate"></a>
+                    <a name="//apple_ref/objc/Protocol/MobileKeysManagerDelegate" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)MobileKeysManagerDelegate">MobileKeysManagerDelegate</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Delegate protocol to implement for callbacks from the <code><a href="Classes/MobileKeysManager.html">MobileKeysManager</a></code> class</p>
+<div class="aside aside-see">
+    <p class="aside-title">See</p>
+    <code><a href="Classes/MobileKeysManager.html">MobileKeysManager</a></code>
+
+</div>
+
+                        <a href="Protocols/MobileKeysManagerDelegate.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@protocol</span> <span class="nc">MobileKeysManagerDelegate</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">protocol</span> <span class="kt">MobileKeysManagerDelegate</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)MobileKeysEndpointUpdateSummary"></a>
+                    <a name="//apple_ref/objc/Class/MobileKeysEndpointUpdateSummary" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)MobileKeysEndpointUpdateSummary">MobileKeysEndpointUpdateSummary</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This class represents a overview summary of the Seos Vault changes that were detected for an Update.</p>
+
+                        <a href="Classes/MobileKeysEndpointUpdateSummary.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@interface</span> <span class="nc">MobileKeysEndpointUpdateSummary</span> <span class="p">:</span> <span class="nc">NSObject</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kt">MobileKeysEndpointUpdateSummary</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)MobileKeysEndpointInfo"></a>
+                    <a name="//apple_ref/objc/Class/MobileKeysEndpointInfo" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)MobileKeysEndpointInfo">MobileKeysEndpointInfo</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Class representing Information about a Seos Endpoint. Most of this information is Seos specific
+and rather technical. In addition to what gets read from Seos, this class also contains the
+current Push ID (as set through the Mobile Keys SDK) and a timestamp (<code>NSDate</code>) describing when
+the endpoint was last successfully synchronized with the Seos TSM.</p>
+
+                        <a href="Classes/MobileKeysEndpointInfo.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@interface</span> <span class="nc">MobileKeysEndpointInfo</span> <span class="p">:</span> <span class="nc">NSObject</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kt">MobileKeysEndpointInfo</span> <span class="p">:</span> <span class="kt">NSObject</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)MobileKeysKey"></a>
+                    <a name="//apple_ref/objc/Class/MobileKeysKey" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)MobileKeysKey">MobileKeysKey</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Representation of a mobile key. This object contains metadata available for the mobile key.
+ Cryptographic keys and data are never exposed outside of the secure element.</p>
+<div class="aside aside-note">
+    <p class="aside-title">Note</p>
+    Please note that the NSDate objects
+describing the &ldquo;beginDate&rdquo; (valid from) and the &ldquo;endDate&rdquo; (valid to) data is always describing UTC times,
+and will have to be localized appropriately before displaying to the User.
+
+</div>
+
+                        <a href="Classes/MobileKeysKey.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@interface</span> <span class="nc">MobileKeysKey</span> <span class="p">:</span> <span class="nc">NSObject</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kt">MobileKeysKey</span> <span class="p">:</span> <span class="kt">NSObject</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)MobileKeysLastAuthenticationInfo"></a>
+                    <a name="//apple_ref/objc/Class/MobileKeysLastAuthenticationInfo" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)MobileKeysLastAuthenticationInfo">MobileKeysLastAuthenticationInfo</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Object representing the last authenticated key in the Seos Secure Storage</p>
+
+                        <a href="Classes/MobileKeysLastAuthenticationInfo.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@interface</span> <span class="nc">MobileKeysLastAuthenticationInfo</span> <span class="p">:</span> <span class="nc">NSObject</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kt">MobileKeysLastAuthenticationInfo</span> <span class="p">:</span> <span class="kt">NSObject</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@MobileKeysErrorDomain"></a>
+                    <a name="//apple_ref/objc/Constant/MobileKeysErrorDomain" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@MobileKeysErrorDomain">MobileKeysErrorDomain</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The domain used for all NSError objects originating from Mobile Keys.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">extern</span> <span class="n">NSErrorDomain</span> <span class="n">MobileKeysErrorDomain</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">MobileKeysErrorDomain</span><span class="p">:</span> <span class="kt">Int32</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@MobileKeysHttpErrorDomain"></a>
+                    <a name="//apple_ref/objc/Constant/MobileKeysHttpErrorDomain" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@MobileKeysHttpErrorDomain">MobileKeysHttpErrorDomain</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">extern</span> <span class="n">NSErrorDomain</span> <span class="n">MobileKeysHttpErrorDomain</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">MobileKeysHttpErrorDomain</span><span class="p">:</span> <span class="kt">Int32</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@MobileKeysOptionApplicationId"></a>
+                    <a name="//apple_ref/objc/Constant/MobileKeysOptionApplicationId" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@MobileKeysOptionApplicationId">MobileKeysOptionApplicationId</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">extern</span> <span class="k">const</span> <span class="n">NSString</span> <span class="o">*</span><span class="n">MobileKeysOptionApplicationId</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">let</span> <span class="nv">MobileKeysOptionApplicationId</span><span class="p">:</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@MobileKeysOptionVersion"></a>
+                    <a name="//apple_ref/objc/Constant/MobileKeysOptionVersion" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@MobileKeysOptionVersion">MobileKeysOptionVersion</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">extern</span> <span class="k">const</span> <span class="n">NSString</span> <span class="o">*</span><span class="n">MobileKeysOptionVersion</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">let</span> <span class="nv">MobileKeysOptionVersion</span><span class="p">:</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@E@EnvironmentType"></a>
+                    <a name="//apple_ref/objc/Enum/EnvironmentType" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@E@EnvironmentType">EnvironmentType</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The different environments of Seos TSM. Ideally you (the integrator) will use <code>EnvironmentStaging</code> (integration) during development
+and <code>EnvironmentProd</code> (production)</p>
+
+                        <a href="Enums/EnvironmentType.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">enum</span> <span class="n">EnvironmentType</span> <span class="p">{}</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">enum</span> <span class="kt">EnvironmentType</span> <span class="p">:</span> <span class="kt">Int</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@E@MobileKeysInfoType"></a>
+                    <a name="//apple_ref/objc/Enum/MobileKeysInfoType" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@E@MobileKeysInfoType">MobileKeysInfoType</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Contains assorted information about the device and the device settings to provide a good user experience.</p>
+<div class="aside aside-see">
+    <p class="aside-title">See</p>
+    <code><a href="Classes/MobileKeysManager.html#/c:objc(cs)MobileKeysManager(im)healthCheck">-[MobileKeysManager healthCheck]</a></code>
+
+</div>
+
+                        <a href="Enums/MobileKeysInfoType.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">enum</span> <span class="n">MobileKeysInfoType</span> <span class="p">{}</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">enum</span> <span class="kt">MobileKeysInfoType</span> <span class="p">:</span> <span class="kt">Int</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@E@MobileKeysErrorCode"></a>
+                    <a name="//apple_ref/objc/Enum/MobileKeysErrorCode" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@E@MobileKeysErrorCode">MobileKeysErrorCode</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>NSError objects generated by MobileKeys will contain one of these codes.
+ Please look at the individual codes to see what they mean. The codes ending
+ in RetryError indicates that a retry can be attempted.</p>
+<div class="aside aside-note">
+    <p class="aside-title">Note</p>
+    since version 2.0
+
+</div>
+
+                        <a href="Enums/MobileKeysErrorCode.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">enum</span> <span class="n">MobileKeysErrorCode</span> <span class="p">{}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@MobileKeysPreconditionFailedException"></a>
+                    <a name="//apple_ref/objc/Constant/MobileKeysPreconditionFailedException" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@MobileKeysPreconditionFailedException">MobileKeysPreconditionFailedException</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">extern</span> <span class="n">NSString</span> <span class="o">*</span><span class="n">MobileKeysPreconditionFailedException</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">let</span> <span class="nv">MobileKeysPreconditionFailedException</span><span class="p">:</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@F@MobileKeysPreconditionCheckTriggered"></a>
+                    <a name="//apple_ref/objc/Function/MobileKeysPreconditionCheckTriggered" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@F@MobileKeysPreconditionCheckTriggered">MobileKeysPreconditionCheckTriggered</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">extern</span> <span class="kt">void</span> <span class="n">MobileKeysPreconditionCheckTriggered</span><span class="p">(</span><span class="n">NSString</span> <span class="o">*</span><span class="n">message</span><span class="p">)</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="kt">MobileKeysPreconditionCheckTriggered</span><span class="p">(</span><span class="n">_</span> <span class="nv">message</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+      </article>
+    </div>
+    <section class="footer">
+      <p>© 2017 ASSA ABLOY Mobile Services. All rights reserved.</p>
+      <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.13.1</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+    </section>
+  </body>
+</div>
+</html>

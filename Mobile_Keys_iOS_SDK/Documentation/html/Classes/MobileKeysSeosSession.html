@@ -1,0 +1,841 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>MobileKeysSeosSession Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset="utf-8">
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+    <script src="../js/lunr.min.js" defer></script>
+    <script src="../js/typeahead.jquery.js" defer></script>
+    <script src="../js/jazzy.search.js" defer></script>
+  </head>
+  <body>
+
+    <a name="//apple_ref/objc/Class/MobileKeysSeosSession" class="dashAnchor"></a>
+
+    <a title="MobileKeysSeosSession Class Reference"></a>
+
+    <header class="header">
+      <p class="header-col header-col--primary">
+        <a class="header-link" href="../index.html">
+          SeosMobileKeysSDK 7.5.2 Docs
+        </a>
+        
+      </p>
+    
+      <p class="header-col--secondary">
+        <form role="search" action="../search.json">
+          <input type="text" placeholder="Search documentation" data-typeahead>
+        </form>
+      </p>
+    
+    
+    </header>
+
+    <p class="breadcrumbs">
+      <a class="breadcrumb" href="../index.html">SeosMobileKeysSDK Reference</a>
+      <img class="carat" src="../img/carat.png" />
+      MobileKeysSeosSession Class Reference
+    </p>
+
+    <div class="content-wrapper">
+      <nav class="navigation">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Getting%20started.html">Getting started</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../getting-started-with-the-sdk.html">Getting started with the SDK</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../installation-without-cocoapods.html">Installation without CocoaPods</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../logging.html">Logging</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Mobile%20Keys.html">Mobile Keys</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/MobileKeysManager.html">MobileKeysManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/MobileKeysManagerDelegate.html">MobileKeysManagerDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/MobileKeysEndpointUpdateSummary.html">MobileKeysEndpointUpdateSummary</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/MobileKeysEndpointInfo.html">MobileKeysEndpointInfo</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/MobileKeysKey.html">MobileKeysKey</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/MobileKeysLastAuthenticationInfo.html">MobileKeysLastAuthenticationInfo</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Mobile%20Keys.html#/c:@MobileKeysErrorDomain">MobileKeysErrorDomain</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Mobile%20Keys.html#/c:@MobileKeysHttpErrorDomain">MobileKeysHttpErrorDomain</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Mobile%20Keys.html#/c:@MobileKeysOptionApplicationId">MobileKeysOptionApplicationId</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Mobile%20Keys.html#/c:@MobileKeysOptionVersion">MobileKeysOptionVersion</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/EnvironmentType.html">EnvironmentType</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/MobileKeysInfoType.html">MobileKeysInfoType</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/MobileKeysErrorCode.html">MobileKeysErrorCode</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Mobile%20Keys.html#/c:@MobileKeysPreconditionFailedException">MobileKeysPreconditionFailedException</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Mobile%20Keys.html#/c:@F@MobileKeysPreconditionCheckTriggered">MobileKeysPreconditionCheckTriggered</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Bluetooth.html">Bluetooth</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/MobileKeysOpeningResult.html">MobileKeysOpeningResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/MobileKeysTimeoutConfiguration.html">MobileKeysTimeoutConfiguration</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/MobileKeysOpeningStatusType.html">MobileKeysOpeningStatusType</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/MobileKeysOpeningType.html">MobileKeysOpeningType</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/MobileKeysReader.html">MobileKeysReader</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/MobileKeysScanMode.html">MobileKeysScanMode</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/MobileKeysReaderProtocolVersion.html">MobileKeysReaderProtocolVersion</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Seos%20Access%20API.html">Seos Access API</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/MobileKeysSeosSession.html">MobileKeysSeosSession</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/MobileKeysSeosTag.html">MobileKeysSeosTag</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/MobileKeysApduCommand.html">MobileKeysApduCommand</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/MobileKeysApduConnectionProtocol.html">MobileKeysApduConnectionProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/MobileKeysApduResponse.html">MobileKeysApduResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/MobileKeysAuthenticationKeySet.html">MobileKeysAuthenticationKeySet</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/MobileKeysMasterAuthenticationKeySet.html">MobileKeysMasterAuthenticationKeySet</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/MobileKeysGetDataApduCommand.html">MobileKeysGetDataApduCommand</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/MobileKeysPrivacyKeySet.html">MobileKeysPrivacyKeySet</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/MobileKeysPutDataApduCommand.html">MobileKeysPutDataApduCommand</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/MobileKeysSeosProvider.html">MobileKeysSeosProvider</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/MobileKeysSessionParameters.html">MobileKeysSessionParameters</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/MobileKeysSymmetricKeyPair.html">MobileKeysSymmetricKeyPair</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/MobileKeysSelectionResult.html">MobileKeysSelectionResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/MobileKeysKeyNumber.html">MobileKeysKeyNumber</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/MobileKeysHashAlgorithm.html">MobileKeysHashAlgorithm</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/MobileKeysSelectionType.html">MobileKeysSelectionType</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/MobileKeysSeosSessionType.html">MobileKeysSeosSessionType</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/MobileKeysEncryptionAlgorithm.html">MobileKeysEncryptionAlgorithm</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/SeosStatusWord.html">SeosStatusWord</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Seos%20Access%20API%20-%20sample%20code.html">Seos Access API - sample code</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../credential-for-test.html">Credential for test</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../read--write-tags-on-adf.html">Read &amp; write tags on ADF</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../read-adf-metadata.html">Read ADF metadata</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../master-authentication-keyset.html">Master authentication keyset</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../remote-session.html">Remote session</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../ake-session-setup.html">AKE Session Setup</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Advanced%20use%20cases.html">Advanced use cases</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/MobileKeysMotionRecognizer.html">MobileKeysMotionRecognizer</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/MobileKeysMotionRecognizerDelegate.html">MobileKeysMotionRecognizerDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/MobileKeysManagerExtendedDelegate.html">MobileKeysManagerExtendedDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../custom-tsm-configuration.html">Custom TSM Configuration</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Advanced%20use%20cases%20-%20sample%20code.html">Advanced use cases - sample code</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../custom-opening-method.html">Custom opening method</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../protected-data-handling.html">Protected Data handling</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Other%20Constants.html">Other Constants</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other%20Constants.html#/c:@MobileKeysOptionBeaconUUID">MobileKeysOptionBeaconUUID</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other%20Constants.html#/c:@MobileKeysOptionCustomEventValue">MobileKeysOptionCustomEventValue</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other%20Constants.html#/c:@MobileKeysOptionCustomSetupAkeKey">MobileKeysOptionCustomSetupAkeKey</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other%20Constants.html#/c:@MobileKeysOptionMotionManager">MobileKeysOptionMotionManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other%20Constants.html#/c:@MobileKeysOptionTSMBaseURL">MobileKeysOptionTSMBaseURL</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other%20Constants.html#/c:@MobileKeysOptionTSMPublicCert">MobileKeysOptionTSMPublicCert</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Other%20Enums.html">Other Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/MobileKeysReaderType.html">MobileKeysReaderType</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/MobileKeysSessionClientIdentifier.html">MobileKeysSessionClientIdentifier</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Other%20Protocols.html">Other Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/MotionRecognizerProtocol.html">MotionRecognizerProtocol</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+
+        <section class="section">
+          <div class="section-content top-matter">
+            <h1>MobileKeysSeosSession</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight objective_c"><code><span class="k">@interface</span> <span class="nc">MobileKeysSeosSession</span> <span class="p">:</span> <span class="nc">NSObject</span></code></pre>
+
+                </div>
+              </div>
+            <p>For Mobile Access SDK 5.0.0, you normally do not use this class directly. Use the MobileKeysSeosProvider instead, as
+ that class takes care of ADF Selection, Mutual Authentication and session management.</p>
+<div class="aside aside-note">
+    <p class="aside-title">Note</p>
+    since version 5.0.0
+
+</div>
+
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="section-content">
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)MobileKeysSeosSession(py)usesSecureMessaging"></a>
+                    <a name="//apple_ref/objc/Property/usesSecureMessaging" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)MobileKeysSeosSession(py)usesSecureMessaging">usesSecureMessaging</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Property that describes wheteher or not this session currently uses secure messaging, i.e. has a validatied session crypto
+@since 6.0.0</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">assign</span><span class="p">,</span> <span class="n">readwrite</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">)</span> <span class="n">BOOL</span> <span class="n">usesSecureMessaging</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">usesSecureMessaging</span><span class="p">:</span> <span class="kt">Bool</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)MobileKeysSeosSession(py)sessionParameters"></a>
+                    <a name="//apple_ref/objc/Property/sessionParameters" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)MobileKeysSeosSession(py)sessionParameters">sessionParameters</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Session parameters for this session.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">assign</span><span class="p">,</span> <span class="n">readwrite</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">)</span>
+    <span class="n"><a href="../Classes/MobileKeysSessionParameters.html">MobileKeysSessionParameters</a></span> <span class="o">*</span><span class="n">sessionParameters</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">sessionParameters</span><span class="p">:</span> <span class="kt"><a href="../Classes/MobileKeysSessionParameters.html">MobileKeysSessionParameters</a></span><span class="o">!</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)MobileKeysSeosSession(py)currentlySelectedOid"></a>
+                    <a name="//apple_ref/objc/Property/currentlySelectedOid" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)MobileKeysSeosSession(py)currentlySelectedOid">currentlySelectedOid</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This gets set whenever an OID is selected
+@since 6.0.0</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">readwrite</span><span class="p">,</span> <span class="n">strong</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">)</span> <span class="n">NSData</span> <span class="o">*</span><span class="n">currentlySelectedOid</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">currentlySelectedOid</span><span class="p">:</span> <span class="kt">Data</span><span class="o">!</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)MobileKeysSeosSession(im)initWithApduConnection:"></a>
+                    <a name="//apple_ref/objc/Method/-initWithApduConnection:" class="dashAnchor"></a>
+                    <a class="token discouraged" href="#/c:objc(cs)MobileKeysSeosSession(im)initWithApduConnection:">-initWithApduConnection:</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="aside aside-deprecated">
+                        <p class="aside-title">Deprecated</p>
+                        <p>Use initWithApduConnection:sessionParameters:sessionSemaphore: instead</p>
+
+                      </div>
+                      <div class="abstract">
+                        <p>Constructs a <code>MobileKeysSeosSession</code> with the specified <code><a href="../Protocols/MobileKeysApduConnectionProtocol.html">MobileKeysApduConnectionProtocol</a></code></p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="n">instancetype</span><span class="p">)</span><span class="nf">initWithApduConnection</span><span class="p">:</span>
+    <span class="p">(</span><span class="n">id</span><span class="o">&lt;</span><span class="n"><a href="../Protocols/MobileKeysApduConnectionProtocol.html">MobileKeysApduConnectionProtocol</a></span><span class="o">&gt;</span><span class="p">)</span><span class="nv">apduConnection</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="nf">init</span><span class="o">!</span><span class="p">(</span><span class="nv">apduConnection</span><span class="p">:</span> <span class="kt"><a href="../Protocols/MobileKeysApduConnectionProtocol.html">MobileKeysApduConnectionProtocol</a></span><span class="o">!</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>apduConnection</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>the APDU connection to use in this session</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>a session instance</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)MobileKeysSeosSession(im)initWithApduConnection:sessionParameters:sessionSemaphore:"></a>
+                    <a name="//apple_ref/objc/Method/-initWithApduConnection:sessionParameters:sessionSemaphore:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)MobileKeysSeosSession(im)initWithApduConnection:sessionParameters:sessionSemaphore:">-initWithApduConnection:sessionParameters:sessionSemaphore:</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="n">instancetype</span><span class="p">)</span><span class="nf">initWithApduConnection</span><span class="p">:(</span><span class="n">id</span> <span class="o">&lt;</span><span class="n"><a href="../Protocols/MobileKeysApduConnectionProtocol.html">MobileKeysApduConnectionProtocol</a></span><span class="o">&gt;</span><span class="p">)</span><span class="nv">apduConnection</span> <span class="nf">sessionParameters</span><span class="p">:(</span><span class="n"><a href="../Classes/MobileKeysSessionParameters.html">MobileKeysSessionParameters</a></span> <span class="o">*</span><span class="p">)</span><span class="nv">sessionParameters</span> <span class="nf">sessionSemaphore</span><span class="p">:(</span><span class="n">dispatch_semaphore_t</span><span class="p">)</span><span class="nv">sessionSemaphore</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="nf">init</span><span class="o">!</span><span class="p">(</span><span class="nv">apduConnection</span><span class="p">:</span> <span class="kt"><a href="../Protocols/MobileKeysApduConnectionProtocol.html">MobileKeysApduConnectionProtocol</a></span><span class="o">!</span><span class="p">,</span> <span class="nv">sessionParameters</span><span class="p">:</span> <span class="kt"><a href="../Classes/MobileKeysSessionParameters.html">MobileKeysSessionParameters</a></span><span class="o">!</span><span class="p">,</span> <span class="nv">sessionSemaphore</span><span class="p">:</span> <span class="kt">DispatchSemaphore</span><span class="o">!</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)MobileKeysSeosSession(im)closeSessionWithError:"></a>
+                    <a name="//apple_ref/objc/Method/-closeSessionWithError:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)MobileKeysSeosSession(im)closeSessionWithError:">-closeSessionWithError:</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="n">BOOL</span><span class="p">)</span><span class="nf">closeSessionWithError</span><span class="p">:(</span><span class="n">NSError</span> <span class="o">**</span><span class="p">)</span><span class="nv">error</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">close</span><span class="p">()</span> <span class="k">throws</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)MobileKeysSeosSession(im)activeConnection"></a>
+                    <a name="//apple_ref/objc/Method/-activeConnection" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)MobileKeysSeosSession(im)activeConnection">-activeConnection</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Check to see if the connection is active</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="n">BOOL</span><span class="p">)</span><span class="n">activeConnection</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">activeConnection</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>YES if there is an active connection</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)MobileKeysSeosSession(im)processApduCommand:autoSplitLargeApduCommands:autoJoinMultipleApduResponses:withError:"></a>
+                    <a name="//apple_ref/objc/Method/-processApduCommand:autoSplitLargeApduCommands:autoJoinMultipleApduResponses:withError:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)MobileKeysSeosSession(im)processApduCommand:autoSplitLargeApduCommands:autoJoinMultipleApduResponses:withError:">-processApduCommand:autoSplitLargeApduCommands:autoJoinMultipleApduResponses:withError:</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Sends an APDU command and receives a response from the Seos applet. This method allows the caller to utilize the
+ automatic APDU Command splitting and APDU Respose Joining of the SDK.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="n"><a href="../Classes/MobileKeysApduResponse.html">MobileKeysApduResponse</a></span> <span class="o">*</span><span class="p">)</span><span class="nf">processApduCommand</span><span class="p">:(</span><span class="n"><a href="../Classes/MobileKeysApduCommand.html">MobileKeysApduCommand</a></span> <span class="o">*</span><span class="p">)</span><span class="nv">command</span>
+                    <span class="nf">autoSplitLargeApduCommands</span><span class="p">:(</span><span class="n">BOOL</span><span class="p">)</span><span class="nv">autoSplit</span>
+                 <span class="nf">autoJoinMultipleApduResponses</span><span class="p">:(</span><span class="n">BOOL</span><span class="p">)</span><span class="nv">autoJoin</span>
+                                     <span class="nf">withError</span><span class="p">:(</span><span class="n">NSError</span> <span class="o">**</span><span class="p">)</span><span class="nv">error</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">processApduCommand</span><span class="p">(</span><span class="n">_</span> <span class="nv">command</span><span class="p">:</span> <span class="kt"><a href="../Classes/MobileKeysApduCommand.html">MobileKeysApduCommand</a></span><span class="o">!</span><span class="p">,</span> <span class="n">autoSplitLargeApduCommands</span> <span class="nv">autoSplit</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">,</span> <span class="n">autoJoinMultipleApduResponses</span> <span class="nv">autoJoin</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">)</span> <span class="k">throws</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Classes/MobileKeysApduResponse.html">MobileKeysApduResponse</a></span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>command</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>the data command to send.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>autoSplit</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>set this to YES to enable auto split of large apdu commands.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>autoJoin</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>set this to YES to enable auto join of apdu responses.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>error</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>if something went wrong this parameter is set, otherwise nil.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>the response from Seos processing the command or nil if something went wrong</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)MobileKeysSeosSession(im)processApduCommand:ignoreChaining:withError:"></a>
+                    <a name="//apple_ref/objc/Method/-processApduCommand:ignoreChaining:withError:" class="dashAnchor"></a>
+                    <a class="token discouraged" href="#/c:objc(cs)MobileKeysSeosSession(im)processApduCommand:ignoreChaining:withError:">-processApduCommand:ignoreChaining:withError:</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="aside aside-deprecated">
+                        <p class="aside-title">Deprecated</p>
+                        <p>Use processApduCommand:autoSplitLargeApduCommands:autoJoinMultipleApduResponses:withError: instead</p>
+
+                      </div>
+                      <div class="abstract">
+                        <p>Sends an APDU command and receives a response from the Seos applet.
+ This method is deprecated.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="n"><a href="../Classes/MobileKeysApduResponse.html">MobileKeysApduResponse</a></span> <span class="o">*</span><span class="p">)</span><span class="nf">processApduCommand</span><span class="p">:(</span><span class="n"><a href="../Classes/MobileKeysApduCommand.html">MobileKeysApduCommand</a></span> <span class="o">*</span><span class="p">)</span><span class="nv">command</span>
+                                <span class="nf">ignoreChaining</span><span class="p">:(</span><span class="n">BOOL</span><span class="p">)</span><span class="nv">ignoreChaining</span>
+                                     <span class="nf">withError</span><span class="p">:(</span><span class="n">NSError</span> <span class="o">**</span><span class="p">)</span><span class="nv">error</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">processApduCommand</span><span class="p">(</span><span class="n">_</span> <span class="nv">command</span><span class="p">:</span> <span class="kt"><a href="../Classes/MobileKeysApduCommand.html">MobileKeysApduCommand</a></span><span class="o">!</span><span class="p">,</span> <span class="nv">ignoreChaining</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">)</span> <span class="k">throws</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Classes/MobileKeysApduResponse.html">MobileKeysApduResponse</a></span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>command</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>the data command to send.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>ignoreChaining</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>set this to NO to disable honoring the chaining flag.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>error</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>if something went wrong this parameter is set, otherwise nil.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>the response from Seos processing the command or nil if something went wrong
+@deprecated since 5.2.0</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)MobileKeysSeosSession(im)processApduCommand:withError:"></a>
+                    <a name="//apple_ref/objc/Method/-processApduCommand:withError:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)MobileKeysSeosSession(im)processApduCommand:withError:">-processApduCommand:withError:</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Sends an APDU command and receives a response from the Seos applet.</p>
+<div class="aside aside-note">
+    <p class="aside-title">Note</p>
+    Convenience method for <code>processApduCommand:ignoreChaining:withError</code> with <code>ignoreChaining</code> set to <code>NO</code>
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="n"><a href="../Classes/MobileKeysApduResponse.html">MobileKeysApduResponse</a></span> <span class="o">*</span><span class="p">)</span><span class="nf">processApduCommand</span><span class="p">:</span>
+                                <span class="p">(</span><span class="n"><a href="../Classes/MobileKeysApduCommand.html">MobileKeysApduCommand</a></span> <span class="o">*</span><span class="p">)</span><span class="nv">apduCommand</span>
+                                     <span class="nf">withError</span><span class="p">:(</span><span class="n">NSError</span> <span class="o">**</span><span class="p">)</span><span class="nv">error</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">processApduCommand</span><span class="p">(</span><span class="n">_</span> <span class="nv">apduCommand</span><span class="p">:</span> <span class="kt"><a href="../Classes/MobileKeysApduCommand.html">MobileKeysApduCommand</a></span><span class="o">!</span><span class="p">)</span> <span class="k">throws</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Classes/MobileKeysApduResponse.html">MobileKeysApduResponse</a></span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>error</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>if something went wrong this parameter is set, otherwise nil.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>the response from Seos processing the command or nil if something went wrong</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+      </article>
+    </div>
+    <section class="footer">
+      <p>© 2017 ASSA ABLOY Mobile Services. All rights reserved.</p>
+      <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.13.1</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+    </section>
+  </body>
+</div>
+</html>

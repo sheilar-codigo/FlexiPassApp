@@ -1,0 +1,1193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>MobileKeysReader Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset="utf-8">
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+    <script src="../js/lunr.min.js" defer></script>
+    <script src="../js/typeahead.jquery.js" defer></script>
+    <script src="../js/jazzy.search.js" defer></script>
+  </head>
+  <body>
+
+    <a name="//apple_ref/objc/Class/MobileKeysReader" class="dashAnchor"></a>
+
+    <a title="MobileKeysReader Class Reference"></a>
+
+    <header class="header">
+      <p class="header-col header-col--primary">
+        <a class="header-link" href="../index.html">
+          SeosMobileKeysSDK 7.5.2 Docs
+        </a>
+        
+      </p>
+    
+      <p class="header-col--secondary">
+        <form role="search" action="../search.json">
+          <input type="text" placeholder="Search documentation" data-typeahead>
+        </form>
+      </p>
+    
+    
+    </header>
+
+    <p class="breadcrumbs">
+      <a class="breadcrumb" href="../index.html">SeosMobileKeysSDK Reference</a>
+      <img class="carat" src="../img/carat.png" />
+      MobileKeysReader Class Reference
+    </p>
+
+    <div class="content-wrapper">
+      <nav class="navigation">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Getting%20started.html">Getting started</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../getting-started-with-the-sdk.html">Getting started with the SDK</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../installation-without-cocoapods.html">Installation without CocoaPods</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../logging.html">Logging</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Mobile%20Keys.html">Mobile Keys</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/MobileKeysManager.html">MobileKeysManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/MobileKeysManagerDelegate.html">MobileKeysManagerDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/MobileKeysEndpointUpdateSummary.html">MobileKeysEndpointUpdateSummary</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/MobileKeysEndpointInfo.html">MobileKeysEndpointInfo</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/MobileKeysKey.html">MobileKeysKey</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/MobileKeysLastAuthenticationInfo.html">MobileKeysLastAuthenticationInfo</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Mobile%20Keys.html#/c:@MobileKeysErrorDomain">MobileKeysErrorDomain</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Mobile%20Keys.html#/c:@MobileKeysHttpErrorDomain">MobileKeysHttpErrorDomain</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Mobile%20Keys.html#/c:@MobileKeysOptionApplicationId">MobileKeysOptionApplicationId</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Mobile%20Keys.html#/c:@MobileKeysOptionVersion">MobileKeysOptionVersion</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/EnvironmentType.html">EnvironmentType</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/MobileKeysInfoType.html">MobileKeysInfoType</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/MobileKeysErrorCode.html">MobileKeysErrorCode</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Mobile%20Keys.html#/c:@MobileKeysPreconditionFailedException">MobileKeysPreconditionFailedException</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Mobile%20Keys.html#/c:@F@MobileKeysPreconditionCheckTriggered">MobileKeysPreconditionCheckTriggered</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Bluetooth.html">Bluetooth</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/MobileKeysOpeningResult.html">MobileKeysOpeningResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/MobileKeysTimeoutConfiguration.html">MobileKeysTimeoutConfiguration</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/MobileKeysOpeningStatusType.html">MobileKeysOpeningStatusType</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/MobileKeysOpeningType.html">MobileKeysOpeningType</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/MobileKeysReader.html">MobileKeysReader</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/MobileKeysScanMode.html">MobileKeysScanMode</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/MobileKeysReaderProtocolVersion.html">MobileKeysReaderProtocolVersion</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Seos%20Access%20API.html">Seos Access API</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/MobileKeysSeosSession.html">MobileKeysSeosSession</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/MobileKeysSeosTag.html">MobileKeysSeosTag</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/MobileKeysApduCommand.html">MobileKeysApduCommand</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/MobileKeysApduConnectionProtocol.html">MobileKeysApduConnectionProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/MobileKeysApduResponse.html">MobileKeysApduResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/MobileKeysAuthenticationKeySet.html">MobileKeysAuthenticationKeySet</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/MobileKeysMasterAuthenticationKeySet.html">MobileKeysMasterAuthenticationKeySet</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/MobileKeysGetDataApduCommand.html">MobileKeysGetDataApduCommand</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/MobileKeysPrivacyKeySet.html">MobileKeysPrivacyKeySet</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/MobileKeysPutDataApduCommand.html">MobileKeysPutDataApduCommand</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/MobileKeysSeosProvider.html">MobileKeysSeosProvider</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/MobileKeysSessionParameters.html">MobileKeysSessionParameters</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/MobileKeysSymmetricKeyPair.html">MobileKeysSymmetricKeyPair</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/MobileKeysSelectionResult.html">MobileKeysSelectionResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/MobileKeysKeyNumber.html">MobileKeysKeyNumber</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/MobileKeysHashAlgorithm.html">MobileKeysHashAlgorithm</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/MobileKeysSelectionType.html">MobileKeysSelectionType</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/MobileKeysSeosSessionType.html">MobileKeysSeosSessionType</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/MobileKeysEncryptionAlgorithm.html">MobileKeysEncryptionAlgorithm</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/SeosStatusWord.html">SeosStatusWord</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Seos%20Access%20API%20-%20sample%20code.html">Seos Access API - sample code</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../credential-for-test.html">Credential for test</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../read--write-tags-on-adf.html">Read &amp; write tags on ADF</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../read-adf-metadata.html">Read ADF metadata</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../master-authentication-keyset.html">Master authentication keyset</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../remote-session.html">Remote session</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../ake-session-setup.html">AKE Session Setup</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Advanced%20use%20cases.html">Advanced use cases</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/MobileKeysMotionRecognizer.html">MobileKeysMotionRecognizer</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/MobileKeysMotionRecognizerDelegate.html">MobileKeysMotionRecognizerDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/MobileKeysManagerExtendedDelegate.html">MobileKeysManagerExtendedDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../custom-tsm-configuration.html">Custom TSM Configuration</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Advanced%20use%20cases%20-%20sample%20code.html">Advanced use cases - sample code</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../custom-opening-method.html">Custom opening method</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../protected-data-handling.html">Protected Data handling</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Other%20Constants.html">Other Constants</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other%20Constants.html#/c:@MobileKeysOptionBeaconUUID">MobileKeysOptionBeaconUUID</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other%20Constants.html#/c:@MobileKeysOptionCustomEventValue">MobileKeysOptionCustomEventValue</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other%20Constants.html#/c:@MobileKeysOptionCustomSetupAkeKey">MobileKeysOptionCustomSetupAkeKey</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other%20Constants.html#/c:@MobileKeysOptionMotionManager">MobileKeysOptionMotionManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other%20Constants.html#/c:@MobileKeysOptionTSMBaseURL">MobileKeysOptionTSMBaseURL</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other%20Constants.html#/c:@MobileKeysOptionTSMPublicCert">MobileKeysOptionTSMPublicCert</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Other%20Enums.html">Other Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/MobileKeysReaderType.html">MobileKeysReaderType</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/MobileKeysSessionClientIdentifier.html">MobileKeysSessionClientIdentifier</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Other%20Protocols.html">Other Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/MotionRecognizerProtocol.html">MotionRecognizerProtocol</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+
+        <section class="section">
+          <div class="section-content top-matter">
+            <h1>MobileKeysReader</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight objective_c"><code><span class="k">@interface</span> <span class="nc">MobileKeysReader</span> <span class="p">:</span> <span class="nc">NSObject</span> <span class="o">&lt;</span><span class="n">NSCopying</span><span class="o">&gt;</span></code></pre>
+
+                </div>
+              </div>
+            <p>Representation of a BLe reader.</p>
+
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="section-content">
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)MobileKeysReader(py)uuid"></a>
+                    <a name="//apple_ref/objc/Property/uuid" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)MobileKeysReader(py)uuid">uuid</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Universally unique identifier for the Reader</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">readwrite</span><span class="p">,</span> <span class="n">strong</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">)</span> <span class="n">NSString</span> <span class="o">*</span><span class="n">uuid</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">uuid</span><span class="p">:</span> <span class="kt">String</span><span class="o">!</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)MobileKeysReader(py)readerCanConnect"></a>
+                    <a name="//apple_ref/objc/Property/readerCanConnect" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)MobileKeysReader(py)readerCanConnect">readerCanConnect</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Does this reader support initiating connection from the reader side?</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">assign</span><span class="p">,</span> <span class="n">readwrite</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">)</span> <span class="n">BOOL</span> <span class="n">readerCanConnect</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">readerCanConnect</span><span class="p">:</span> <span class="kt">Bool</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)MobileKeysReader(py)latestRssiMeasurement"></a>
+                    <a name="//apple_ref/objc/Property/latestRssiMeasurement" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)MobileKeysReader(py)latestRssiMeasurement">latestRssiMeasurement</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Quick access to last rssi measurement (also stored in rssiList and rssiHistory)</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">readonly</span><span class="p">,</span> <span class="n">strong</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">)</span>
+    <span class="n">MobileKeysRssiMeasurement</span> <span class="o">*</span><span class="n">latestRssiMeasurement</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">latestRssiMeasurement</span><span class="p">:</span> <span class="kt">MobileKeysRssiMeasurement</span><span class="o">!</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)MobileKeysReader(py)lastSuccessfulConnection"></a>
+                    <a name="//apple_ref/objc/Property/lastSuccessfulConnection" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)MobileKeysReader(py)lastSuccessfulConnection">lastSuccessfulConnection</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>When the last succesful connection was closed. This is set by the SDK whenever a succesful connection was closed,
+and is used to figure out if this Reader is allowed to connect again.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">readwrite</span><span class="p">,</span> <span class="n">strong</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">)</span> <span class="n">NSDate</span> <span class="o">*</span><span class="n">lastSuccessfulConnection</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">lastSuccessfulConnection</span><span class="p">:</span> <span class="kt">Date</span><span class="o">!</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)MobileKeysReader(py)name"></a>
+                    <a name="//apple_ref/objc/Property/name" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)MobileKeysReader(py)name">name</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The reader&rsquo;s name, as given by the Reader itself</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">readwrite</span><span class="p">,</span> <span class="n">strong</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">)</span> <span class="n">NSString</span> <span class="o">*</span><span class="n">name</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">name</span><span class="p">:</span> <span class="kt">String</span><span class="o">!</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)MobileKeysReader(py)localName"></a>
+                    <a name="//apple_ref/objc/Property/localName" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)MobileKeysReader(py)localName">localName</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The local name, as given by the advertised manufacturer data</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">readwrite</span><span class="p">,</span> <span class="n">strong</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">)</span> <span class="n">NSString</span> <span class="o">*</span><span class="n">localName</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">localName</span><span class="p">:</span> <span class="kt">String</span><span class="o">!</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)MobileKeysReader(py)supportedOpeningTypes"></a>
+                    <a name="//apple_ref/objc/Property/supportedOpeningTypes" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)MobileKeysReader(py)supportedOpeningTypes">supportedOpeningTypes</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>An array with the supported opening types.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">readwrite</span><span class="p">,</span> <span class="n">strong</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">)</span> <span class="n">NSArray</span> <span class="o">*</span><span class="n">supportedOpeningTypes</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">supportedOpeningTypes</span><span class="p">:</span> <span class="p">[</span><span class="kt">Any</span><span class="p">]</span><span class="o">!</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)MobileKeysReader(py)lastRSSIUpdate"></a>
+                    <a name="//apple_ref/objc/Property/lastRSSIUpdate" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)MobileKeysReader(py)lastRSSIUpdate">lastRSSIUpdate</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Time of the last received RSSI update</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">readonly</span><span class="p">,</span> <span class="n">strong</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">)</span> <span class="n">NSDate</span> <span class="o">*</span><span class="n">lastRSSIUpdate</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">lastRSSIUpdate</span><span class="p">:</span> <span class="kt">Date</span><span class="o">!</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)MobileKeysReader(py)readerType"></a>
+                    <a name="//apple_ref/objc/Property/readerType" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)MobileKeysReader(py)readerType">readerType</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Type of reader</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">assign</span><span class="p">,</span> <span class="n">readwrite</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">)</span> <span class="n"><a href="../Enums/MobileKeysReaderType.html">MobileKeysReaderType</a></span> <span class="n">readerType</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">readerType</span><span class="p">:</span> <span class="kt"><a href="../Enums/MobileKeysReaderType.html">MobileKeysReaderType</a></span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)MobileKeysReader(py)optionalScanResponseData"></a>
+                    <a name="//apple_ref/objc/Property/optionalScanResponseData" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)MobileKeysReader(py)optionalScanResponseData">optionalScanResponseData</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>An optional scan response data</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">readwrite</span><span class="p">,</span> <span class="n">strong</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">)</span> <span class="n">NSData</span> <span class="o">*</span><span class="n">optionalScanResponseData</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">optionalScanResponseData</span><span class="p">:</span> <span class="kt">Data</span><span class="o">!</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)MobileKeysReader(im)initWithName:uuid:protocolVersion:rssiValueForOpeningTypes:"></a>
+                    <a name="//apple_ref/objc/Method/-initWithName:uuid:protocolVersion:rssiValueForOpeningTypes:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)MobileKeysReader(im)initWithName:uuid:protocolVersion:rssiValueForOpeningTypes:">-initWithName:uuid:protocolVersion:rssiValueForOpeningTypes:</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Creates an instance of a MobileKeysReader object.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="n">instancetype</span><span class="p">)</span><span class="nf">initWithName</span><span class="p">:(</span><span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">name</span>
+                        <span class="nf">uuid</span><span class="p">:(</span><span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">uuid</span>
+             <span class="nf">protocolVersion</span><span class="p">:(</span><span class="n"><a href="../Enums/MobileKeysReaderProtocolVersion.html">MobileKeysReaderProtocolVersion</a></span><span class="p">)</span><span class="nv">version</span>
+    <span class="nf">rssiValueForOpeningTypes</span><span class="p">:(</span><span class="n">NSDictionary</span> <span class="o">*</span><span class="p">)</span><span class="nv">rssiValuesForOpeningTypes</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="nf">init</span><span class="o">!</span><span class="p">(</span><span class="nv">name</span><span class="p">:</span> <span class="kt">String</span><span class="o">!</span><span class="p">,</span> <span class="nv">uuid</span><span class="p">:</span> <span class="kt">String</span><span class="o">!</span><span class="p">,</span> <span class="n">protocolVersion</span> <span class="nv">version</span><span class="p">:</span> <span class="kt"><a href="../Enums/MobileKeysReaderProtocolVersion.html">MobileKeysReaderProtocolVersion</a></span><span class="p">,</span> <span class="n">rssiValueForOpeningTypes</span> <span class="nv">rssiValuesForOpeningTypes</span><span class="p">:</span> <span class="p">[</span><span class="kt">AnyHashable</span> <span class="p">:</span> <span class="kt">Any</span><span class="p">]</span><span class="o">!</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>name</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>- The reader&rsquo;s name</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>uuid</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>- Unique reader identifier</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>version</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>- Version of the protocol used in exchange between reader and device</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>rssiValuesForOpeningTypes</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>- Dictionary containing a minimum RSSI for each opening type.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)MobileKeysReader(im)initWithName:uuid:protocolVersion:supportedOpeningTypes:rssiValueForOpeningTypes:requiresTimeoutFreeSession:"></a>
+                    <a name="//apple_ref/objc/Method/-initWithName:uuid:protocolVersion:supportedOpeningTypes:rssiValueForOpeningTypes:requiresTimeoutFreeSession:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)MobileKeysReader(im)initWithName:uuid:protocolVersion:supportedOpeningTypes:rssiValueForOpeningTypes:requiresTimeoutFreeSession:">-initWithName:uuid:protocolVersion:supportedOpeningTypes:rssiValueForOpeningTypes:requiresTimeoutFreeSession:</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Creates an instance of a MobileKeysReader object.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="n">instancetype</span><span class="p">)</span><span class="nf">initWithName</span><span class="p">:(</span><span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">name</span>
+                          <span class="nf">uuid</span><span class="p">:(</span><span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">uuid</span>
+               <span class="nf">protocolVersion</span><span class="p">:(</span><span class="n"><a href="../Enums/MobileKeysReaderProtocolVersion.html">MobileKeysReaderProtocolVersion</a></span><span class="p">)</span><span class="nv">version</span>
+         <span class="nf">supportedOpeningTypes</span><span class="p">:(</span><span class="n">NSArray</span> <span class="o">*</span><span class="p">)</span><span class="nv">supportedOpeningTypes</span>
+      <span class="nf">rssiValueForOpeningTypes</span><span class="p">:(</span><span class="n">NSDictionary</span> <span class="o">*</span><span class="p">)</span><span class="nv">rssiValuesForOpeningTypes</span>
+    <span class="nf">requiresTimeoutFreeSession</span><span class="p">:(</span><span class="n">BOOL</span><span class="p">)</span><span class="nv">requiresTimeoutFreeSession</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="nf">init</span><span class="o">!</span><span class="p">(</span><span class="nv">name</span><span class="p">:</span> <span class="kt">String</span><span class="o">!</span><span class="p">,</span> <span class="nv">uuid</span><span class="p">:</span> <span class="kt">String</span><span class="o">!</span><span class="p">,</span> <span class="n">protocolVersion</span> <span class="nv">version</span><span class="p">:</span> <span class="kt"><a href="../Enums/MobileKeysReaderProtocolVersion.html">MobileKeysReaderProtocolVersion</a></span><span class="p">,</span> <span class="nv">supportedOpeningTypes</span><span class="p">:</span> <span class="p">[</span><span class="kt">Any</span><span class="p">]</span><span class="o">!</span><span class="p">,</span> <span class="n">rssiValueForOpeningTypes</span> <span class="nv">rssiValuesForOpeningTypes</span><span class="p">:</span> <span class="p">[</span><span class="kt">AnyHashable</span> <span class="p">:</span> <span class="kt">Any</span><span class="p">]</span><span class="o">!</span><span class="p">,</span> <span class="nv">requiresTimeoutFreeSession</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>name</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>- The reader&rsquo;s name</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>uuid</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>- Unique reader identifier</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>version</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>- Version of the protocol used in exchange between reader and device</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>supportedOpeningTypes</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>-</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>rssiValuesForOpeningTypes</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>- Dictionary containing a minimum RSSI for each opening type.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)MobileKeysReader(im)supportsOpeningType:"></a>
+                    <a name="//apple_ref/objc/Method/-supportsOpeningType:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)MobileKeysReader(im)supportsOpeningType:">-supportsOpeningType:</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Returns YES if reader supports opening type</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="n">BOOL</span><span class="p">)</span><span class="nf">supportsOpeningType</span><span class="p">:(</span><span class="n"><a href="../Enums/MobileKeysOpeningType.html">MobileKeysOpeningType</a></span><span class="p">)</span><span class="nv">openingType</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">supportsOpeningType</span><span class="p">(</span><span class="n">_</span> <span class="nv">openingType</span><span class="p">:</span> <span class="kt"><a href="../Enums/MobileKeysOpeningType.html">MobileKeysOpeningType</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>openingType</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>- Opening type to query</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)MobileKeysReader(im)meanRssi"></a>
+                    <a name="//apple_ref/objc/Method/-meanRssi" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)MobileKeysReader(im)meanRssi">-meanRssi</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Returns the mean of the recently measured RSSI values.
+Returns INT_MIN if number of measured values aren&rsquo;t enough.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="n">NSInteger</span><span class="p">)</span><span class="n">meanRssi</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">meanRssi</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">Int</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)MobileKeysReader(im)isActive"></a>
+                    <a name="//apple_ref/objc/Method/-isActive" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)MobileKeysReader(im)isActive">-isActive</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Returns YES if this reader has been seen within the last 10 seconds, and has RSSI values that are useful.
+Will also Return NO if this Reader is in timeout (has a recent succesful connection) less than 2.2 seconds ago.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="n">BOOL</span><span class="p">)</span><span class="n">isActive</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">isActive</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)MobileKeysReader(im)isInTimeout"></a>
+                    <a name="//apple_ref/objc/Method/-isInTimeout" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)MobileKeysReader(im)isInTimeout">-isInTimeout</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Returns YES if this reader is in timeout (has a recent succesful connection) less than 2.2 seconds ago.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="n">BOOL</span><span class="p">)</span><span class="n">isInTimeout</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">isInTimeout</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)MobileKeysReader(im)isInRangeFor:"></a>
+                    <a name="//apple_ref/objc/Method/-isInRangeFor:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)MobileKeysReader(im)isInRangeFor:">-isInRangeFor:</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Returns YES if the reader is in range of the specified <code><a href="../Enums/MobileKeysOpeningType.html">MobileKeysOpeningType</a></code>, NO otherwise.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="n">BOOL</span><span class="p">)</span><span class="nf">isInRangeFor</span><span class="p">:(</span><span class="n"><a href="../Enums/MobileKeysOpeningType.html">MobileKeysOpeningType</a></span><span class="p">)</span><span class="nv">openingType</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">isInRange</span><span class="p">(</span><span class="k">for</span> <span class="nv">openingType</span><span class="p">:</span> <span class="kt"><a href="../Enums/MobileKeysOpeningType.html">MobileKeysOpeningType</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>openingType</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>- Opening type to query</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)MobileKeysReader(im)rssiList"></a>
+                    <a name="//apple_ref/objc/Method/-rssiList" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)MobileKeysReader(im)rssiList">-rssiList</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>A list of RSSIMeasurement objects (maximum of three entries) showing the most recent measured Received Signal Strength Indications (RSSI values)</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="n">NSArray</span><span class="o">&lt;</span><span class="n">MobileKeysRssiMeasurement</span> <span class="o">*&gt;</span> <span class="o">*</span><span class="p">)</span><span class="n">rssiList</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">rssiList</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="p">[</span><span class="kt">MobileKeysRssiMeasurement</span><span class="p">]</span><span class="o">!</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)MobileKeysReader(im)rssiHistory"></a>
+                    <a name="//apple_ref/objc/Method/-rssiHistory" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)MobileKeysReader(im)rssiHistory">-rssiHistory</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>A longer list of RSSIMeasurement objects (maximum of 50 entries) showing the most recent measured Received Signal Strength Indications (RSSI values)</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="n">NSArray</span><span class="o">&lt;</span><span class="n">MobileKeysRssiMeasurement</span> <span class="o">*&gt;</span> <span class="o">*</span><span class="p">)</span><span class="n">rssiHistory</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">rssiHistory</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="p">[</span><span class="kt">MobileKeysRssiMeasurement</span><span class="p">]</span><span class="o">!</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)MobileKeysReader(im)description"></a>
+                    <a name="//apple_ref/objc/Method/-description" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)MobileKeysReader(im)description">-description</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Returns a readable description about the reader.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="n">description</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">description</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">String</span><span class="o">!</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)MobileKeysReader(im)updateWithRssi:"></a>
+                    <a name="//apple_ref/objc/Method/-updateWithRssi:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)MobileKeysReader(im)updateWithRssi:">-updateWithRssi:</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Updates the reader with a new rssi value.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">updateWithRssi</span><span class="p">:(</span><span class="n">NSInteger</span><span class="p">)</span><span class="nv">rssi</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">update</span><span class="p">(</span><span class="n">withRssi</span> <span class="nv">rssi</span><span class="p">:</span> <span class="kt">Int</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>rssi</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>- Measured RSSI to update reader with</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+      </article>
+    </div>
+    <section class="footer">
+      <p>© 2017 ASSA ABLOY Mobile Services. All rights reserved.</p>
+      <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.13.1</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+    </section>
+  </body>
+</div>
+</html>

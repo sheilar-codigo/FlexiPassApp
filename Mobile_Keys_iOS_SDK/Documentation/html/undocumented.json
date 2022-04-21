@@ -1,0 +1,999 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/Shared/Jenkins/Home/workspace/ios_develop_sdk_poc/SeosMobileKeysSDK/SeosMobileKeysSDK/MobileKeysSDK/PublicAPI/MobileKeysEndpointInfo.h",
+      "line": 14,
+      "symbol": "EnvironmentType.EnvironmentUnknown",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Shared/Jenkins/Home/workspace/ios_develop_sdk_poc/SeosMobileKeysSDK/SeosMobileKeysSDK/MobileKeysSDK/PublicAPI/MobileKeysEndpointInfo.h",
+      "line": 15,
+      "symbol": "EnvironmentType.EnvironmentStaging",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Shared/Jenkins/Home/workspace/ios_develop_sdk_poc/SeosMobileKeysSDK/SeosMobileKeysSDK/MobileKeysSDK/PublicAPI/MobileKeysEndpointInfo.h",
+      "line": 16,
+      "symbol": "EnvironmentType.EnvironmentDev",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Shared/Jenkins/Home/workspace/ios_develop_sdk_poc/SeosMobileKeysSDK/SeosMobileKeysSDK/MobileKeysSDK/PublicAPI/MobileKeysEndpointInfo.h",
+      "line": 17,
+      "symbol": "EnvironmentType.EnvironmentTest",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Shared/Jenkins/Home/workspace/ios_develop_sdk_poc/SeosMobileKeysSDK/SeosMobileKeysSDK/MobileKeysSDK/PublicAPI/MobileKeysEndpointInfo.h",
+      "line": 18,
+      "symbol": "EnvironmentType.EnvironmentDemo",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Shared/Jenkins/Home/workspace/ios_develop_sdk_poc/SeosMobileKeysSDK/SeosMobileKeysSDK/MobileKeysSDK/PublicAPI/MobileKeysEndpointInfo.h",
+      "line": 19,
+      "symbol": "EnvironmentType.EnvironmentProd",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Shared/Jenkins/Home/workspace/ios_develop_sdk_poc/SeosMobileKeysSDK/SeosMobileKeysSDK/MobileKeysSDK/PublicAPI/MobileKeysEndpointInfo.h",
+      "line": 20,
+      "symbol": "EnvironmentType.EnvironmentLocal",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Shared/Jenkins/Home/workspace/ios_develop_sdk_poc/SeosMobileKeysSDK/SeosMobileKeysSDK/MobileKeysSDK/PublicAPI/MobileKeysEndpointInfo.h",
+      "line": 21,
+      "symbol": "EnvironmentType.EnvironmentAcceptance",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Shared/Jenkins/Home/workspace/ios_develop_sdk_poc/SeosMobileKeysSDK/SeosMobileKeysSDK/MobileKeysSDK/PublicAPI/MobileKeysErrorCodes.h",
+      "line": 10,
+      "symbol": "MobileKeysHttpErrorDomain",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Shared/Jenkins/Home/workspace/ios_develop_sdk_poc/SeosMobileKeysSDK/SeosMobileKeysSDK/MobileKeysSDK/PublicAPI/MobileKeysManager.h",
+      "line": 18,
+      "symbol": "MobileKeysPreconditionFailedException",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Shared/Jenkins/Home/workspace/ios_develop_sdk_poc/SeosMobileKeysSDK/SeosMobileKeysSDK/MobileKeysSDK/PublicAPI/MobileKeysManager.h",
+      "line": 20,
+      "symbol": "MobileKeysPreconditionCheckTriggered",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.function",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Shared/Jenkins/Home/workspace/ios_develop_sdk_poc/SeosMobileKeysSDK/SeosMobileKeysSDK/MobileKeysSDK/PublicAPI/MobileKeysManager.h",
+      "line": 24,
+      "symbol": "MobileKeysOptionApplicationId",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Shared/Jenkins/Home/workspace/ios_develop_sdk_poc/SeosMobileKeysSDK/SeosMobileKeysSDK/MobileKeysSDK/PublicAPI/MobileKeysManager.h",
+      "line": 25,
+      "symbol": "MobileKeysOptionVersion",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Shared/Jenkins/Home/workspace/ios_develop_sdk_poc/SeosMobileKeysSDK/SeosMobileKeysSDK/MobileKeysSDK/PublicAPI/MobileKeysManager.h",
+      "line": 26,
+      "symbol": "MobileKeysOptionBeaconUUID",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Shared/Jenkins/Home/workspace/ios_develop_sdk_poc/SeosMobileKeysSDK/SeosMobileKeysSDK/MobileKeysSDK/PublicAPI/MobileKeysManager.h",
+      "line": 27,
+      "symbol": "MobileKeysOptionTSMPublicCert",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Shared/Jenkins/Home/workspace/ios_develop_sdk_poc/SeosMobileKeysSDK/SeosMobileKeysSDK/MobileKeysSDK/PublicAPI/MobileKeysManager.h",
+      "line": 28,
+      "symbol": "MobileKeysOptionTSMBaseURL",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Shared/Jenkins/Home/workspace/ios_develop_sdk_poc/SeosMobileKeysSDK/SeosMobileKeysSDK/MobileKeysSDK/PublicAPI/MobileKeysManager.h",
+      "line": 29,
+      "symbol": "MobileKeysOptionMotionManager",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Shared/Jenkins/Home/workspace/ios_develop_sdk_poc/SeosMobileKeysSDK/SeosMobileKeysSDK/MobileKeysSDK/PublicAPI/MobileKeysManager.h",
+      "line": 30,
+      "symbol": "MobileKeysOptionCustomEventValue",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Shared/Jenkins/Home/workspace/ios_develop_sdk_poc/SeosMobileKeysSDK/SeosMobileKeysSDK/MobileKeysSDK/PublicAPI/MobileKeysManager.h",
+      "line": 31,
+      "symbol": "MobileKeysOptionCustomSetupAkeKey",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Shared/Jenkins/Home/workspace/ios_develop_sdk_poc/SeosMobileKeysSDK/SeosMobileKeysSDK/MobileKeysSDK/PublicAPI/MobileKeysManagerDelegate.h",
+      "line": 52,
+      "symbol": "MobileKeysManagerDelegate.-mobileKeysDidUpdateEndpoint",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Shared/Jenkins/Home/workspace/ios_develop_sdk_poc/SeosMobileKeysSDK/SeosMobileKeysSDK/MobileKeysSDK/PublicAPI/MobileKeysManagerDelegate.h",
+      "line": 62,
+      "symbol": "MobileKeysManagerDelegate.-mobileKeysDidUpdateEndpointWithSummary:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Shared/Jenkins/Home/workspace/ios_develop_sdk_poc/SeosMobileKeysSDK/SeosMobileKeysSDK/MobileKeysSDK/PublicAPI/MobileKeysManagerDelegate.h",
+      "line": 138,
+      "symbol": "MobileKeysManagerDelegate.-mobileKeysShouldInteractWithScannedReader:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Shared/Jenkins/Home/workspace/ios_develop_sdk_poc/SeosMobileKeysSDK/SeosMobileKeysSDK/MobileKeysSDK/PublicAPI/MobileKeysManagerDelegate.h",
+      "line": 149,
+      "symbol": "MobileKeysManagerDelegate.-mobileKeysUserDidUnlockGesture",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Shared/Jenkins/Home/workspace/ios_develop_sdk_poc/SeosMobileKeysSDK/SeosMobileKeysSDK/MobileKeysSDK/PublicAPI/MobileKeysManagerExtendedDelegate.h",
+      "line": 40,
+      "symbol": "MobileKeysManagerExtendedDelegate.-mobileKeysShouldInteractWithScannedReader:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Shared/Jenkins/Home/workspace/ios_develop_sdk_poc/SeosMobileKeysSDK/SeosMobileKeysSDK/MobileKeysSDK/PublicAPI/MobileKeysManagerExtendedDelegate.h",
+      "line": 49,
+      "symbol": "MobileKeysManagerExtendedDelegate.-mobileKeysUserDidUnlockGesture",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Shared/Jenkins/Home/workspace/ios_develop_sdk_poc/SeosMobileKeysSDK/SeosMobileKeysSDK/MobileKeysSDK/PublicAPI/MobileKeysMotionRecognizer.h",
+      "line": 13,
+      "symbol": "MobileKeysMotionRecognizerDelegate.-userMadeUnlockGesture:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Shared/Jenkins/Home/workspace/ios_develop_sdk_poc/SeosMobileKeysSDK/SeosMobileKeysSDK/MobileKeysSDK/PublicAPI/MobileKeysMotionRecognizer.h",
+      "line": 16,
+      "symbol": "MotionRecognizerProtocol",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Shared/Jenkins/Home/workspace/ios_develop_sdk_poc/SeosMobileKeysSDK/SeosMobileKeysSDK/MobileKeysSDK/PublicAPI/MobileKeysMotionRecognizer.h",
+      "line": 18,
+      "symbol": "MotionRecognizerProtocol.-startTrackingRotation",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Shared/Jenkins/Home/workspace/ios_develop_sdk_poc/SeosMobileKeysSDK/SeosMobileKeysSDK/MobileKeysSDK/PublicAPI/MobileKeysMotionRecognizer.h",
+      "line": 19,
+      "symbol": "MotionRecognizerProtocol.-stopTrackingRotation",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Shared/Jenkins/Home/workspace/ios_develop_sdk_poc/SeosMobileKeysSDK/SeosMobileKeysSDK/MobileKeysSDK/PublicAPI/MobileKeysMotionRecognizer.h",
+      "line": 20,
+      "symbol": "MotionRecognizerProtocol.-pauseTrackingRotation",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Shared/Jenkins/Home/workspace/ios_develop_sdk_poc/SeosMobileKeysSDK/SeosMobileKeysSDK/MobileKeysSDK/PublicAPI/MobileKeysMotionRecognizer.h",
+      "line": 21,
+      "symbol": "MotionRecognizerProtocol.-resumeTrackingRotation",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Shared/Jenkins/Home/workspace/ios_develop_sdk_poc/SeosMobileKeysSDK/SeosMobileKeysSDK/MobileKeysSDK/PublicAPI/MobileKeysMotionRecognizer.h",
+      "line": 22,
+      "symbol": "MotionRecognizerProtocol.-isTrackingRotation",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Shared/Jenkins/Home/workspace/ios_develop_sdk_poc/SeosMobileKeysSDK/SeosMobileKeysSDK/MobileKeysSDK/PublicAPI/MobileKeysMotionRecognizer.h",
+      "line": 46,
+      "symbol": "MobileKeysMotionRecognizer.internalDelegate",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Shared/Jenkins/Home/workspace/ios_develop_sdk_poc/SeosMobileKeysSDK/SeosMobileKeysSDK/MobileKeysSDK/PublicAPI/MobileKeysMotionRecognizer.h",
+      "line": 47,
+      "symbol": "MobileKeysMotionRecognizer.queue",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Shared/Jenkins/Home/workspace/ios_develop_sdk_poc/SeosMobileKeysSDK/SeosMobileKeysSDK/MobileKeysSDK/PublicAPI/MobileKeysOpeningResult.h",
+      "line": 14,
+      "symbol": "MobileKeysOpeningResult.-initWithStatus:statusPayload:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Shared/Jenkins/Home/workspace/ios_develop_sdk_poc/SeosMobileKeysSDK/SeosMobileKeysSDK/MobileKeysSDK/PublicAPI/MobileKeysOpeningResult.h",
+      "line": 32,
+      "symbol": "MobileKeysOpeningResult.-description",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Shared/Jenkins/Home/workspace/ios_develop_sdk_poc/SeosMobileKeysSDK/SeosMobileKeysSDK/MobileKeysSDK/PublicAPI/MobileKeysReader.h",
+      "line": 146,
+      "symbol": "MobileKeysReaderType",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Shared/Jenkins/Home/workspace/ios_develop_sdk_poc/SeosMobileKeysSDK/SeosMobileKeysSDK/MobileKeysSDK/PublicAPI/MobileKeysReader.h",
+      "line": 146,
+      "symbol": "MobileKeysReaderType",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.typedef",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Shared/Jenkins/Home/workspace/ios_develop_sdk_poc/SeosMobileKeysSDK/SeosMobileKeysSDK/MobileKeysSDK/PublicAPI/MobileKeysReader.h",
+      "line": 147,
+      "symbol": "MobileKeysReaderType.MobileKeysReaderTypeBlePeripheral",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Shared/Jenkins/Home/workspace/ios_develop_sdk_poc/SeosMobileKeysSDK/SeosMobileKeysSDK/MobileKeysSDK/PublicAPI/MobileKeysReader.h",
+      "line": 148,
+      "symbol": "MobileKeysReaderType.MobileKeysReaderTypeBleCentral",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Shared/Jenkins/Home/workspace/ios_develop_sdk_poc/SeosMobileKeysSDK/SeosMobileKeysSDK/MobileKeysSDK/PublicAPI/MobileKeysReader.h",
+      "line": 149,
+      "symbol": "MobileKeysReaderType.MobileKeysReaderTypeHttpRest",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Shared/Jenkins/Home/workspace/ios_develop_sdk_poc/SeosMobileKeysSDK/SeosMobileKeysSDK/MobileKeysSDK/PublicAPI/MobileKeysTimeoutConfiguration.h",
+      "line": 47,
+      "symbol": "MobileKeysTimeoutConfiguration.-description",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Shared/Jenkins/Home/workspace/ios_develop_sdk_poc/SeosMobileKeysSDK/SeosMobileKeysSDK/MobileKeysSDK/SeosAccessAPI/MobileKeysApduCommand.h",
+      "line": 116,
+      "symbol": "MobileKeysApduCommand.-validateWithError:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Shared/Jenkins/Home/workspace/ios_develop_sdk_poc/SeosMobileKeysSDK/SeosMobileKeysSDK/MobileKeysSDK/SeosAccessAPI/MobileKeysApduResponse.h",
+      "line": 10,
+      "symbol": "SeosStatusWord.APDU_STATUS_WORD_NO_ERROR",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Shared/Jenkins/Home/workspace/ios_develop_sdk_poc/SeosMobileKeysSDK/SeosMobileKeysSDK/MobileKeysSDK/SeosAccessAPI/MobileKeysApduResponse.h",
+      "line": 11,
+      "symbol": "SeosStatusWord.APDU_STATUS_WORD_APPLET_SELECT_FAILED",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Shared/Jenkins/Home/workspace/ios_develop_sdk_poc/SeosMobileKeysSDK/SeosMobileKeysSDK/MobileKeysSDK/SeosAccessAPI/MobileKeysApduResponse.h",
+      "line": 12,
+      "symbol": "SeosStatusWord.APDU_STATUS_WORD_BYTES_REMAINING",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Shared/Jenkins/Home/workspace/ios_develop_sdk_poc/SeosMobileKeysSDK/SeosMobileKeysSDK/MobileKeysSDK/SeosAccessAPI/MobileKeysApduResponse.h",
+      "line": 13,
+      "symbol": "SeosStatusWord.APDU_STATUS_WORD_CLA_NOT_SUPPORTED",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Shared/Jenkins/Home/workspace/ios_develop_sdk_poc/SeosMobileKeysSDK/SeosMobileKeysSDK/MobileKeysSDK/SeosAccessAPI/MobileKeysApduResponse.h",
+      "line": 14,
+      "symbol": "SeosStatusWord.APDU_STATUS_WORD_COMMAND_NOT_ALLOWED",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Shared/Jenkins/Home/workspace/ios_develop_sdk_poc/SeosMobileKeysSDK/SeosMobileKeysSDK/MobileKeysSDK/SeosAccessAPI/MobileKeysApduResponse.h",
+      "line": 15,
+      "symbol": "SeosStatusWord.APDU_STATUS_WORD_CONDITIONS_NOT_SATISFIED",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Shared/Jenkins/Home/workspace/ios_develop_sdk_poc/SeosMobileKeysSDK/SeosMobileKeysSDK/MobileKeysSDK/SeosAccessAPI/MobileKeysApduResponse.h",
+      "line": 16,
+      "symbol": "SeosStatusWord.APDU_STATUS_WORD_CORRECT_LENGTH",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Shared/Jenkins/Home/workspace/ios_develop_sdk_poc/SeosMobileKeysSDK/SeosMobileKeysSDK/MobileKeysSDK/SeosAccessAPI/MobileKeysApduResponse.h",
+      "line": 17,
+      "symbol": "SeosStatusWord.APDU_STATUS_WORD_DATA_INVALID",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Shared/Jenkins/Home/workspace/ios_develop_sdk_poc/SeosMobileKeysSDK/SeosMobileKeysSDK/MobileKeysSDK/SeosAccessAPI/MobileKeysApduResponse.h",
+      "line": 18,
+      "symbol": "SeosStatusWord.APDU_STATUS_WORD_FILE_FULL",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Shared/Jenkins/Home/workspace/ios_develop_sdk_poc/SeosMobileKeysSDK/SeosMobileKeysSDK/MobileKeysSDK/SeosAccessAPI/MobileKeysApduResponse.h",
+      "line": 19,
+      "symbol": "SeosStatusWord.APDU_STATUS_WORD_FILE_INVALID",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Shared/Jenkins/Home/workspace/ios_develop_sdk_poc/SeosMobileKeysSDK/SeosMobileKeysSDK/MobileKeysSDK/SeosAccessAPI/MobileKeysApduResponse.h",
+      "line": 20,
+      "symbol": "SeosStatusWord.APDU_STATUS_WORD_FILE_NOT_FOUND",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Shared/Jenkins/Home/workspace/ios_develop_sdk_poc/SeosMobileKeysSDK/SeosMobileKeysSDK/MobileKeysSDK/SeosAccessAPI/MobileKeysApduResponse.h",
+      "line": 21,
+      "symbol": "SeosStatusWord.APDU_STATUS_WORD_FUNC_NOT_SUPPORTED",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Shared/Jenkins/Home/workspace/ios_develop_sdk_poc/SeosMobileKeysSDK/SeosMobileKeysSDK/MobileKeysSDK/SeosAccessAPI/MobileKeysApduResponse.h",
+      "line": 22,
+      "symbol": "SeosStatusWord.APDU_STATUS_WORD_INCORRECT_P1P2",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Shared/Jenkins/Home/workspace/ios_develop_sdk_poc/SeosMobileKeysSDK/SeosMobileKeysSDK/MobileKeysSDK/SeosAccessAPI/MobileKeysApduResponse.h",
+      "line": 23,
+      "symbol": "SeosStatusWord.APDU_STATUS_WORD_INS_NOT_SUPPORTED",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Shared/Jenkins/Home/workspace/ios_develop_sdk_poc/SeosMobileKeysSDK/SeosMobileKeysSDK/MobileKeysSDK/SeosAccessAPI/MobileKeysApduResponse.h",
+      "line": 24,
+      "symbol": "SeosStatusWord.APDU_STATUS_WORD_RECORD_NOT_FOUND",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Shared/Jenkins/Home/workspace/ios_develop_sdk_poc/SeosMobileKeysSDK/SeosMobileKeysSDK/MobileKeysSDK/SeosAccessAPI/MobileKeysApduResponse.h",
+      "line": 25,
+      "symbol": "SeosStatusWord.APDU_STATUS_WORD_SECURITY_STATUS_NOT_SATISFIED",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Shared/Jenkins/Home/workspace/ios_develop_sdk_poc/SeosMobileKeysSDK/SeosMobileKeysSDK/MobileKeysSDK/SeosAccessAPI/MobileKeysApduResponse.h",
+      "line": 26,
+      "symbol": "SeosStatusWord.APDU_STATUS_WORD_SECURE_MESSAGING_INCORRECT",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Shared/Jenkins/Home/workspace/ios_develop_sdk_poc/SeosMobileKeysSDK/SeosMobileKeysSDK/MobileKeysSDK/SeosAccessAPI/MobileKeysApduResponse.h",
+      "line": 27,
+      "symbol": "SeosStatusWord.APDU_STATUS_WORD_UNKNOWN",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Shared/Jenkins/Home/workspace/ios_develop_sdk_poc/SeosMobileKeysSDK/SeosMobileKeysSDK/MobileKeysSDK/SeosAccessAPI/MobileKeysApduResponse.h",
+      "line": 28,
+      "symbol": "SeosStatusWord.APDU_STATUS_WORD_WRONG_DATA",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Shared/Jenkins/Home/workspace/ios_develop_sdk_poc/SeosMobileKeysSDK/SeosMobileKeysSDK/MobileKeysSDK/SeosAccessAPI/MobileKeysApduResponse.h",
+      "line": 29,
+      "symbol": "SeosStatusWord.APDU_STATUS_WORD_WRONG_LENGTH",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Shared/Jenkins/Home/workspace/ios_develop_sdk_poc/SeosMobileKeysSDK/SeosMobileKeysSDK/MobileKeysSDK/SeosAccessAPI/MobileKeysApduResponse.h",
+      "line": 30,
+      "symbol": "SeosStatusWord.APDU_STATUS_WORD_WRONG_P1P2",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Shared/Jenkins/Home/workspace/ios_develop_sdk_poc/SeosMobileKeysSDK/SeosMobileKeysSDK/MobileKeysSDK/SeosAccessAPI/MobileKeysApduResponse.h",
+      "line": 42,
+      "symbol": "MobileKeysApduResponse.data",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Shared/Jenkins/Home/workspace/ios_develop_sdk_poc/SeosMobileKeysSDK/SeosMobileKeysSDK/MobileKeysSDK/SeosAccessAPI/MobileKeysApduResponse.h",
+      "line": 43,
+      "symbol": "MobileKeysApduResponse.statusWordData",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Shared/Jenkins/Home/workspace/ios_develop_sdk_poc/SeosMobileKeysSDK/SeosMobileKeysSDK/MobileKeysSDK/SeosAccessAPI/MobileKeysSeosProvider.h",
+      "line": 174,
+      "symbol": "MobileKeysSeosProvider.-reselectWithParams:withError:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Shared/Jenkins/Home/workspace/ios_develop_sdk_poc/SeosMobileKeysSDK/SeosMobileKeysSDK/MobileKeysSDK/SeosAccessAPI/MobileKeysSeosSession.h",
+      "line": 60,
+      "symbol": "MobileKeysSeosSession.-initWithApduConnection:sessionParameters:sessionSemaphore:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Shared/Jenkins/Home/workspace/ios_develop_sdk_poc/SeosMobileKeysSDK/SeosMobileKeysSDK/MobileKeysSDK/SeosAccessAPI/MobileKeysSeosSession.h",
+      "line": 62,
+      "symbol": "MobileKeysSeosSession.-closeSessionWithError:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Shared/Jenkins/Home/workspace/ios_develop_sdk_poc/SeosMobileKeysSDK/SeosMobileKeysSDK/MobileKeysSDK/SeosAccessAPI/MobileKeysSessionParameters.h",
+      "line": 41,
+      "symbol": "MobileKeysSessionClientIdentifier",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Shared/Jenkins/Home/workspace/ios_develop_sdk_poc/SeosMobileKeysSDK/SeosMobileKeysSDK/MobileKeysSDK/SeosAccessAPI/MobileKeysSessionParameters.h",
+      "line": 41,
+      "symbol": "MobileKeysSessionClientIdentifier",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.typedef",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Shared/Jenkins/Home/workspace/ios_develop_sdk_poc/SeosMobileKeysSDK/SeosMobileKeysSDK/MobileKeysSDK/SeosAccessAPI/MobileKeysSessionParameters.h",
+      "line": 74,
+      "symbol": "MobileKeysKeyNumber.MOBILE_KEYS_KEY_0",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Shared/Jenkins/Home/workspace/ios_develop_sdk_poc/SeosMobileKeysSDK/SeosMobileKeysSDK/MobileKeysSDK/SeosAccessAPI/MobileKeysSessionParameters.h",
+      "line": 75,
+      "symbol": "MobileKeysKeyNumber.MOBILE_KEYS_KEY_1",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Shared/Jenkins/Home/workspace/ios_develop_sdk_poc/SeosMobileKeysSDK/SeosMobileKeysSDK/MobileKeysSDK/SeosAccessAPI/MobileKeysSessionParameters.h",
+      "line": 76,
+      "symbol": "MobileKeysKeyNumber.MOBILE_KEYS_KEY_2",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Shared/Jenkins/Home/workspace/ios_develop_sdk_poc/SeosMobileKeysSDK/SeosMobileKeysSDK/MobileKeysSDK/SeosAccessAPI/MobileKeysSessionParameters.h",
+      "line": 77,
+      "symbol": "MobileKeysKeyNumber.MOBILE_KEYS_KEY_3",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Shared/Jenkins/Home/workspace/ios_develop_sdk_poc/SeosMobileKeysSDK/SeosMobileKeysSDK/MobileKeysSDK/SeosAccessAPI/MobileKeysSessionParameters.h",
+      "line": 78,
+      "symbol": "MobileKeysKeyNumber.MOBILE_KEYS_KEY_4",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Shared/Jenkins/Home/workspace/ios_develop_sdk_poc/SeosMobileKeysSDK/SeosMobileKeysSDK/MobileKeysSDK/SeosAccessAPI/MobileKeysSessionParameters.h",
+      "line": 79,
+      "symbol": "MobileKeysKeyNumber.MOBILE_KEYS_KEY_5",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Shared/Jenkins/Home/workspace/ios_develop_sdk_poc/SeosMobileKeysSDK/SeosMobileKeysSDK/MobileKeysSDK/SeosAccessAPI/MobileKeysSessionParameters.h",
+      "line": 80,
+      "symbol": "MobileKeysKeyNumber.MOBILE_KEYS_KEY_6",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Shared/Jenkins/Home/workspace/ios_develop_sdk_poc/SeosMobileKeysSDK/SeosMobileKeysSDK/MobileKeysSDK/SeosAccessAPI/MobileKeysSessionParameters.h",
+      "line": 81,
+      "symbol": "MobileKeysKeyNumber.MOBILE_KEYS_KEY_7",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Shared/Jenkins/Home/workspace/ios_develop_sdk_poc/SeosMobileKeysSDK/SeosMobileKeysSDK/MobileKeysSDK/SeosAccessAPI/MobileKeysSessionParameters.h",
+      "line": 82,
+      "symbol": "MobileKeysKeyNumber.MOBILE_KEYS_KEY_8",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Shared/Jenkins/Home/workspace/ios_develop_sdk_poc/SeosMobileKeysSDK/SeosMobileKeysSDK/MobileKeysSDK/SeosAccessAPI/MobileKeysSessionParameters.h",
+      "line": 83,
+      "symbol": "MobileKeysKeyNumber.MOBILE_KEYS_KEY_9",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Shared/Jenkins/Home/workspace/ios_develop_sdk_poc/SeosMobileKeysSDK/SeosMobileKeysSDK/MobileKeysSDK/SeosAccessAPI/MobileKeysSessionParameters.h",
+      "line": 84,
+      "symbol": "MobileKeysKeyNumber.MOBILE_KEYS_KEY_10",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Shared/Jenkins/Home/workspace/ios_develop_sdk_poc/SeosMobileKeysSDK/SeosMobileKeysSDK/MobileKeysSDK/SeosAccessAPI/MobileKeysSessionParameters.h",
+      "line": 85,
+      "symbol": "MobileKeysKeyNumber.MOBILE_KEYS_KEY_11",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Shared/Jenkins/Home/workspace/ios_develop_sdk_poc/SeosMobileKeysSDK/SeosMobileKeysSDK/MobileKeysSDK/SeosAccessAPI/MobileKeysSessionParameters.h",
+      "line": 86,
+      "symbol": "MobileKeysKeyNumber.MOBILE_KEYS_KEY_12",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Shared/Jenkins/Home/workspace/ios_develop_sdk_poc/SeosMobileKeysSDK/SeosMobileKeysSDK/MobileKeysSDK/SeosAccessAPI/MobileKeysSessionParameters.h",
+      "line": 87,
+      "symbol": "MobileKeysKeyNumber.MOBILE_KEYS_KEY_13",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Shared/Jenkins/Home/workspace/ios_develop_sdk_poc/SeosMobileKeysSDK/SeosMobileKeysSDK/MobileKeysSDK/SeosAccessAPI/MobileKeysSessionParameters.h",
+      "line": 88,
+      "symbol": "MobileKeysKeyNumber.MOBILE_KEYS_KEY_14",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Shared/Jenkins/Home/workspace/ios_develop_sdk_poc/SeosMobileKeysSDK/SeosMobileKeysSDK/MobileKeysSDK/SeosAccessAPI/MobileKeysSessionParameters.h",
+      "line": 89,
+      "symbol": "MobileKeysKeyNumber.MOBILE_KEYS_KEY_15",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Shared/Jenkins/Home/workspace/ios_develop_sdk_poc/SeosMobileKeysSDK/SeosMobileKeysSDK/MobileKeysSDK/SeosAccessAPI/MobileKeysSessionParameters.h",
+      "line": 90,
+      "symbol": "MobileKeysKeyNumber.MOBILE_KEYS_KEY_16",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Shared/Jenkins/Home/workspace/ios_develop_sdk_poc/SeosMobileKeysSDK/SeosMobileKeysSDK/MobileKeysSDK/SeosAccessAPI/MobileKeysSessionParameters.h",
+      "line": 91,
+      "symbol": "MobileKeysKeyNumber.MOBILE_KEYS_KEY_17",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Shared/Jenkins/Home/workspace/ios_develop_sdk_poc/SeosMobileKeysSDK/SeosMobileKeysSDK/MobileKeysSDK/SeosAccessAPI/MobileKeysSessionParameters.h",
+      "line": 92,
+      "symbol": "MobileKeysKeyNumber.MOBILE_KEYS_KEY_18",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Shared/Jenkins/Home/workspace/ios_develop_sdk_poc/SeosMobileKeysSDK/SeosMobileKeysSDK/MobileKeysSDK/SeosAccessAPI/MobileKeysSessionParameters.h",
+      "line": 93,
+      "symbol": "MobileKeysKeyNumber.MOBILE_KEYS_KEY_19",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Shared/Jenkins/Home/workspace/ios_develop_sdk_poc/SeosMobileKeysSDK/SeosMobileKeysSDK/MobileKeysSDK/SeosAccessAPI/MobileKeysSessionParameters.h",
+      "line": 94,
+      "symbol": "MobileKeysKeyNumber.MOBILE_KEYS_KEY_20",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Shared/Jenkins/Home/workspace/ios_develop_sdk_poc/SeosMobileKeysSDK/SeosMobileKeysSDK/MobileKeysSDK/SeosAccessAPI/MobileKeysSessionParameters.h",
+      "line": 95,
+      "symbol": "MobileKeysKeyNumber.MOBILE_KEYS_KEY_21",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Shared/Jenkins/Home/workspace/ios_develop_sdk_poc/SeosMobileKeysSDK/SeosMobileKeysSDK/MobileKeysSDK/SeosAccessAPI/MobileKeysSessionParameters.h",
+      "line": 96,
+      "symbol": "MobileKeysKeyNumber.MOBILE_KEYS_KEY_22",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Shared/Jenkins/Home/workspace/ios_develop_sdk_poc/SeosMobileKeysSDK/SeosMobileKeysSDK/MobileKeysSDK/SeosAccessAPI/MobileKeysSessionParameters.h",
+      "line": 97,
+      "symbol": "MobileKeysKeyNumber.MOBILE_KEYS_KEY_23",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Shared/Jenkins/Home/workspace/ios_develop_sdk_poc/SeosMobileKeysSDK/SeosMobileKeysSDK/MobileKeysSDK/SeosAccessAPI/MobileKeysSessionParameters.h",
+      "line": 98,
+      "symbol": "MobileKeysKeyNumber.MOBILE_KEYS_KEY_24",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Shared/Jenkins/Home/workspace/ios_develop_sdk_poc/SeosMobileKeysSDK/SeosMobileKeysSDK/MobileKeysSDK/SeosAccessAPI/MobileKeysSessionParameters.h",
+      "line": 99,
+      "symbol": "MobileKeysKeyNumber.MOBILE_KEYS_KEY_25",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Shared/Jenkins/Home/workspace/ios_develop_sdk_poc/SeosMobileKeysSDK/SeosMobileKeysSDK/MobileKeysSDK/SeosAccessAPI/MobileKeysSessionParameters.h",
+      "line": 100,
+      "symbol": "MobileKeysKeyNumber.MOBILE_KEYS_KEY_26",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Shared/Jenkins/Home/workspace/ios_develop_sdk_poc/SeosMobileKeysSDK/SeosMobileKeysSDK/MobileKeysSDK/SeosAccessAPI/MobileKeysSessionParameters.h",
+      "line": 101,
+      "symbol": "MobileKeysKeyNumber.MOBILE_KEYS_KEY_27",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Shared/Jenkins/Home/workspace/ios_develop_sdk_poc/SeosMobileKeysSDK/SeosMobileKeysSDK/MobileKeysSDK/SeosAccessAPI/MobileKeysSessionParameters.h",
+      "line": 102,
+      "symbol": "MobileKeysKeyNumber.MOBILE_KEYS_KEY_28",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Shared/Jenkins/Home/workspace/ios_develop_sdk_poc/SeosMobileKeysSDK/SeosMobileKeysSDK/MobileKeysSDK/SeosAccessAPI/MobileKeysSessionParameters.h",
+      "line": 103,
+      "symbol": "MobileKeysKeyNumber.MOBILE_KEYS_KEY_29",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Shared/Jenkins/Home/workspace/ios_develop_sdk_poc/SeosMobileKeysSDK/SeosMobileKeysSDK/MobileKeysSDK/SeosAccessAPI/MobileKeysSessionParameters.h",
+      "line": 104,
+      "symbol": "MobileKeysKeyNumber.MOBILE_KEYS_KEY_30",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Shared/Jenkins/Home/workspace/ios_develop_sdk_poc/SeosMobileKeysSDK/SeosMobileKeysSDK/MobileKeysSDK/SeosAccessAPI/MobileKeysSessionParameters.h",
+      "line": 105,
+      "symbol": "MobileKeysKeyNumber.MOBILE_KEYS_KEY_31",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Shared/Jenkins/Home/workspace/ios_develop_sdk_poc/SeosMobileKeysSDK/SeosMobileKeysSDK/MobileKeysSDK/SeosAccessAPI/MobileKeysSessionParameters.h",
+      "line": 107,
+      "symbol": "MobileKeysKeyNumber.MOBILE_KEYS_KEY_0_GLOBAL",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Shared/Jenkins/Home/workspace/ios_develop_sdk_poc/SeosMobileKeysSDK/SeosMobileKeysSDK/MobileKeysSDK/SeosAccessAPI/MobileKeysSessionParameters.h",
+      "line": 108,
+      "symbol": "MobileKeysKeyNumber.MOBILE_KEYS_KEY_1_GLOBAL",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Shared/Jenkins/Home/workspace/ios_develop_sdk_poc/SeosMobileKeysSDK/SeosMobileKeysSDK/MobileKeysSDK/SeosAccessAPI/MobileKeysSessionParameters.h",
+      "line": 109,
+      "symbol": "MobileKeysKeyNumber.MOBILE_KEYS_KEY_2_GLOBAL",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Shared/Jenkins/Home/workspace/ios_develop_sdk_poc/SeosMobileKeysSDK/SeosMobileKeysSDK/MobileKeysSDK/SeosAccessAPI/MobileKeysSessionParameters.h",
+      "line": 110,
+      "symbol": "MobileKeysKeyNumber.MOBILE_KEYS_KEY_3_GLOBAL",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Shared/Jenkins/Home/workspace/ios_develop_sdk_poc/SeosMobileKeysSDK/SeosMobileKeysSDK/MobileKeysSDK/SeosAccessAPI/MobileKeysSessionParameters.h",
+      "line": 111,
+      "symbol": "MobileKeysKeyNumber.MOBILE_KEYS_KEY_4_GLOBAL",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Shared/Jenkins/Home/workspace/ios_develop_sdk_poc/SeosMobileKeysSDK/SeosMobileKeysSDK/MobileKeysSDK/SeosAccessAPI/MobileKeysSessionParameters.h",
+      "line": 112,
+      "symbol": "MobileKeysKeyNumber.MOBILE_KEYS_KEY_5_GLOBAL",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Shared/Jenkins/Home/workspace/ios_develop_sdk_poc/SeosMobileKeysSDK/SeosMobileKeysSDK/MobileKeysSDK/SeosAccessAPI/MobileKeysSessionParameters.h",
+      "line": 113,
+      "symbol": "MobileKeysKeyNumber.MOBILE_KEYS_KEY_6_GLOBAL",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Shared/Jenkins/Home/workspace/ios_develop_sdk_poc/SeosMobileKeysSDK/SeosMobileKeysSDK/MobileKeysSDK/SeosAccessAPI/MobileKeysSessionParameters.h",
+      "line": 114,
+      "symbol": "MobileKeysKeyNumber.MOBILE_KEYS_KEY_7_GLOBAL",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Shared/Jenkins/Home/workspace/ios_develop_sdk_poc/SeosMobileKeysSDK/SeosMobileKeysSDK/MobileKeysSDK/SeosAccessAPI/MobileKeysSessionParameters.h",
+      "line": 115,
+      "symbol": "MobileKeysKeyNumber.MOBILE_KEYS_KEY_8_GLOBAL",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Shared/Jenkins/Home/workspace/ios_develop_sdk_poc/SeosMobileKeysSDK/SeosMobileKeysSDK/MobileKeysSDK/SeosAccessAPI/MobileKeysSessionParameters.h",
+      "line": 116,
+      "symbol": "MobileKeysKeyNumber.MOBILE_KEYS_KEY_9_GLOBAL",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Shared/Jenkins/Home/workspace/ios_develop_sdk_poc/SeosMobileKeysSDK/SeosMobileKeysSDK/MobileKeysSDK/SeosAccessAPI/MobileKeysSessionParameters.h",
+      "line": 117,
+      "symbol": "MobileKeysKeyNumber.MOBILE_KEYS_KEY_10_GLOBAL",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Shared/Jenkins/Home/workspace/ios_develop_sdk_poc/SeosMobileKeysSDK/SeosMobileKeysSDK/MobileKeysSDK/SeosAccessAPI/MobileKeysSessionParameters.h",
+      "line": 118,
+      "symbol": "MobileKeysKeyNumber.MOBILE_KEYS_KEY_11_GLOBAL",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Shared/Jenkins/Home/workspace/ios_develop_sdk_poc/SeosMobileKeysSDK/SeosMobileKeysSDK/MobileKeysSDK/SeosAccessAPI/MobileKeysSessionParameters.h",
+      "line": 119,
+      "symbol": "MobileKeysKeyNumber.MOBILE_KEYS_KEY_12_GLOBAL",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Shared/Jenkins/Home/workspace/ios_develop_sdk_poc/SeosMobileKeysSDK/SeosMobileKeysSDK/MobileKeysSDK/SeosAccessAPI/MobileKeysSessionParameters.h",
+      "line": 120,
+      "symbol": "MobileKeysKeyNumber.MOBILE_KEYS_KEY_13_GLOBAL",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Shared/Jenkins/Home/workspace/ios_develop_sdk_poc/SeosMobileKeysSDK/SeosMobileKeysSDK/MobileKeysSDK/SeosAccessAPI/MobileKeysSessionParameters.h",
+      "line": 121,
+      "symbol": "MobileKeysKeyNumber.MOBILE_KEYS_KEY_14_GLOBAL",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Shared/Jenkins/Home/workspace/ios_develop_sdk_poc/SeosMobileKeysSDK/SeosMobileKeysSDK/MobileKeysSDK/SeosAccessAPI/MobileKeysSessionParameters.h",
+      "line": 122,
+      "symbol": "MobileKeysKeyNumber.MOBILE_KEYS_KEY_15_GLOBAL",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Shared/Jenkins/Home/workspace/ios_develop_sdk_poc/SeosMobileKeysSDK/SeosMobileKeysSDK/MobileKeysSDK/SeosAccessAPI/MobileKeysSessionParameters.h",
+      "line": 123,
+      "symbol": "MobileKeysKeyNumber.MOBILE_KEYS_KEY_16_GLOBAL",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Shared/Jenkins/Home/workspace/ios_develop_sdk_poc/SeosMobileKeysSDK/SeosMobileKeysSDK/MobileKeysSDK/SeosAccessAPI/MobileKeysSessionParameters.h",
+      "line": 124,
+      "symbol": "MobileKeysKeyNumber.MOBILE_KEYS_KEY_17_GLOBAL",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Shared/Jenkins/Home/workspace/ios_develop_sdk_poc/SeosMobileKeysSDK/SeosMobileKeysSDK/MobileKeysSDK/SeosAccessAPI/MobileKeysSessionParameters.h",
+      "line": 125,
+      "symbol": "MobileKeysKeyNumber.MOBILE_KEYS_KEY_18_GLOBAL",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Shared/Jenkins/Home/workspace/ios_develop_sdk_poc/SeosMobileKeysSDK/SeosMobileKeysSDK/MobileKeysSDK/SeosAccessAPI/MobileKeysSessionParameters.h",
+      "line": 126,
+      "symbol": "MobileKeysKeyNumber.MOBILE_KEYS_KEY_19_GLOBAL",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Shared/Jenkins/Home/workspace/ios_develop_sdk_poc/SeosMobileKeysSDK/SeosMobileKeysSDK/MobileKeysSDK/SeosAccessAPI/MobileKeysSessionParameters.h",
+      "line": 127,
+      "symbol": "MobileKeysKeyNumber.MOBILE_KEYS_KEY_20_GLOBAL",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Shared/Jenkins/Home/workspace/ios_develop_sdk_poc/SeosMobileKeysSDK/SeosMobileKeysSDK/MobileKeysSDK/SeosAccessAPI/MobileKeysSessionParameters.h",
+      "line": 128,
+      "symbol": "MobileKeysKeyNumber.MOBILE_KEYS_KEY_21_GLOBAL",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Shared/Jenkins/Home/workspace/ios_develop_sdk_poc/SeosMobileKeysSDK/SeosMobileKeysSDK/MobileKeysSDK/SeosAccessAPI/MobileKeysSessionParameters.h",
+      "line": 129,
+      "symbol": "MobileKeysKeyNumber.MOBILE_KEYS_KEY_22_GLOBAL",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Shared/Jenkins/Home/workspace/ios_develop_sdk_poc/SeosMobileKeysSDK/SeosMobileKeysSDK/MobileKeysSDK/SeosAccessAPI/MobileKeysSessionParameters.h",
+      "line": 130,
+      "symbol": "MobileKeysKeyNumber.MOBILE_KEYS_KEY_23_GLOBAL",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Shared/Jenkins/Home/workspace/ios_develop_sdk_poc/SeosMobileKeysSDK/SeosMobileKeysSDK/MobileKeysSDK/SeosAccessAPI/MobileKeysSessionParameters.h",
+      "line": 131,
+      "symbol": "MobileKeysKeyNumber.MOBILE_KEYS_KEY_24_GLOBAL",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Shared/Jenkins/Home/workspace/ios_develop_sdk_poc/SeosMobileKeysSDK/SeosMobileKeysSDK/MobileKeysSDK/SeosAccessAPI/MobileKeysSessionParameters.h",
+      "line": 132,
+      "symbol": "MobileKeysKeyNumber.MOBILE_KEYS_KEY_25_GLOBAL",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Shared/Jenkins/Home/workspace/ios_develop_sdk_poc/SeosMobileKeysSDK/SeosMobileKeysSDK/MobileKeysSDK/SeosAccessAPI/MobileKeysSessionParameters.h",
+      "line": 133,
+      "symbol": "MobileKeysKeyNumber.MOBILE_KEYS_KEY_26_GLOBAL",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Shared/Jenkins/Home/workspace/ios_develop_sdk_poc/SeosMobileKeysSDK/SeosMobileKeysSDK/MobileKeysSDK/SeosAccessAPI/MobileKeysSessionParameters.h",
+      "line": 134,
+      "symbol": "MobileKeysKeyNumber.MOBILE_KEYS_KEY_27_GLOBAL",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Shared/Jenkins/Home/workspace/ios_develop_sdk_poc/SeosMobileKeysSDK/SeosMobileKeysSDK/MobileKeysSDK/SeosAccessAPI/MobileKeysSessionParameters.h",
+      "line": 135,
+      "symbol": "MobileKeysKeyNumber.MOBILE_KEYS_KEY_28_GLOBAL",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Shared/Jenkins/Home/workspace/ios_develop_sdk_poc/SeosMobileKeysSDK/SeosMobileKeysSDK/MobileKeysSDK/SeosAccessAPI/MobileKeysSessionParameters.h",
+      "line": 136,
+      "symbol": "MobileKeysKeyNumber.MOBILE_KEYS_KEY_29_GLOBAL",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Shared/Jenkins/Home/workspace/ios_develop_sdk_poc/SeosMobileKeysSDK/SeosMobileKeysSDK/MobileKeysSDK/SeosAccessAPI/MobileKeysSessionParameters.h",
+      "line": 137,
+      "symbol": "MobileKeysKeyNumber.MOBILE_KEYS_KEY_30_GLOBAL",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Shared/Jenkins/Home/workspace/ios_develop_sdk_poc/SeosMobileKeysSDK/SeosMobileKeysSDK/MobileKeysSDK/SeosAccessAPI/MobileKeysSessionParameters.h",
+      "line": 138,
+      "symbol": "MobileKeysKeyNumber.MOBILE_KEYS_KEY_31_GLOBAL",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Shared/Jenkins/Home/workspace/ios_develop_sdk_poc/SeosMobileKeysSDK/SeosMobileKeysSDK/MobileKeysSDK/SeosAccessAPI/MobileKeysSessionParameters.h",
+      "line": 323,
+      "symbol": "MobileKeysSessionParameters.+parametersForNoSecurityWithSelectAid:contacless:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Shared/Jenkins/Home/workspace/ios_develop_sdk_poc/SeosMobileKeysSDK/SeosMobileKeysSDK/MobileKeysSDK/SeosAccessAPI/MobileKeysSessionParameters.h",
+      "line": 325,
+      "symbol": "MobileKeysSessionParameters.+parametersForMobileKeysBle",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Shared/Jenkins/Home/workspace/ios_develop_sdk_poc/SeosMobileKeysSDK/SeosMobileKeysSDK/MobileKeysSDK/SeosAccessAPI/MobileKeysSessionParameters.h",
+      "line": 327,
+      "symbol": "MobileKeysSessionParameters.+parametersForMobileKeysTsm",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Shared/Jenkins/Home/workspace/ios_develop_sdk_poc/SeosMobileKeysSDK/SeosMobileKeysSDK/MobileKeysSDK/SeosAccessAPI/MobileKeysSessionParameters.h",
+      "line": 329,
+      "symbol": "MobileKeysSessionParameters.+parametersForMobileKeysCache",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Shared/Jenkins/Home/workspace/ios_develop_sdk_poc/SeosMobileKeysSDK/SeosMobileKeysSDK/MobileKeysSDK/SeosAccessAPI/MobileKeysSessionParameters.h",
+      "line": 331,
+      "symbol": "MobileKeysSessionParameters.+parametersForMobileKeysReadback",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Shared/Jenkins/Home/workspace/ios_develop_sdk_poc/SeosMobileKeysSDK/SeosMobileKeysSDK/MobileKeysSDK/SeosAccessAPI/MobileKeysSessionParameters.h",
+      "line": 333,
+      "symbol": "MobileKeysSessionParameters.-initWithContactless:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Shared/Jenkins/Home/workspace/ios_develop_sdk_poc/SeosMobileKeysSDK/SeosMobileKeysSDK/MobileKeysSDK/SeosAccessAPI/MobileKeysSessionParameters.h",
+      "line": 335,
+      "symbol": "MobileKeysSessionParameters.+parametersWithContactless:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/Shared/Jenkins/Home/workspace/ios_develop_sdk_poc"
+}

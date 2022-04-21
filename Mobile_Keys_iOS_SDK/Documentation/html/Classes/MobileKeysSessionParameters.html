@@ -1,0 +1,1546 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>MobileKeysSessionParameters Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset="utf-8">
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+    <script src="../js/lunr.min.js" defer></script>
+    <script src="../js/typeahead.jquery.js" defer></script>
+    <script src="../js/jazzy.search.js" defer></script>
+  </head>
+  <body>
+
+    <a name="//apple_ref/objc/Class/MobileKeysSessionParameters" class="dashAnchor"></a>
+
+    <a title="MobileKeysSessionParameters Class Reference"></a>
+
+    <header class="header">
+      <p class="header-col header-col--primary">
+        <a class="header-link" href="../index.html">
+          SeosMobileKeysSDK 7.5.2 Docs
+        </a>
+        
+      </p>
+    
+      <p class="header-col--secondary">
+        <form role="search" action="../search.json">
+          <input type="text" placeholder="Search documentation" data-typeahead>
+        </form>
+      </p>
+    
+    
+    </header>
+
+    <p class="breadcrumbs">
+      <a class="breadcrumb" href="../index.html">SeosMobileKeysSDK Reference</a>
+      <img class="carat" src="../img/carat.png" />
+      MobileKeysSessionParameters Class Reference
+    </p>
+
+    <div class="content-wrapper">
+      <nav class="navigation">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Getting%20started.html">Getting started</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../getting-started-with-the-sdk.html">Getting started with the SDK</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../installation-without-cocoapods.html">Installation without CocoaPods</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../logging.html">Logging</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Mobile%20Keys.html">Mobile Keys</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/MobileKeysManager.html">MobileKeysManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/MobileKeysManagerDelegate.html">MobileKeysManagerDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/MobileKeysEndpointUpdateSummary.html">MobileKeysEndpointUpdateSummary</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/MobileKeysEndpointInfo.html">MobileKeysEndpointInfo</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/MobileKeysKey.html">MobileKeysKey</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/MobileKeysLastAuthenticationInfo.html">MobileKeysLastAuthenticationInfo</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Mobile%20Keys.html#/c:@MobileKeysErrorDomain">MobileKeysErrorDomain</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Mobile%20Keys.html#/c:@MobileKeysHttpErrorDomain">MobileKeysHttpErrorDomain</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Mobile%20Keys.html#/c:@MobileKeysOptionApplicationId">MobileKeysOptionApplicationId</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Mobile%20Keys.html#/c:@MobileKeysOptionVersion">MobileKeysOptionVersion</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/EnvironmentType.html">EnvironmentType</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/MobileKeysInfoType.html">MobileKeysInfoType</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/MobileKeysErrorCode.html">MobileKeysErrorCode</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Mobile%20Keys.html#/c:@MobileKeysPreconditionFailedException">MobileKeysPreconditionFailedException</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Mobile%20Keys.html#/c:@F@MobileKeysPreconditionCheckTriggered">MobileKeysPreconditionCheckTriggered</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Bluetooth.html">Bluetooth</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/MobileKeysOpeningResult.html">MobileKeysOpeningResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/MobileKeysTimeoutConfiguration.html">MobileKeysTimeoutConfiguration</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/MobileKeysOpeningStatusType.html">MobileKeysOpeningStatusType</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/MobileKeysOpeningType.html">MobileKeysOpeningType</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/MobileKeysReader.html">MobileKeysReader</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/MobileKeysScanMode.html">MobileKeysScanMode</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/MobileKeysReaderProtocolVersion.html">MobileKeysReaderProtocolVersion</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Seos%20Access%20API.html">Seos Access API</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/MobileKeysSeosSession.html">MobileKeysSeosSession</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/MobileKeysSeosTag.html">MobileKeysSeosTag</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/MobileKeysApduCommand.html">MobileKeysApduCommand</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/MobileKeysApduConnectionProtocol.html">MobileKeysApduConnectionProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/MobileKeysApduResponse.html">MobileKeysApduResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/MobileKeysAuthenticationKeySet.html">MobileKeysAuthenticationKeySet</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/MobileKeysMasterAuthenticationKeySet.html">MobileKeysMasterAuthenticationKeySet</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/MobileKeysGetDataApduCommand.html">MobileKeysGetDataApduCommand</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/MobileKeysPrivacyKeySet.html">MobileKeysPrivacyKeySet</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/MobileKeysPutDataApduCommand.html">MobileKeysPutDataApduCommand</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/MobileKeysSeosProvider.html">MobileKeysSeosProvider</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/MobileKeysSessionParameters.html">MobileKeysSessionParameters</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/MobileKeysSymmetricKeyPair.html">MobileKeysSymmetricKeyPair</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/MobileKeysSelectionResult.html">MobileKeysSelectionResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/MobileKeysKeyNumber.html">MobileKeysKeyNumber</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/MobileKeysHashAlgorithm.html">MobileKeysHashAlgorithm</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/MobileKeysSelectionType.html">MobileKeysSelectionType</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/MobileKeysSeosSessionType.html">MobileKeysSeosSessionType</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/MobileKeysEncryptionAlgorithm.html">MobileKeysEncryptionAlgorithm</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/SeosStatusWord.html">SeosStatusWord</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Seos%20Access%20API%20-%20sample%20code.html">Seos Access API - sample code</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../credential-for-test.html">Credential for test</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../read--write-tags-on-adf.html">Read &amp; write tags on ADF</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../read-adf-metadata.html">Read ADF metadata</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../master-authentication-keyset.html">Master authentication keyset</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../remote-session.html">Remote session</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../ake-session-setup.html">AKE Session Setup</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Advanced%20use%20cases.html">Advanced use cases</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/MobileKeysMotionRecognizer.html">MobileKeysMotionRecognizer</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/MobileKeysMotionRecognizerDelegate.html">MobileKeysMotionRecognizerDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/MobileKeysManagerExtendedDelegate.html">MobileKeysManagerExtendedDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../custom-tsm-configuration.html">Custom TSM Configuration</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Advanced%20use%20cases%20-%20sample%20code.html">Advanced use cases - sample code</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../custom-opening-method.html">Custom opening method</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../protected-data-handling.html">Protected Data handling</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Other%20Constants.html">Other Constants</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other%20Constants.html#/c:@MobileKeysOptionBeaconUUID">MobileKeysOptionBeaconUUID</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other%20Constants.html#/c:@MobileKeysOptionCustomEventValue">MobileKeysOptionCustomEventValue</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other%20Constants.html#/c:@MobileKeysOptionCustomSetupAkeKey">MobileKeysOptionCustomSetupAkeKey</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other%20Constants.html#/c:@MobileKeysOptionMotionManager">MobileKeysOptionMotionManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other%20Constants.html#/c:@MobileKeysOptionTSMBaseURL">MobileKeysOptionTSMBaseURL</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other%20Constants.html#/c:@MobileKeysOptionTSMPublicCert">MobileKeysOptionTSMPublicCert</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Other%20Enums.html">Other Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/MobileKeysReaderType.html">MobileKeysReaderType</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/MobileKeysSessionClientIdentifier.html">MobileKeysSessionClientIdentifier</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Other%20Protocols.html">Other Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/MotionRecognizerProtocol.html">MotionRecognizerProtocol</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+
+        <section class="section">
+          <div class="section-content top-matter">
+            <h1>MobileKeysSessionParameters</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight objective_c"><code><span class="k">@interface</span> <span class="nc">MobileKeysSessionParameters</span> <span class="p">:</span> <span class="nc">NSObject</span></code></pre>
+
+                </div>
+              </div>
+            <p>When establishing a session to Seos, pass a MobileKeysSessionParameters to MobileKeysSeosProvider#openSessionWithParams:withError: to configure the
+session. Here&rsquo;s an overview of the parameters and what they are used for:</p>
+
+<ul>
+<li>mobileKeysSelectionType: The type of initial selection that should be performed when establishing the session</li>
+<li>mobileKeysPrivacyKeySet: The keyset used to decrypt the initial selection response for any selection type other than
+MobileKeysSelectionType#MobileKeysSelectionNone</li>
+<li>mobileKeysAuthenticationKeySet: The authentication Keyset</li>
+<li>contactless: NO if this is a contactless connection</li>
+<li>requireSelectAID: YES if the Seos AID should be selected before the session is established</li>
+<li>useTestVectors: YES if the session should be established using test vectors</li>
+<li>requiresSecureMessaging: If NO, the session establishement will not do mutual authentication</li>
+<li>oidSelectionList: A list of OIDs that should be used when the MobileKeysSeosProvider selects the ADF or GDF
+<div class="aside aside-note">
+    <p class="aside-title">Note</p>
+    since version 5.0.0
+
+</div></li>
+</ul>
+
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="section-content">
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)MobileKeysSessionParameters(py)mobileKeysSelectionType"></a>
+                    <a name="//apple_ref/objc/Property/mobileKeysSelectionType" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)MobileKeysSessionParameters(py)mobileKeysSelectionType">mobileKeysSelectionType</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The type of selection that the MobileKeysSeosProvider#openSessionWithParams:withError: should perform.</p>
+
+<ul>
+<li>MobileKeysSelectionADF : Select an ADF</li>
+<li>MobileKeysSelectionGDF : Select the GDF</li>
+<li>MobileKeysSelectionExtendedADF : Administration</li>
+<li>MobileKeysSelectionNone : do not perform an initial select</li>
+</ul>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">assign</span><span class="p">,</span> <span class="n">readwrite</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">)</span>
+    <span class="n"><a href="../Enums/MobileKeysSelectionType.html">MobileKeysSelectionType</a></span> <span class="n">mobileKeysSelectionType</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">mobileKeysSelectionType</span><span class="p">:</span> <span class="kt">Int32</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)MobileKeysSessionParameters(py)mobileKeysSessionClientIdentifier"></a>
+                    <a name="//apple_ref/objc/Property/mobileKeysSessionClientIdentifier" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)MobileKeysSessionParameters(py)mobileKeysSessionClientIdentifier">mobileKeysSessionClientIdentifier</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Open Sessions can be classified by the client identifier.</p>
+
+<ul>
+<li>MobileKeysSessionClientUnspecified : Select an ADF</li>
+<li>MobileKeysSessionClientBle : Internally used by the Mobile Access SDK. Don&rsquo;t use.</li>
+<li>MobileKeysSessionClientTsm : Internally used by the Mobile Access SDK. Don&rsquo;t use.</li>
+<li>MobileKeysSessionClientThirdParty : Third party integrators should use this.</li>
+</ul>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">assign</span><span class="p">,</span> <span class="n">readwrite</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">)</span>
+    <span class="n"><a href="../Enums/MobileKeysSessionClientIdentifier.html">MobileKeysSessionClientIdentifier</a></span> <span class="n">mobileKeysSessionClientIdentifier</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">mobileKeysSessionClientIdentifier</span><span class="p">:</span> <span class="kt">Int32</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)MobileKeysSessionParameters(py)mobileKeysPrivacyKeySet"></a>
+                    <a name="//apple_ref/objc/Property/mobileKeysPrivacyKeySet" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)MobileKeysSessionParameters(py)mobileKeysPrivacyKeySet">mobileKeysPrivacyKeySet</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This is privacy keyset used when selecting the ADF or GDF.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">readwrite</span><span class="p">,</span> <span class="n">strong</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">)</span>
+    <span class="n"><a href="../Classes/MobileKeysPrivacyKeySet.html">MobileKeysPrivacyKeySet</a></span> <span class="o">*</span><span class="n">mobileKeysPrivacyKeySet</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">mobileKeysPrivacyKeySet</span><span class="p">:</span> <span class="kt"><a href="../Classes/MobileKeysPrivacyKeySet.html">MobileKeysPrivacyKeySet</a></span><span class="o">!</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)MobileKeysSessionParameters(py)mobileKeysAuthenticationKeySet"></a>
+                    <a name="//apple_ref/objc/Property/mobileKeysAuthenticationKeySet" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)MobileKeysSessionParameters(py)mobileKeysAuthenticationKeySet">mobileKeysAuthenticationKeySet</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This is the authentication keyset used for mutual authentication when setting up a session with Seos.
+ Set this to nil if no mutual authentication should be performed.</p>
+<div class="aside aside-see">
+    <p class="aside-title">See</p>
+    {@link MobileKeysAuthenticationKeyset}
+
+</div><div class="aside aside-see">
+    <p class="aside-title">See</p>
+    {@link MobileKeysMasterAuthenticationKeyset}
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">readwrite</span><span class="p">,</span> <span class="n">strong</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">)</span>
+    <span class="n"><a href="../Classes/MobileKeysAuthenticationKeySet.html">MobileKeysAuthenticationKeySet</a></span> <span class="o">*</span><span class="n">mobileKeysAuthenticationKeySet</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">mobileKeysAuthenticationKeySet</span><span class="p">:</span> <span class="kt"><a href="../Classes/MobileKeysAuthenticationKeySet.html">MobileKeysAuthenticationKeySet</a></span><span class="o">!</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)MobileKeysSessionParameters(py)mobileKeysKekKey"></a>
+                    <a name="//apple_ref/objc/Property/mobileKeysKekKey" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)MobileKeysSessionParameters(py)mobileKeysKekKey">mobileKeysKekKey</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Not implemented yet. Let us know if this is needed. :)</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">readwrite</span><span class="p">,</span> <span class="n">strong</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">)</span>
+    <span class="n"><a href="../Classes/MobileKeysSymmetricKeyPair.html">MobileKeysSymmetricKeyPair</a></span> <span class="o">*</span><span class="n">mobileKeysKekKey</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">mobileKeysKekKey</span><span class="p">:</span> <span class="kt"><a href="../Classes/MobileKeysSymmetricKeyPair.html">MobileKeysSymmetricKeyPair</a></span><span class="o">!</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)MobileKeysSessionParameters(py)contactless"></a>
+                    <a name="//apple_ref/objc/Property/contactless" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)MobileKeysSessionParameters(py)contactless">contactless</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>If the Seos implementation supports it, this parameter will define whether or not the communication will be
+performed over the contactless or the contact interface.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">assign</span><span class="p">,</span> <span class="n">readwrite</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">)</span> <span class="n">BOOL</span> <span class="n">contactless</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">contactless</span><span class="p">:</span> <span class="kt">Int32</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)MobileKeysSessionParameters(py)autoSplitLargeApduCommands"></a>
+                    <a name="//apple_ref/objc/Property/autoSplitLargeApduCommands" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)MobileKeysSessionParameters(py)autoSplitLargeApduCommands">autoSplitLargeApduCommands</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>If this property is set to YES, the SDK will gladly accept payload larger than 255 bytes, and will automatically split
+these APDUs into multiple commands. Normally, this can be used to PUT data larger than 255 bytes to a tag.
+Defaults to NO</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">assign</span><span class="p">,</span> <span class="n">readwrite</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">)</span> <span class="n">BOOL</span> <span class="n">autoSplitLargeApduCommands</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">autoSplitLargeApduCommands</span><span class="p">:</span> <span class="kt">Int32</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)MobileKeysSessionParameters(py)autoJoinMultipleApduResponses"></a>
+                    <a name="//apple_ref/objc/Property/autoJoinMultipleApduResponses" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)MobileKeysSessionParameters(py)autoJoinMultipleApduResponses">autoJoinMultipleApduResponses</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>If the property is set to YES, the SDK will automatically request the next response if a ApduResponse indicates that
+there is more data to read. Normally, this can be used to GET data from a tag where the data is larger than 255 bytes.
+Defaults to NO.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">assign</span><span class="p">,</span> <span class="n">readwrite</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">)</span> <span class="n">BOOL</span> <span class="n">autoJoinMultipleApduResponses</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">autoJoinMultipleApduResponses</span><span class="p">:</span> <span class="kt">Int32</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)MobileKeysSessionParameters(py)requireSelectAid"></a>
+                    <a name="//apple_ref/objc/Property/requireSelectAid" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)MobileKeysSessionParameters(py)requireSelectAid">requireSelectAid</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>If this parameter is set to YES, the session will initially select the Seos application by it&rsquo;s AID.
+Default value is YES.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">assign</span><span class="p">,</span> <span class="n">readwrite</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">)</span> <span class="n">BOOL</span> <span class="n">requireSelectAid</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">requireSelectAid</span><span class="p">:</span> <span class="kt">Int32</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)MobileKeysSessionParameters(py)useTestVectors"></a>
+                    <a name="//apple_ref/objc/Property/useTestVectors" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)MobileKeysSessionParameters(py)useTestVectors">useTestVectors</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>If this parameter is YES, the mutual authentication to Seos will be performed using hard-coded test vectors
+according to the Seos Specification.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">assign</span><span class="p">,</span> <span class="n">readwrite</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">)</span> <span class="n">BOOL</span> <span class="n">useTestVectors</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">useTestVectors</span><span class="p">:</span> <span class="kt">Int32</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)MobileKeysSessionParameters(py)oidSelectionList"></a>
+                    <a name="//apple_ref/objc/Property/oidSelectionList" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)MobileKeysSessionParameters(py)oidSelectionList">oidSelectionList</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>A list of OIDs that will be used when selecting the ADF or the GDF. It is possible to pass multiple OIDs,
+ and Seos will try to select them in the order in which they are specified. Only one OID will be selected however,
+ and the OID of the successfully selected file will be returned by the MobileKeysSeosProvider#openSessionWithParams:withError:
+ method</p>
+
+<p>Seos supports partial selects, and keep in mind that if multiple keys match a partial OID selection, the first found key
+ (undefined order) will be selected.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">readwrite</span><span class="p">,</span> <span class="n">strong</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">)</span> <span class="n">NSArray</span><span class="o">&lt;</span><span class="n">NSData</span> <span class="o">*&gt;</span> <span class="o">*</span><span class="n">oidSelectionList</span><span class="p">;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)MobileKeysSessionParameters(py)timeoutInMilliSeconds"></a>
+                    <a name="//apple_ref/objc/Property/timeoutInMilliSeconds" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)MobileKeysSessionParameters(py)timeoutInMilliSeconds">timeoutInMilliSeconds</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>A timeout when acquiring a seos session, since Seos can only handle one session at time. Defaults to &ldquo;0&rdquo; meaning that session opening fails immediately if Seos is busy.
+If this is set to a positive number larger than zero, the thread will lock and wait for the specified amount waiting for a Seos session to become
+available. If no session can be opened within timeout seconds, the session opening will fail.
+The timeout needs to be specified in miliseconds.
+@since 6.1.0 The timeout needs to be specified in miliseconds. This change was neccessary to avoid bugs in 5.5.0</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">assign</span><span class="p">,</span> <span class="n">readwrite</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">)</span> <span class="n">NSInteger</span> <span class="n">timeoutInMilliSeconds</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">timeoutInMilliSeconds</span><span class="p">:</span> <span class="kt">Int32</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)MobileKeysSessionParameters(py)apduConnectionPreSessionSetupOptions"></a>
+                    <a name="//apple_ref/objc/Property/apduConnectionPreSessionSetupOptions" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)MobileKeysSessionParameters(py)apduConnectionPreSessionSetupOptions">apduConnectionPreSessionSetupOptions</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>A dictionary of options to pass to the ApduConnectionProtocol instance on setup. This dictionary will be passed &ldquo;as is&rdquo;
+to the MobileKeysApduConnectionProtocol when the session is opened. The actual options themselves are implementation
+specific. If this property is nil, no options will be passed.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">readwrite</span><span class="p">,</span> <span class="n">strong</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">)</span>
+    <span class="n">NSDictionary</span> <span class="o">*</span><span class="n">apduConnectionPreSessionSetupOptions</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">apduConnectionPreSessionSetupOptions</span><span class="p">:</span> <span class="kt">UnsafeMutablePointer</span><span class="o">&lt;</span><span class="kt">Int32</span><span class="o">&gt;!</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)MobileKeysSessionParameters(py)apduConnectionPostSessionTeardownOptions"></a>
+                    <a name="//apple_ref/objc/Property/apduConnectionPostSessionTeardownOptions" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)MobileKeysSessionParameters(py)apduConnectionPostSessionTeardownOptions">apduConnectionPostSessionTeardownOptions</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>A dictionary of options to pass to the ApduConnectionProtocol instance on teardown. This dictionary will be passed &ldquo;as is&rdquo;
+to the MobileKeysApduConnectionProtocol when the session is closed. The actual options themselves are implementation
+specific. If this property is nil, no options will be passed.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">readwrite</span><span class="p">,</span> <span class="n">strong</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">)</span>
+    <span class="n">NSDictionary</span> <span class="o">*</span><span class="n">apduConnectionPostSessionTeardownOptions</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">apduConnectionPostSessionTeardownOptions</span><span class="p">:</span> <span class="kt">UnsafeMutablePointer</span><span class="o">&lt;</span><span class="kt">Int32</span><span class="o">&gt;!</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)MobileKeysSessionParameters(im)initWithMobileKeysSelectionType:mobileKeysPrivacyKeySet:mobileKeysAuthenticationKeySet:"></a>
+                    <a name="//apple_ref/objc/Method/-initWithMobileKeysSelectionType:mobileKeysPrivacyKeySet:mobileKeysAuthenticationKeySet:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)MobileKeysSessionParameters(im)initWithMobileKeysSelectionType:mobileKeysPrivacyKeySet:mobileKeysAuthenticationKeySet:">-initWithMobileKeysSelectionType:mobileKeysPrivacyKeySet:mobileKeysAuthenticationKeySet:</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Constructs a <code>MobileKeysSessionParameters</code> using the selected parameters</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="n">instancetype</span><span class="p">)</span><span class="nf">initWithMobileKeysSelectionType</span><span class="p">:</span>
+                    <span class="p">(</span><span class="n"><a href="../Enums/MobileKeysSelectionType.html">MobileKeysSelectionType</a></span><span class="p">)</span><span class="nv">mobileKeysSelectionType</span>
+                        <span class="nf">mobileKeysPrivacyKeySet</span><span class="p">:</span>
+                            <span class="p">(</span><span class="n"><a href="../Classes/MobileKeysPrivacyKeySet.html">MobileKeysPrivacyKeySet</a></span> <span class="o">*</span><span class="p">)</span><span class="nv">mobileKeysPrivacyKeySet</span>
+                 <span class="nf">mobileKeysAuthenticationKeySet</span><span class="p">:</span>
+                     <span class="p">(</span><span class="n"><a href="../Classes/MobileKeysAuthenticationKeySet.html">MobileKeysAuthenticationKeySet</a></span> <span class="o">*</span><span class="p">)</span>
+                         <span class="n"><a href="../Classes/MobileKeysSessionParameters.html#/c:objc(cs)MobileKeysSessionParameters(py)mobileKeysAuthenticationKeySet">mobileKeysAuthenticationKeySet</a></span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="nf">init</span><span class="o">!</span><span class="p">(</span><span class="nv">mobileKeysSelectionType</span><span class="p">:</span> <span class="kt">Any</span><span class="o">!</span><span class="p">,</span> <span class="nv">mobileKeysPrivacyKeySet</span><span class="p">:</span> <span class="kt"><a href="../Classes/MobileKeysPrivacyKeySet.html">MobileKeysPrivacyKeySet</a></span><span class="o">!</span><span class="p">,</span> <span class="nv">mobileKeysAuthenticationKeySet</span><span class="p">:</span> <span class="kt"><a href="../Classes/MobileKeysAuthenticationKeySet.html">MobileKeysAuthenticationKeySet</a></span><span class="o">!</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>mobileKeysSelectionType</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>the type of Selection to be performed. Specifies the type of select (ADF or GDF) to use in the session</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>mobileKeysPrivacyKeySet</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>the privacy credential to use to protect privacy during ADF/GDF selection</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>mobileKeysAuthenticationKeySet</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>authentication credential to use during mutual authentication. If no authentication key is specified, no mutual authentication will be performed during session establishment.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>an instance of <code>MobileKeysSessionParameters</code></p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)MobileKeysSessionParameters(im)initWithMobileKeysSelectionType:mobileKeysPrivacyKeySet:"></a>
+                    <a name="//apple_ref/objc/Method/-initWithMobileKeysSelectionType:mobileKeysPrivacyKeySet:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)MobileKeysSessionParameters(im)initWithMobileKeysSelectionType:mobileKeysPrivacyKeySet:">-initWithMobileKeysSelectionType:mobileKeysPrivacyKeySet:</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Constructs a <code>MobileKeysSessionParameters</code> using the selected parameters</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="n">instancetype</span><span class="p">)</span><span class="nf">initWithMobileKeysSelectionType</span><span class="p">:</span>
+                    <span class="p">(</span><span class="n"><a href="../Enums/MobileKeysSelectionType.html">MobileKeysSelectionType</a></span><span class="p">)</span><span class="nv">mobileKeysSelectionType</span>
+                        <span class="nf">mobileKeysPrivacyKeySet</span><span class="p">:</span>
+                            <span class="p">(</span><span class="n"><a href="../Classes/MobileKeysPrivacyKeySet.html">MobileKeysPrivacyKeySet</a></span> <span class="o">*</span><span class="p">)</span><span class="nv">mobileKeysPrivacyKeySet</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="nf">init</span><span class="o">!</span><span class="p">(</span><span class="nv">mobileKeysSelectionType</span><span class="p">:</span> <span class="kt">Any</span><span class="o">!</span><span class="p">,</span> <span class="nv">mobileKeysPrivacyKeySet</span><span class="p">:</span> <span class="kt"><a href="../Classes/MobileKeysPrivacyKeySet.html">MobileKeysPrivacyKeySet</a></span><span class="o">!</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>mobileKeysSelectionType</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>the type of Selection to be performed. Specifies the type of select (ADF or GDF) to use in the session</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>mobileKeysPrivacyKeySet</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>the privacy credential to use to protect privacy during ADF/GDF selection</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>an instance of <code>MobileKeysSessionParameters</code></p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)MobileKeysSessionParameters(im)initWithMobileKeysSelectionType:"></a>
+                    <a name="//apple_ref/objc/Method/-initWithMobileKeysSelectionType:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)MobileKeysSessionParameters(im)initWithMobileKeysSelectionType:">-initWithMobileKeysSelectionType:</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Constructs a <code>MobileKeysSessionParameters</code> using the selected parameters</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="n">instancetype</span><span class="p">)</span><span class="nf">initWithMobileKeysSelectionType</span><span class="p">:</span>
+    <span class="p">(</span><span class="n"><a href="../Enums/MobileKeysSelectionType.html">MobileKeysSelectionType</a></span><span class="p">)</span><span class="nv">mobileKeysSelectionType</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="nf">init</span><span class="o">!</span><span class="p">(</span><span class="nv">mobileKeysSelectionType</span><span class="p">:</span> <span class="kt">Any</span><span class="o">!</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>mobileKeysSelectionType</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>the type of Selection to be performed. Specifies the type of select (ADF or GDF) to use in the session</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>an instance of <code>MobileKeysSessionParameters</code></p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)MobileKeysSessionParameters(cm)parametersForNoSecurityWithSelectAid:contacless:"></a>
+                    <a name="//apple_ref/objc/Method/+parametersForNoSecurityWithSelectAid:contacless:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)MobileKeysSessionParameters(cm)parametersForNoSecurityWithSelectAid:contacless:">+parametersForNoSecurityWithSelectAid:contacless:</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">+</span> <span class="p">(</span><span class="n">instancetype</span><span class="p">)</span><span class="nf">parametersForNoSecurityWithSelectAid</span><span class="p">:(</span><span class="n">BOOL</span><span class="p">)</span><span class="nv">shouldSelectAid</span> <span class="nf">contacless</span><span class="p">:(</span><span class="n">BOOL</span><span class="p">)</span><span class="nv">contactless</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">convenience</span> <span class="nf">init</span><span class="o">!</span><span class="p">(</span><span class="n">forNoSecurityWithSelectAid</span> <span class="nv">shouldSelectAid</span><span class="p">:</span> <span class="kt">Any</span><span class="o">!</span><span class="p">,</span> <span class="n">contacless</span> <span class="nv">contactless</span><span class="p">:</span> <span class="kt">Any</span><span class="o">!</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)MobileKeysSessionParameters(cm)parametersForMobileKeysBle"></a>
+                    <a name="//apple_ref/objc/Method/+parametersForMobileKeysBle" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)MobileKeysSessionParameters(cm)parametersForMobileKeysBle">+parametersForMobileKeysBle</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">+</span> <span class="p">(</span><span class="n">instancetype</span><span class="p">)</span><span class="n">parametersForMobileKeysBle</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">forMobileKeysBle</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="k">Self</span><span class="o">!</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)MobileKeysSessionParameters(cm)parametersForMobileKeysTsm"></a>
+                    <a name="//apple_ref/objc/Method/+parametersForMobileKeysTsm" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)MobileKeysSessionParameters(cm)parametersForMobileKeysTsm">+parametersForMobileKeysTsm</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">+</span> <span class="p">(</span><span class="n">instancetype</span><span class="p">)</span><span class="n">parametersForMobileKeysTsm</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">forMobileKeysTsm</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="k">Self</span><span class="o">!</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)MobileKeysSessionParameters(cm)parametersForMobileKeysCache"></a>
+                    <a name="//apple_ref/objc/Method/+parametersForMobileKeysCache" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)MobileKeysSessionParameters(cm)parametersForMobileKeysCache">+parametersForMobileKeysCache</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">+</span> <span class="p">(</span><span class="n">instancetype</span><span class="p">)</span><span class="n">parametersForMobileKeysCache</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">forMobileKeysCache</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="k">Self</span><span class="o">!</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)MobileKeysSessionParameters(cm)parametersForMobileKeysReadback"></a>
+                    <a name="//apple_ref/objc/Method/+parametersForMobileKeysReadback" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)MobileKeysSessionParameters(cm)parametersForMobileKeysReadback">+parametersForMobileKeysReadback</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">+</span> <span class="p">(</span><span class="n">instancetype</span><span class="p">)</span><span class="n">parametersForMobileKeysReadback</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">forMobileKeysReadback</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="k">Self</span><span class="o">!</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)MobileKeysSessionParameters(im)initWithContactless:"></a>
+                    <a name="//apple_ref/objc/Method/-initWithContactless:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)MobileKeysSessionParameters(im)initWithContactless:">-initWithContactless:</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="n">instancetype</span><span class="p">)</span><span class="nf">initWithContactless</span><span class="p">:(</span><span class="n">BOOL</span><span class="p">)</span><span class="nv">contactless</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="nf">init</span><span class="o">!</span><span class="p">(</span><span class="nv">contactless</span><span class="p">:</span> <span class="kt">Any</span><span class="o">!</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)MobileKeysSessionParameters(cm)parametersWithContactless:"></a>
+                    <a name="//apple_ref/objc/Method/+parametersWithContactless:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)MobileKeysSessionParameters(cm)parametersWithContactless:">+parametersWithContactless:</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">+</span> <span class="p">(</span><span class="n">instancetype</span><span class="p">)</span><span class="nf">parametersWithContactless</span><span class="p">:(</span><span class="n">BOOL</span><span class="p">)</span><span class="nv">contactless</span><span class="p">;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)MobileKeysSessionParameters(cm)encryptionAlgorithmForNumber:"></a>
+                    <a name="//apple_ref/objc/Method/+encryptionAlgorithmForNumber:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)MobileKeysSessionParameters(cm)encryptionAlgorithmForNumber:">+encryptionAlgorithmForNumber:</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Converts a number from it&rsquo;s numbered representation to the enum defined by the SDK.
+It will return <code>MOBILE_KEYS_ENCRYPTION_ALGO_ERROR</code> if the encryption algorithm is unsupported or not known</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">+</span> <span class="p">(</span><span class="n"><a href="../Enums/MobileKeysEncryptionAlgorithm.html">MobileKeysEncryptionAlgorithm</a></span><span class="p">)</span><span class="nf">encryptionAlgorithmForNumber</span><span class="p">:(</span><span class="n">Byte</span><span class="p">)</span><span class="nv">number</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">encryptionAlgorithm</span><span class="p">(</span><span class="n">forNumber</span> <span class="nv">number</span><span class="p">:</span> <span class="kt">Any</span><span class="o">!</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Any</span><span class="o">!</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>number</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>a number to convert</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>a MobileKeysEncryptionAlgorithm</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)MobileKeysSessionParameters(cm)hashAlgorithmForNumber:"></a>
+                    <a name="//apple_ref/objc/Method/+hashAlgorithmForNumber:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)MobileKeysSessionParameters(cm)hashAlgorithmForNumber:">+hashAlgorithmForNumber:</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Converts a number from it&rsquo;s numbered representation to the enum defined by the SDK.
+It will return <code>MOBILE_KEYS_HASH_ALGO_ERROR</code> if the hash algorithm is unsupported or not known</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">+</span> <span class="p">(</span><span class="n"><a href="../Enums/MobileKeysHashAlgorithm.html">MobileKeysHashAlgorithm</a></span><span class="p">)</span><span class="nf">hashAlgorithmForNumber</span><span class="p">:(</span><span class="n">Byte</span><span class="p">)</span><span class="nv">number</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">hashAlgorithm</span><span class="p">(</span><span class="n">forNumber</span> <span class="nv">number</span><span class="p">:</span> <span class="kt">Any</span><span class="o">!</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Any</span><span class="o">!</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>number</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>a number to convert</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>a MobileKeysHashAlgorithm</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)MobileKeysSessionParameters(cm)numberForEncryptionAlgorithm:"></a>
+                    <a name="//apple_ref/objc/Method/+numberForEncryptionAlgorithm:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)MobileKeysSessionParameters(cm)numberForEncryptionAlgorithm:">+numberForEncryptionAlgorithm:</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Converts a MobileKeysEncryptionAlgorithm to it&rsquo;s numbered representation</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">+</span> <span class="p">(</span><span class="n">Byte</span><span class="p">)</span><span class="nf">numberForEncryptionAlgorithm</span><span class="p">:(</span><span class="n"><a href="../Enums/MobileKeysEncryptionAlgorithm.html">MobileKeysEncryptionAlgorithm</a></span><span class="p">)</span><span class="nv">algorithm</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">number</span><span class="p">(</span><span class="n">forEncryptionAlgorithm</span> <span class="nv">algorithm</span><span class="p">:</span> <span class="kt">Any</span><span class="o">!</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Any</span><span class="o">!</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>algorithm</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>a MobileKeysEncryptionAlgorithm to convert</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>a number</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)MobileKeysSessionParameters(cm)numberForHashAlgorithm:"></a>
+                    <a name="//apple_ref/objc/Method/+numberForHashAlgorithm:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)MobileKeysSessionParameters(cm)numberForHashAlgorithm:">+numberForHashAlgorithm:</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Converts a MobileKeysHashAlgorithm to it&rsquo;s numbered representation</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">+</span> <span class="p">(</span><span class="n">Byte</span><span class="p">)</span><span class="nf">numberForHashAlgorithm</span><span class="p">:(</span><span class="n"><a href="../Enums/MobileKeysHashAlgorithm.html">MobileKeysHashAlgorithm</a></span><span class="p">)</span><span class="nv">algorithm</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">number</span><span class="p">(</span><span class="n">forHashAlgorithm</span> <span class="nv">algorithm</span><span class="p">:</span> <span class="kt">Any</span><span class="o">!</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Any</span><span class="o">!</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>algorithm</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>a MobileKeysHashAlgorithm to convert</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>a number</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)MobileKeysSessionParameters(im)setSingleOidSelection:"></a>
+                    <a name="//apple_ref/objc/Method/-setSingleOidSelection:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)MobileKeysSessionParameters(im)setSingleOidSelection:">-setSingleOidSelection:</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Convenience method for setting a single oid to select during Seos Session opening</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">setSingleOidSelection</span><span class="p">:(</span><span class="n">NSData</span> <span class="o">*</span><span class="p">)</span><span class="nv">singleOid</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">setSingleOidSelection</span><span class="p">(</span><span class="n">_</span> <span class="nv">singleOid</span><span class="p">:</span> <span class="kt">Any</span><span class="o">!</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>singleOid</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>@since 6.0.0</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+      </article>
+    </div>
+    <section class="footer">
+      <p>© 2017 ASSA ABLOY Mobile Services. All rights reserved.</p>
+      <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.13.1</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+    </section>
+  </body>
+</div>
+</html>

@@ -1,0 +1,4 @@
+JSONModel (1.8.0)
+CocoaLumberjack/Core (3.5.3)
+Mixpanel (3.4.9)
+BerTlv (0.2.5)

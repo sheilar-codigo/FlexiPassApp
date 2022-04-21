@@ -1,0 +1,6 @@
+framework module FlexipassSDK {
+  umbrella header "FlexipassSDK.h"
+
+  export *
+  module * { export * }
+}

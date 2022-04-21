@@ -1,0 +1,64 @@
+PODS:
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
+    - AFNetworking/NSURLSession
+  - BerTlv (0.2.5)
+  - CocoaLumberjack/Core (3.5.3)
+  - CocoaLumberjack/Swift (3.5.3):
+    - CocoaLumberjack/Core
+  - JSONModel (1.8.0)
+  - KeychainSwift (20.0.0)
+  - Mixpanel (3.4.9)
+  - SeosMobileKeysSDK-Debug (7.5.2):
+    - BerTlv (~> 0.2.5)
+    - CocoaLumberjack/Swift (~> 3.5.3)
+    - JSONModel (~> 1.8.0)
+    - Mixpanel (~> 3.4.9)
+  - SwiftyUserDefaults (5.3.0)
+
+DEPENDENCIES:
+  - AFNetworking (~> 4.0)
+  - JSONModel
+  - KeychainSwift (~> 20.0)
+  - SeosMobileKeysSDK-Debug (from `Mobile_Keys_IOS_SDK/Debug/SeosMobileKeysSDK-Debug.podspec`)
+  - SwiftyUserDefaults (~> 5.0)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - AFNetworking
+    - BerTlv
+    - CocoaLumberjack
+    - JSONModel
+    - KeychainSwift
+    - Mixpanel
+    - SwiftyUserDefaults
+
+EXTERNAL SOURCES:
+  SeosMobileKeysSDK-Debug:
+    :path: Mobile_Keys_IOS_SDK/Debug/SeosMobileKeysSDK-Debug.podspec
+
+SPEC CHECKSUMS:
+  AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
+  BerTlv: c94b89a7b93bf8c1881691a8d105ec87a4a10759
+  CocoaLumberjack: 2f44e60eb91c176d471fdba43b9e3eae6a721947
+  JSONModel: 02ab723958366a3fd27da57ea2af2113658762e9
+  KeychainSwift: 0ce6a4d13f7228054d1a71bb1b500448fb2ab837
+  Mixpanel: 5aca6e506b34650b96dc759a208513d86650fac7
+  SeosMobileKeysSDK-Debug: 05bfe00e52a0357c5e22a99d176c726987b6de84
+  SwiftyUserDefaults: 63f80248cf5bfb3458825d9a78f2eb7e1293a040
+
+PODFILE CHECKSUM: 53718142f8f9ce723e65ac6b38daa7a6121b4b39
+
+COCOAPODS: 1.11.3

@@ -1,0 +1,6 @@
+framework module Pods_FlexiPassApp {
+  umbrella header "Pods-FlexiPassApp-umbrella.h"
+
+  export *
+  module * { export * }
+}
