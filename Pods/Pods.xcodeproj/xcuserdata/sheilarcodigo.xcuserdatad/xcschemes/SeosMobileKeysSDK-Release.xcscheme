@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "1330"
+   LastUpgradeVersion = "1240"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "AF14100F28116D0E009DEEB0"
-               BuildableName = "FlexiPassApp-SIT.app"
-               BlueprintName = "FlexiPassApp-SIT"
-               ReferencedContainer = "container:FlexiPassApp.xcodeproj">
+               BlueprintIdentifier = "48BBEF1EFB64A9F5B723F2FCC6ED815C"
+               BuildableName = "SeosMobileKeysSDK-Release"
+               BlueprintName = "SeosMobileKeysSDK-Release"
+               ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -40,16 +40,6 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "AF14100F28116D0E009DEEB0"
-            BuildableName = "FlexiPassApp-SIT.app"
-            BlueprintName = "FlexiPassApp-SIT"
-            ReferencedContainer = "container:FlexiPassApp.xcodeproj">
-         </BuildableReference>
-      </BuildableProductRunnable>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -57,16 +47,6 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "AF14100F28116D0E009DEEB0"
-            BuildableName = "FlexiPassApp-SIT.app"
-            BlueprintName = "FlexiPassApp-SIT"
-            ReferencedContainer = "container:FlexiPassApp.xcodeproj">
-         </BuildableReference>
-      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

@@ -7,16 +7,29 @@
 	objects = {
 
 /* Begin PBXAggregateTarget section */
+		48BBEF1EFB64A9F5B723F2FCC6ED815C /* SeosMobileKeysSDK-Release */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = CFEA2C113A067079ADC2E8C9F4807E92 /* Build configuration list for PBXAggregateTarget "SeosMobileKeysSDK-Release" */;
+			buildPhases = (
+			);
+			dependencies = (
+				3ADD64EBB02873A00F6F80E4EC0C301A /* PBXTargetDependency */,
+				36BEAE65E5226BECDFD211B9171D871C /* PBXTargetDependency */,
+				ADCEF57828AC9352AD4CB346464C886A /* PBXTargetDependency */,
+				CA6EA04986A6FAF21929C066C5DBC473 /* PBXTargetDependency */,
+			);
+			name = "SeosMobileKeysSDK-Release";
+		};
 		D0CD85F259A74EAF05A59863BD5A0469 /* SeosMobileKeysSDK-Debug */ = {
 			isa = PBXAggregateTarget;
 			buildConfigurationList = 1B878A967B4D61ED61052CE7872E74A7 /* Build configuration list for PBXAggregateTarget "SeosMobileKeysSDK-Debug" */;
 			buildPhases = (
 			);
 			dependencies = (
-				46A12E1FFD17E4D9414D89B31635D1D4 /* PBXTargetDependency */,
-				9C61D2AC427BB2F56FFD1AF203BCFF12 /* PBXTargetDependency */,
-				EBD88FCF2F3A12DFDB25FE1349C8765D /* PBXTargetDependency */,
-				A847B154CAAEA1527B45F314B7276DD4 /* PBXTargetDependency */,
+				A30EEA966A3C6851507D7E7CD2542605 /* PBXTargetDependency */,
+				05E77E160F441B04C2DA09EBB2FF5F14 /* PBXTargetDependency */,
+				AFEB2936178D724E7431366F6EEED914 /* PBXTargetDependency */,
+				9CA7152FCF33200C553B8D4C503B373C /* PBXTargetDependency */,
 			);
 			name = "SeosMobileKeysSDK-Debug";
 		};
@@ -147,6 +160,7 @@
 		674EF020B02CA697003FF11D702104C6 /* MPMiniNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A0F60C87A37634040CFAFAB437F27CB /* MPMiniNotification.m */; };
 		67CA0B7A53836CC4471C2AB342C2A16D /* DDFileLogger+Buffering.m in Sources */ = {isa = PBXBuildFile; fileRef = 48B700DF646702DD1572ED1C2D1E08AA /* DDFileLogger+Buffering.m */; };
 		67E1ED8DC1CD82CE139B20DD45D86573 /* MPDismissKeyboard@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D9539DFF3A82AB51DBC77ED7547CA561 /* MPDismissKeyboard@2x.png */; };
+		67E34220CBCB66B97D1C0BA234B87093 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 260246F64B115E68FCA14E54719140D6 /* Foundation.framework */; };
 		68640D210001D6A830C48D9E9ECED4B7 /* MPUIColorToNSStringValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C84B9C33E0A1CC2D9D48FB94DBEA6F6 /* MPUIColorToNSStringValueTransformer.m */; };
 		6C133193471A0A93B4CE45491148072A /* TegKeychainConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3CE9BC6E5589BE1B7479AE2674FFE0 /* TegKeychainConstants.swift */; };
 		6C239323DE74D9551EB571A31A24EC1E /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = C2C202295905FD9DF6DB4C4753BE8AA9 /* UIProgressView+AFNetworking.m */; };
@@ -165,10 +179,10 @@
 		72CAD26DC86BDDD5AE05CA3C4D9A0C8C /* JSONValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 490E6D23928A5EB6B7172C5AEBCA0738 /* JSONValueTransformer.m */; };
 		733936B2A118FAE62BC2FCD3D187B194 /* MPCheckmark.png in Resources */ = {isa = PBXBuildFile; fileRef = BC8270C2B7F36E4E91B9494C17CCAA55 /* MPCheckmark.png */; };
 		741E0FBDB1FB3D90FA9A29DEB1EEFB88 /* MPArrowLeft.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C3CFDE8598B24F5D64139DE97D24A73 /* MPArrowLeft.png */; };
+		742147C1D423633636DA21C843615513 /* Pods-FlexiPassApp-SIT-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 768B780E29BDD5D24EE4C35B4E9C9881 /* Pods-FlexiPassApp-SIT-dummy.m */; };
 		745FAAC047F61AF3B85AD5869F52A317 /* MPNotification.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D503D5353CD0A5015FA74F8BEF03CDD /* MPNotification.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		752404A351218DF18FB23E5D607D63C1 /* MPObjectSerializerContext.h in Headers */ = {isa = PBXBuildFile; fileRef = 00B5FB3ADFE24665CA1ECA5F80B1A1F1 /* MPObjectSerializerContext.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		759C55ECE129619C4AAE2FA069040E76 /* MPABTestDesignerChangeRequestMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 320731366A7B932A081747B87E44E8E1 /* MPABTestDesignerChangeRequestMessage.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		763B4A8F2C946E5B8286F26C74B7A395 /* Pods-FlexiPassApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BFCE681F45D8EC017AE6795A2DC5FF4 /* Pods-FlexiPassApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		76475C77675400A8AA11587A26232CD7 /* SelectorEvaluator.m in Sources */ = {isa = PBXBuildFile; fileRef = DA0E0BC2BA065EA20EC3103A834EE7EE /* SelectorEvaluator.m */; };
 		76E92E719D6837F543847142676F4799 /* DDContextFilterLogFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 461CACB683A38F0084AF57510D6F1FF3 /* DDContextFilterLogFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7B6970CFAA2A3D910BF2E1C55069BC11 /* OptionalType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C071BFA07C080DBE07501524A07EA3 /* OptionalType.swift */; };
@@ -187,6 +201,7 @@
 		811D473E0DFE216172F3076A4548DA20 /* JSONModel+networking.h in Headers */ = {isa = PBXBuildFile; fileRef = 50997B51318B8B211C102FABEE71CAFA /* JSONModel+networking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		81C76941D750B3F226E07AE600A67FC6 /* AFURLResponseSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = CA1904CFFE654EFA5D2FA4FCE50D286C /* AFURLResponseSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		820D78BF653B449066DC14791E41CA2D /* MPCGColorRefToNSStringValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A223F4C63161CA789EA4EA1426FDC06 /* MPCGColorRefToNSStringValueTransformer.m */; };
+		82A55AE75F2C98DD665349CA86796514 /* Pods-FlexiPassApp-SIT-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BE21B65BEF205F3C28D47460A80B703 /* Pods-FlexiPassApp-SIT-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		835D82BB1E2D76896671FB1F3695A6D6 /* MPDesignerSessionCollection.h in Headers */ = {isa = PBXBuildFile; fileRef = 33DC68AAE2AAFE3FD9699A8B25715C89 /* MPDesignerSessionCollection.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		86CD7166E6045F015F8F3AB4C22159B9 /* DDLog.h in Headers */ = {isa = PBXBuildFile; fileRef = E6688517C136964BC77B33025B573ADC /* DDLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		87F2DB0442EFA0BF359DEE3B3E708853 /* MPFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D14299A648B7954FE3919D5B0115B2C /* MPFoundation.h */; settings = {ATTRIBUTES = (Project, ); }; };
@@ -200,6 +215,7 @@
 		8ADB470E6470BF611A20AA8EF91800B9 /* NSNotificationCenter+AutomaticTracks.h in Headers */ = {isa = PBXBuildFile; fileRef = BBA696DC5F2390D318EA663A229B6C6A /* NSNotificationCenter+AutomaticTracks.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		915EF51471B0AAE07E96E4144E97D037 /* MPDisplayTrigger.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C0C0E20A9F59BC87BBD7E960BBD33DE /* MPDisplayTrigger.m */; };
 		918AD88A49B79CD1B13BAD5415FE5621 /* AFURLRequestSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = A5A0F31834C59EFFC46D9B45DC1E49BF /* AFURLRequestSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		943075B9B53346B655F4754080C7FD11 /* Pods-FlexiPassApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 709886F7E754E851572E1FC9BCE12339 /* Pods-FlexiPassApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		948C2FEB34EEC4414E531E48F519ED24 /* NSInvocation+MPHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 8324D801FF092B44D0DC17E74CEA0741 /* NSInvocation+MPHelpers.m */; };
 		94DCB234A3C979BA791094093D88E4E0 /* MPObjectSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 6961C8B4CD7C4C56EFE9B9B88ABB4425 /* MPObjectSerializer.m */; };
 		94EC1CED1FAF1360D8ABF94911CE816A /* BerTlvUmbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C9AE26033DEBA6A30EC8DBC4DEE745CA /* BerTlvUmbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -217,14 +233,15 @@
 		9D1E771621028ACD7F3D4297836D4239 /* MPTakeoverNotificationViewController~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E1CA84684F62D7309567941CC436ACC /* MPTakeoverNotificationViewController~ipad.xib */; };
 		9D9D85C2CD7D2AE5B7B174D841CAAC61 /* MPTweakStore.h in Headers */ = {isa = PBXBuildFile; fileRef = 92BCB61A5FDC9D43A1D87C3A2EB718E6 /* MPTweakStore.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9EF64C0BD10A39A55E019C555CC9C520 /* HexUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = EBEA66F2CD60D7CBEDD9D8E7FDCD594A /* HexUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F185D54581ADEBA5BF798D8D89BC23E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 260246F64B115E68FCA14E54719140D6 /* Foundation.framework */; };
 		9F5D472E0B58C95613C76C43148FC8B5 /* UIButton+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = D4756374433EAB737E04EF6B3ACE5728 /* UIButton+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9F5E70DF4BED681CBA0F6605A0A106DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 260246F64B115E68FCA14E54719140D6 /* Foundation.framework */; };
 		A02EB4C0A29E44007AA672CB3F9FA422 /* MPObjectSerializerContext.m in Sources */ = {isa = PBXBuildFile; fileRef = A01AFD59AEEF9AE46614F0E0FAEAA2BB /* MPObjectSerializerContext.m */; };
 		A142F454D3AB68A4ECC2E0D8B536577F /* MPTweak.h in Headers */ = {isa = PBXBuildFile; fileRef = 76F39E4A3CDE44752B72AD022FB845C4 /* MPTweak.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A3705041D92A35FF66892D5C734756C2 /* DefaultsObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857D245678BFE29864F5685425232A7A /* DefaultsObserver.swift */; };
 		A4A6F476870157AB8825657CE0781D83 /* MPUIEdgeInsetsToNSDictionaryValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = A4CAB76387894A154AFF8B36E2095635 /* MPUIEdgeInsetsToNSDictionaryValueTransformer.m */; };
 		A4AE93EA9F7D70603DB816F1C6B851BF /* NSNotificationCenter+AutomaticTracks.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDA262A750D58DA4618A7AB186C53A5 /* NSNotificationCenter+AutomaticTracks.m */; };
 		A4D3748EB22375CE0F6F9A3B6690CB81 /* DDAbstractDatabaseLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 914FA2CD6D7C17B232A9D47F50B4B5C1 /* DDAbstractDatabaseLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A53E2405A99E94C773C779A835B076C2 /* Pods-FlexiPassApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B56326CAB25FB77C3DA45E205845B29 /* Pods-FlexiPassApp-dummy.m */; };
 		A570147ED615881336C0337B4E6A4E20 /* MPUIControlBinding.h in Headers */ = {isa = PBXBuildFile; fileRef = C1F0A813D01947025C08BA575BA6EDA2 /* MPUIControlBinding.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		A6D6469ECEA0C14392719800CA17B15D /* MPApplicationStateSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C2763BBB02110274046378C28C5286 /* MPApplicationStateSerializer.m */; };
 		A707604860A478C2DD9E447C49A51AB1 /* CLIColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ABDFF0611360AF39194422A636FA77C /* CLIColor.m */; };
@@ -320,7 +337,6 @@
 		F2547D56050032707D040D93FCF1277F /* MPEnumDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = 186C35A98B78AEBD264F4596B5E8BDA6 /* MPEnumDescription.m */; };
 		F2A0467B2773DC95A57F2215BEF60116 /* SessionMetadata.m in Sources */ = {isa = PBXBuildFile; fileRef = E4EAD1DB3D5C6B320E51D769A940939F /* SessionMetadata.m */; };
 		F45FB7768A0AD5F611604D3DA25DF228 /* MixpanelGroupPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A1537188091B161A97B6B2E1B213B44 /* MixpanelGroupPrivate.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		F497362FA419B29F36C4C7B7E127CD8B /* Pods-FlexiPassApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B54894C6DFDA28E4FB9DCF45E89CC0D6 /* Pods-FlexiPassApp-dummy.m */; };
 		F54B45E11678558A543642F14562E8BD /* DDASLLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D3FD02B432BD0209D41AB9CD5CB7D4C /* DDASLLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F605B79794D03C7262F3B1639042160D /* DefaultsAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C509E9D9F78EB20DFD3DCC9C93E2CF6A /* DefaultsAdapter.swift */; };
 		F6B58A4D134FA8DC52BDD2FB739C1CFC /* DDDispatchQueueLogFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AE584CDC1592DA4C276EC30795E4898 /* DDDispatchQueueLogFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -345,100 +361,200 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		08635EEF2E810DE557FBC5BE17FD1D22 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 62C2863D6FA80948AF8CE76C9AEFAA37;
-			remoteInfo = BerTlv;
-		};
-		126FAECC52AAD6ED96344140B7B8FF93 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0130B3724283586C0E9D2A112D4F2AA1;
-			remoteInfo = AFNetworking;
-		};
-		2C7FFA6FC81A59331AD7683E19A2B764 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 62C2863D6FA80948AF8CE76C9AEFAA37;
-			remoteInfo = BerTlv;
-		};
-		5C2049105CDEC6D3E82FB90827BE3CF3 /* PBXContainerItemProxy */ = {
+		0148700C282CFEB57DBEA1965C7E066F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = E95654B155D25890BE8E26081FCA8265;
 			remoteInfo = CocoaLumberjack;
 		};
-		6CEDC13C7EC5250E99928BCC787ADE4C /* PBXContainerItemProxy */ = {
+		043355D2191B18D314058774DDD8E3AD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = A049F3164EBC335A7982A4E1FB3A5EAA;
 			remoteInfo = SwiftyUserDefaults;
 		};
-		79D6EEEE4C291586257786FECEA35A93 /* PBXContainerItemProxy */ = {
+		186ADEBE68A99281C8AD2943A8F527E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A049F3164EBC335A7982A4E1FB3A5EAA;
+			remoteInfo = SwiftyUserDefaults;
+		};
+		29E87DFF814F2CA5DFB91C38AED27D72 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62C2863D6FA80948AF8CE76C9AEFAA37;
+			remoteInfo = BerTlv;
+		};
+		2CCF4EEC838EBE159C8DD60D4E179C56 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = E95654B155D25890BE8E26081FCA8265;
 			remoteInfo = CocoaLumberjack;
 		};
-		93386ED3FAB0636552F70920A01D7F86 /* PBXContainerItemProxy */ = {
+		2E7500A2E93CB5251A6A575FD4555D3B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 07E54A78BCF82272E99319D7F7F5E8C1;
-			remoteInfo = KeychainSwift;
+			remoteGlobalIDString = 0130B3724283586C0E9D2A112D4F2AA1;
+			remoteInfo = AFNetworking;
 		};
-		A5A3E03E5058BDC4B9E3017DB783E5B5 /* PBXContainerItemProxy */ = {
+		3AC2D3C88C2BF88362072069FBAF8144 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = E0EAF4371C6E4B30A1779D513CB4355B;
-			remoteInfo = JSONModel;
+			remoteGlobalIDString = 0130B3724283586C0E9D2A112D4F2AA1;
+			remoteInfo = AFNetworking;
 		};
-		A8F84CD58BE03A17F266C87A49C9ABDB /* PBXContainerItemProxy */ = {
+		47AE71D3A4ED6B528755C5206671A4C9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 537B4CFD82E0DD77F4C26221EBD8EDCA;
-			remoteInfo = Mixpanel;
+			remoteGlobalIDString = 62C2863D6FA80948AF8CE76C9AEFAA37;
+			remoteInfo = BerTlv;
 		};
-		C98371A264E122AF07D37ABBFB3814A1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E0EAF4371C6E4B30A1779D513CB4355B;
-			remoteInfo = JSONModel;
-		};
-		E0D1CC349C5AF787C6797C17F430DB0A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 537B4CFD82E0DD77F4C26221EBD8EDCA;
-			remoteInfo = Mixpanel;
-		};
-		F8CE71001E9EE953C2C7386F1F440615 /* PBXContainerItemProxy */ = {
+		5092C9D7F783D94CC9985B710DCB4CA9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = D0CD85F259A74EAF05A59863BD5A0469;
 			remoteInfo = "SeosMobileKeysSDK-Debug";
 		};
+		5AD00543B520A543596817AA9BF4A46F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62C2863D6FA80948AF8CE76C9AEFAA37;
+			remoteInfo = BerTlv;
+		};
+		672F8CC23E10B6CFE328BECD5A61F3DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 537B4CFD82E0DD77F4C26221EBD8EDCA;
+			remoteInfo = Mixpanel;
+		};
+		8188584471750FC027E68CAE3EF86960 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0EAF4371C6E4B30A1779D513CB4355B;
+			remoteInfo = JSONModel;
+		};
+		853BC84DF616CABDA3D3B27012EFD415 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 537B4CFD82E0DD77F4C26221EBD8EDCA;
+			remoteInfo = Mixpanel;
+		};
+		916B25167AFD5F5C9FF2195486E935B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0CD85F259A74EAF05A59863BD5A0469;
+			remoteInfo = "SeosMobileKeysSDK-Debug";
+		};
+		994FD125C6A576DB2D6716030E288044 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E95654B155D25890BE8E26081FCA8265;
+			remoteInfo = CocoaLumberjack;
+		};
+		A03918F11CA49308EE82E2481550AAAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0EAF4371C6E4B30A1779D513CB4355B;
+			remoteInfo = JSONModel;
+		};
+		B6EB5F0068A509FC9C09C33E289BEB1A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E95654B155D25890BE8E26081FCA8265;
+			remoteInfo = CocoaLumberjack;
+		};
+		C559D46BA5013E3D307223EB0529B2C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62C2863D6FA80948AF8CE76C9AEFAA37;
+			remoteInfo = BerTlv;
+		};
+		C935988052813B8721A1E5B2A1D0AAFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 48BBEF1EFB64A9F5B723F2FCC6ED815C;
+			remoteInfo = "SeosMobileKeysSDK-Release";
+		};
+		CDD923BBA16B770D4D1215158CAC568D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0EAF4371C6E4B30A1779D513CB4355B;
+			remoteInfo = JSONModel;
+		};
+		D35756EAE4E46B464F2916D453EDB187 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07E54A78BCF82272E99319D7F7F5E8C1;
+			remoteInfo = KeychainSwift;
+		};
+		D3651CE8690C313C55F075BD66DFFB4F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 537B4CFD82E0DD77F4C26221EBD8EDCA;
+			remoteInfo = Mixpanel;
+		};
+		E30484BD43199205C79AE4624069144D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 48BBEF1EFB64A9F5B723F2FCC6ED815C;
+			remoteInfo = "SeosMobileKeysSDK-Release";
+		};
+		E602C669715FE4C7E64A6967E22714D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 537B4CFD82E0DD77F4C26221EBD8EDCA;
+			remoteInfo = Mixpanel;
+		};
+		F4E0FC5139B09B427097648184C350AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0EAF4371C6E4B30A1779D513CB4355B;
+			remoteInfo = JSONModel;
+		};
+		F557380AED097428A07CA0477CE95EB2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07E54A78BCF82272E99319D7F7F5E8C1;
+			remoteInfo = KeychainSwift;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		00B5FB3ADFE24665CA1ECA5F80B1A1F1 /* MPObjectSerializerContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPObjectSerializerContext.h; path = Mixpanel/MPObjectSerializerContext.h; sourceTree = "<group>"; };
 		015D9245E643114260841D3E0CF66EEE /* MPCGPointToNSDictionaryValueTransformer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPCGPointToNSDictionaryValueTransformer.m; path = Mixpanel/MPCGPointToNSDictionaryValueTransformer.m; sourceTree = "<group>"; };
+		02B574712CFC2B21670D3117240C25EF /* Pods-FlexiPassApp-SIT-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FlexiPassApp-SIT-Info.plist"; sourceTree = "<group>"; };
 		0324CEABC5DC329E176A336497729CF6 /* DDLog.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDLog.m; path = Classes/DDLog.m; sourceTree = "<group>"; };
 		04FD075EE6A34A437136B3ACA3AFA35A /* BerTag.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BerTag.h; path = BerTlv/BerTag.h; sourceTree = "<group>"; };
 		06B279FF8AEE1A0ABCDB17FFACB23C16 /* NSThread+MPHelpers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSThread+MPHelpers.h"; path = "Mixpanel/NSThread+MPHelpers.h"; sourceTree = "<group>"; };
 		06BD2570951BBB54A941FC00167C9A32 /* KeychainSwiftAccessOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeychainSwiftAccessOptions.swift; path = Sources/KeychainSwiftAccessOptions.swift; sourceTree = "<group>"; };
 		0740FA7B53066BD263F7C23285275A74 /* JSONAPI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONAPI.h; path = JSONModel/JSONModelNetworking/JSONAPI.h; sourceTree = "<group>"; };
+		0857F6430C44BCAEA575F5D085C1663C /* SeosMobileKeysSDK-Debug.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "SeosMobileKeysSDK-Debug.release.xcconfig"; sourceTree = "<group>"; };
 		0A0F60C87A37634040CFAFAB437F27CB /* MPMiniNotification.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPMiniNotification.m; path = Mixpanel/MPMiniNotification.m; sourceTree = "<group>"; };
 		0A1537188091B161A97B6B2E1B213B44 /* MixpanelGroupPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MixpanelGroupPrivate.h; path = Mixpanel/MixpanelGroupPrivate.h; sourceTree = "<group>"; };
 		0A1B5FD0C45E71B626602E6A9D7C5230 /* MPDesignerEventBindingMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPDesignerEventBindingMessage.h; path = Mixpanel/MPDesignerEventBindingMessage.h; sourceTree = "<group>"; };
@@ -449,9 +565,10 @@
 		10368C26CA40B42537C71A96232D7EA4 /* BerTag.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BerTag.m; path = BerTlv/BerTag.m; sourceTree = "<group>"; };
 		1199FE3B19CCDF9DAC2F3B64DD1D1417 /* MPCloseButton.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = MPCloseButton.png; path = Mixpanel/Images/MPCloseButton.png; sourceTree = "<group>"; };
 		12D5C0BFB5F2DDEEA871F227368410BD /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLRequestSerialization.m; path = AFNetworking/AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		13ABA9B3DA1EFF3F38D8BB21FABA9289 /* Pods-FlexiPassApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FlexiPassApp-frameworks.sh"; sourceTree = "<group>"; };
 		1517F106273E37752DBD093155233F9D /* MPCGSizeToNSDictionaryValueTransformer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPCGSizeToNSDictionaryValueTransformer.m; path = Mixpanel/MPCGSizeToNSDictionaryValueTransformer.m; sourceTree = "<group>"; };
 		155672F6C1158E366F3CFB77E3CE9DCE /* MPObjectIdentityProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPObjectIdentityProvider.h; path = Mixpanel/MPObjectIdentityProvider.h; sourceTree = "<group>"; };
-		16B6BEB3465EA2193D904F5C04CC0D9F /* Pods-FlexiPassApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FlexiPassApp.modulemap"; sourceTree = "<group>"; };
+		1721126F15216C84C45EF4B040C48AD8 /* SeosMobileKeysSDK-Release.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = "SeosMobileKeysSDK-Release.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		1769C22C30C08A9EF7DD6FFC9C979A8E /* AFAutoPurgingImageCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFAutoPurgingImageCache.h; path = "UIKit+AFNetworking/AFAutoPurgingImageCache.h"; sourceTree = "<group>"; };
 		17A8D08ABA4BBE155552411139B62541 /* MPObjectSerializerConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPObjectSerializerConfig.m; path = Mixpanel/MPObjectSerializerConfig.m; sourceTree = "<group>"; };
 		1843B1CFC110B9500712539D24D2E5B2 /* Mixpanel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Mixpanel.m; path = Mixpanel/Mixpanel.m; sourceTree = "<group>"; };
@@ -461,7 +578,6 @@
 		1B26417AE1A13902EAF3FEC833ED38CC /* MPABTestDesignerClearRequestMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPABTestDesignerClearRequestMessage.h; path = Mixpanel/MPABTestDesignerClearRequestMessage.h; sourceTree = "<group>"; };
 		1B8AEE7033B51CD2A71D62AB4097D91F /* UIActivityIndicatorView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIActivityIndicatorView+AFNetworking.h"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.h"; sourceTree = "<group>"; };
 		1BEE161555D9E806B1DC8B8279668C43 /* MPABTestDesignerDeviceInfoRequestMessage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPABTestDesignerDeviceInfoRequestMessage.m; path = Mixpanel/MPABTestDesignerDeviceInfoRequestMessage.m; sourceTree = "<group>"; };
-		1BFCE681F45D8EC017AE6795A2DC5FF4 /* Pods-FlexiPassApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FlexiPassApp-umbrella.h"; sourceTree = "<group>"; };
 		1C230361F74CF7214D3D9A1CB61B5FF9 /* Mixpanel */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Mixpanel; path = Mixpanel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C3CFDE8598B24F5D64139DE97D24A73 /* MPArrowLeft.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = MPArrowLeft.png; path = Mixpanel/Images/MPArrowLeft.png; sourceTree = "<group>"; };
 		1CC5FC64D50BCEE8524AC477B8A077AC /* AFAutoPurgingImageCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFAutoPurgingImageCache.m; path = "UIKit+AFNetworking/AFAutoPurgingImageCache.m"; sourceTree = "<group>"; };
@@ -488,6 +604,7 @@
 		3039285B2F21703612FE23941840FDCE /* UIProgressView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIProgressView+AFNetworking.h"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.h"; sourceTree = "<group>"; };
 		303942CE625447F6C5D2CD896B0DB7A8 /* JSONModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONModel.m; path = JSONModel/JSONModel/JSONModel.m; sourceTree = "<group>"; };
 		30B7B9A185380CD653AAD7D9B9F659CB /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UserNotifications.framework; sourceTree = DEVELOPER_DIR; };
+		30BB80817E31B6C591174C3DA0014226 /* SeosMobileKeysSDK-Release.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "SeosMobileKeysSDK-Release.release.xcconfig"; sourceTree = "<group>"; };
 		30F34BEA36C198E5B6F90B787874DEF8 /* BerTlvErrors.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BerTlvErrors.h; path = BerTlv/BerTlvErrors.h; sourceTree = "<group>"; };
 		320731366A7B932A081747B87E44E8E1 /* MPABTestDesignerChangeRequestMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPABTestDesignerChangeRequestMessage.h; path = Mixpanel/MPABTestDesignerChangeRequestMessage.h; sourceTree = "<group>"; };
 		33AB3D1BCA7AC48D538C4D1ACABE5DB3 /* DefaultsBridges.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DefaultsBridges.swift; path = Sources/DefaultsBridges.swift; sourceTree = "<group>"; };
@@ -507,6 +624,7 @@
 		3E886EFB6A8FB2BF4B045E0CF5277BAC /* JSONModelError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONModelError.h; path = JSONModel/JSONModel/JSONModelError.h; sourceTree = "<group>"; };
 		3F0B7D3AB7F8D4BF3A067E2DE50E5CCA /* AFNetworking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AFNetworking.debug.xcconfig; sourceTree = "<group>"; };
 		40812CFA53A93CD75B4632ADF77921B3 /* MPTweak.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPTweak.m; path = Mixpanel/MPTweak.m; sourceTree = "<group>"; };
+		40C6E1D2F58F180CE4621E82861D634A /* SeosMobileKeysSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SeosMobileKeysSDK.framework; sourceTree = "<group>"; };
 		431C8C1885A690D4DB12AB5E5D83DCEE /* MPMiniNotification.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPMiniNotification.h; path = Mixpanel/MPMiniNotification.h; sourceTree = "<group>"; };
 		4397268E602B1D78CE03F3ED41F95401 /* MPABTestDesignerDisconnectMessage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPABTestDesignerDisconnectMessage.m; path = Mixpanel/MPABTestDesignerDisconnectMessage.m; sourceTree = "<group>"; };
 		4401BB4C63E9291C73DF2D4920942FBD /* MPNotificationViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPNotificationViewController.m; path = Mixpanel/MPNotificationViewController.m; sourceTree = "<group>"; };
@@ -525,6 +643,7 @@
 		4B0891F0F1A514A0E88316CD092989A9 /* MPTakeoverNotification.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPTakeoverNotification.m; path = Mixpanel/MPTakeoverNotification.m; sourceTree = "<group>"; };
 		4B1D4684BE0425CDBEC0E8F75380C7ED /* JSONModelClassProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONModelClassProperty.h; path = JSONModel/JSONModel/JSONModelClassProperty.h; sourceTree = "<group>"; };
 		4B39E11166D6348D4F36E2C716C11BA6 /* MPABTestDesignerDisconnectMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPABTestDesignerDisconnectMessage.h; path = Mixpanel/MPABTestDesignerDisconnectMessage.h; sourceTree = "<group>"; };
+		4B56326CAB25FB77C3DA45E205845B29 /* Pods-FlexiPassApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FlexiPassApp-dummy.m"; sourceTree = "<group>"; };
 		4B7372E86DA12AF222A4FDA7B92186BD /* MPObjectSerializer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPObjectSerializer.h; path = Mixpanel/MPObjectSerializer.h; sourceTree = "<group>"; };
 		4C0C0E20A9F59BC87BBD7E960BBD33DE /* MPDisplayTrigger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPDisplayTrigger.m; path = Mixpanel/MPDisplayTrigger.m; sourceTree = "<group>"; };
 		4C2F448BE60B1C166482EACBB6812904 /* AFNetworking-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-umbrella.h"; sourceTree = "<group>"; };
@@ -544,19 +663,21 @@
 		584F596244207563D942A53DC2FF6D02 /* DDLoggerNames.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDLoggerNames.m; path = Classes/DDLoggerNames.m; sourceTree = "<group>"; };
 		5A59F6C52783CCC12EAB1ADE50BE71E2 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/StoreKit.framework; sourceTree = DEVELOPER_DIR; };
 		5B293743D1BCC779A81849E96E0CD727 /* WKWebView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WKWebView+AFNetworking.h"; path = "UIKit+AFNetworking/WKWebView+AFNetworking.h"; sourceTree = "<group>"; };
+		5BE21B65BEF205F3C28D47460A80B703 /* Pods-FlexiPassApp-SIT-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FlexiPassApp-SIT-umbrella.h"; sourceTree = "<group>"; };
 		5BE862893FD83B28C16456115C5F5E2E /* MPUITableViewBinding.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPUITableViewBinding.m; path = Mixpanel/MPUITableViewBinding.m; sourceTree = "<group>"; };
 		5C2277FD0F25ECF115D56CEE97F3F175 /* AutomaticEvents.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AutomaticEvents.h; path = Mixpanel/AutomaticEvents.h; sourceTree = "<group>"; };
 		5CA3022BDD16FACF9A78D9D8CCA3D5CC /* MPABTestDesignerSnapshotResponseMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPABTestDesignerSnapshotResponseMessage.h; path = Mixpanel/MPABTestDesignerSnapshotResponseMessage.h; sourceTree = "<group>"; };
 		5D3FD02B432BD0209D41AB9CD5CB7D4C /* DDASLLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDASLLogger.h; path = Classes/DDASLLogger.h; sourceTree = "<group>"; };
+		5DE5E0E4E45155633F0A2470056C0C19 /* SeosMobileKeysSDK-Release.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "SeosMobileKeysSDK-Release.debug.xcconfig"; sourceTree = "<group>"; };
 		5E1CA84684F62D7309567941CC436ACC /* MPTakeoverNotificationViewController~ipad.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = "MPTakeoverNotificationViewController~ipad.xib"; path = "Mixpanel/MPTakeoverNotificationViewController~ipad.xib"; sourceTree = "<group>"; };
 		5F332CCE26210B9D81944A36D6095B05 /* DDLogMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDLogMacros.h; path = Classes/DDLogMacros.h; sourceTree = "<group>"; };
 		5FCE8F0CF39146EDD48B315B166C67E5 /* MPNotificationButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPNotificationButton.h; path = Mixpanel/MPNotificationButton.h; sourceTree = "<group>"; };
 		6013C356B5A4C5C26AF4D8EA0A44C8CD /* MixpanelExceptionHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MixpanelExceptionHandler.h; path = Mixpanel/MixpanelExceptionHandler.h; sourceTree = "<group>"; };
 		6038A34DA1C86108E8A42146BA228B5A /* MPObjectIdentifierProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPObjectIdentifierProvider.h; path = Mixpanel/MPObjectIdentifierProvider.h; sourceTree = "<group>"; };
 		605B555800F12850D5D7C09597EF52DA /* Mixpanel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Mixpanel-dummy.m"; sourceTree = "<group>"; };
+		6158385CB6F43510A704F638AAD971AA /* Pods-FlexiPassApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FlexiPassApp.modulemap"; sourceTree = "<group>"; };
 		61FCB4889546F5FEBDD87F2CDD957681 /* AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworking.h; path = AFNetworking/AFNetworking.h; sourceTree = "<group>"; };
 		637260DEA905F445CA535ECB8A751B4A /* MPSwizzler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPSwizzler.m; path = Mixpanel/MPSwizzler.m; sourceTree = "<group>"; };
-		641C3A3B88A60F0D3E503CC3C3AB6FB3 /* SeosMobileKeysSDK-Debug.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "SeosMobileKeysSDK-Debug.release.xcconfig"; sourceTree = "<group>"; };
 		6420B5E16756A10F419DFF8BC6EE7FFD /* MPUIFontToNSDictionaryValueTransformer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPUIFontToNSDictionaryValueTransformer.m; path = Mixpanel/MPUIFontToNSDictionaryValueTransformer.m; sourceTree = "<group>"; };
 		6491381C43ECB5C4B3BEF6628E295F7B /* UIApplication+AutomaticTracks.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+AutomaticTracks.m"; path = "Mixpanel/UIApplication+AutomaticTracks.m"; sourceTree = "<group>"; };
 		64D46BD744398387405D039F7DE2D46C /* MPApplicationStateSerializer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPApplicationStateSerializer.h; path = Mixpanel/MPApplicationStateSerializer.h; sourceTree = "<group>"; };
@@ -575,8 +696,10 @@
 		6B8ECA27EDB591471D8B8F4304367F27 /* MPVariant.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPVariant.h; path = Mixpanel/MPVariant.h; sourceTree = "<group>"; };
 		6C09618456F5BE491F9A5C887C0E229B /* MPABTestDesignerTweakResponseMessage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPABTestDesignerTweakResponseMessage.m; path = Mixpanel/MPABTestDesignerTweakResponseMessage.m; sourceTree = "<group>"; };
 		6F8478B2C4FDE400C9CBB125535E2762 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		709886F7E754E851572E1FC9BCE12339 /* Pods-FlexiPassApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FlexiPassApp-umbrella.h"; sourceTree = "<group>"; };
 		70B4479CF89A92021C55919EFB6FC207 /* Mixpanel-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Mixpanel-Info.plist"; sourceTree = "<group>"; };
 		71AAA766DF1E95D292B5BAD24295EB41 /* DDLegacyMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDLegacyMacros.h; path = Classes/DDLegacyMacros.h; sourceTree = "<group>"; };
+		71C334426C27690DCC84E8B01BDFF190 /* SeosMobileKeysSDK-Debug.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = "SeosMobileKeysSDK-Debug.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		7301CC17D78BB81FA00F263CE4FF2A99 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFSecurityPolicy.h; path = AFNetworking/AFSecurityPolicy.h; sourceTree = "<group>"; };
 		7366505673EAA6B648C0F3E0DEB4954B /* UIImage+MPImageEffects.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+MPImageEffects.m"; path = "Mixpanel/UIImage+MPImageEffects.m"; sourceTree = "<group>"; };
 		74067C95E7DEE70E7F796D8C65F54F43 /* _MPTweakBindObserver.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = _MPTweakBindObserver.h; path = Mixpanel/_MPTweakBindObserver.h; sourceTree = "<group>"; };
@@ -584,17 +707,19 @@
 		74C6094094EA41982E7926BE2B69A727 /* CocoaLumberjack-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaLumberjack-umbrella.h"; sourceTree = "<group>"; };
 		75049C9AC6D0A9723C25068E9F4C7FE2 /* MPDisplayTrigger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPDisplayTrigger.h; path = Mixpanel/MPDisplayTrigger.h; sourceTree = "<group>"; };
 		7606E6282381D511C097DBFCE0E92E8E /* CocoaLumberjack.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CocoaLumberjack.release.xcconfig; sourceTree = "<group>"; };
+		768B780E29BDD5D24EE4C35B4E9C9881 /* Pods-FlexiPassApp-SIT-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FlexiPassApp-SIT-dummy.m"; sourceTree = "<group>"; };
 		76A8C235229C9244E60C4C360612CA90 /* MPNotificationViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPNotificationViewController.h; path = Mixpanel/MPNotificationViewController.h; sourceTree = "<group>"; };
 		76F39E4A3CDE44752B72AD022FB845C4 /* MPTweak.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPTweak.h; path = Mixpanel/MPTweak.h; sourceTree = "<group>"; };
 		77488C881A8C9C59B0924FEB0EFC0912 /* NSInvocation+MPHelpers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSInvocation+MPHelpers.h"; path = "Mixpanel/NSInvocation+MPHelpers.h"; sourceTree = "<group>"; };
 		776A722A88AD79428365B7B1461753F7 /* MPABTestDesignerClearResponseMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPABTestDesignerClearResponseMessage.h; path = Mixpanel/MPABTestDesignerClearResponseMessage.h; sourceTree = "<group>"; };
 		7774BA6D65693D8C4DB2F541384633E3 /* MPNotificationButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPNotificationButton.m; path = Mixpanel/MPNotificationButton.m; sourceTree = "<group>"; };
+		77A3A71169547573EF7F41E8EE679456 /* SeosMobileKeysSDK-Debug.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "SeosMobileKeysSDK-Debug.debug.xcconfig"; sourceTree = "<group>"; };
 		789FF0CB8CB6FD3150323AA663A622F4 /* DDTTYLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDTTYLogger.m; path = Classes/DDTTYLogger.m; sourceTree = "<group>"; };
 		797E6C9564EBCC621BE6ACD644595485 /* UIColor+MPColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+MPColor.h"; path = "Mixpanel/UIColor+MPColor.h"; sourceTree = "<group>"; };
 		798527EC449EFD20AF8E209EF284DFAB /* MPTakeoverNotificationViewController~iphonelandscape.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = "MPTakeoverNotificationViewController~iphonelandscape.xib"; path = "Mixpanel/MPTakeoverNotificationViewController~iphonelandscape.xib"; sourceTree = "<group>"; };
+		79B583E03567D8FC2C60E174BAABAF58 /* Pods-FlexiPassApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FlexiPassApp.debug.xcconfig"; sourceTree = "<group>"; };
 		7A45BE7B76214E1CA2F15D30BD015621 /* MixpanelGroup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MixpanelGroup.h; path = Mixpanel/MixpanelGroup.h; sourceTree = "<group>"; };
 		7AE584CDC1592DA4C276EC30795E4898 /* DDDispatchQueueLogFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDDispatchQueueLogFormatter.h; path = Classes/Extensions/DDDispatchQueueLogFormatter.h; sourceTree = "<group>"; };
-		7B57DA1F5EFD6CF135146BB488A41D91 /* Pods-FlexiPassApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FlexiPassApp-acknowledgements.markdown"; sourceTree = "<group>"; };
 		7BCED1E78627066ADE5C7F0D4053A33D /* MPCheckmark@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "MPCheckmark@2x.png"; path = "Mixpanel/Images/MPCheckmark@2x.png"; sourceTree = "<group>"; };
 		7C93B73A1FA6CF03085C3B42A408EDE1 /* KeychainSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KeychainSwift-prefix.pch"; sourceTree = "<group>"; };
 		7CD6236920891C5AD4CEBE4B6964ECB4 /* AFURLSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLSessionManager.m; path = AFNetworking/AFURLSessionManager.m; sourceTree = "<group>"; };
@@ -606,13 +731,11 @@
 		813FEBDE9D08D6BAA9CE7C5A7E7D78FD /* JSONModel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JSONModel-dummy.m"; sourceTree = "<group>"; };
 		82CDCE6EEEE2C2A779E6603567A0098E /* Mixpanel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Mixpanel.debug.xcconfig; sourceTree = "<group>"; };
 		82E6F7BB180F6857C3EBDCB915E24D07 /* JSONValueTransformer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONValueTransformer.h; path = JSONModel/JSONModelTransformations/JSONValueTransformer.h; sourceTree = "<group>"; };
-		83165F5565ABDF34682F422CE8B2A123 /* Pods-FlexiPassApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FlexiPassApp.release.xcconfig"; sourceTree = "<group>"; };
 		8324D801FF092B44D0DC17E74CEA0741 /* NSInvocation+MPHelpers.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSInvocation+MPHelpers.m"; path = "Mixpanel/NSInvocation+MPHelpers.m"; sourceTree = "<group>"; };
 		84D089671E32483F5FEAE4EE4827F7A8 /* AutomaticEvents.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AutomaticEvents.m; path = Mixpanel/AutomaticEvents.m; sourceTree = "<group>"; };
 		857D245678BFE29864F5685425232A7A /* DefaultsObserver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DefaultsObserver.swift; path = Sources/DefaultsObserver.swift; sourceTree = "<group>"; };
 		8693DA08354CB028AC090979B6328691 /* AFNetworking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AFNetworking.release.xcconfig; sourceTree = "<group>"; };
 		8798782288E9674281A781163242A5B3 /* MPPropertyDescription.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPPropertyDescription.m; path = Mixpanel/MPPropertyDescription.m; sourceTree = "<group>"; };
-		87BA6779E4ADC70B7659F7EFBE30A3A4 /* Pods-FlexiPassApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FlexiPassApp-acknowledgements.plist"; sourceTree = "<group>"; };
 		87DBC10FD921A314518A396A97DB47BF /* MPABTestDesignerChangeRequestMessage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPABTestDesignerChangeRequestMessage.m; path = Mixpanel/MPABTestDesignerChangeRequestMessage.m; sourceTree = "<group>"; };
 		87FF51AF9182C947903AF853CE57321A /* AFSecurityPolicy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFSecurityPolicy.m; path = AFNetworking/AFSecurityPolicy.m; sourceTree = "<group>"; };
 		88722182B9DF7B1E4F6D773DF19B989C /* KeychainSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KeychainSwift.release.xcconfig; sourceTree = "<group>"; };
@@ -627,14 +750,17 @@
 		8CB8C904736E3F14ABE737F36B453889 /* UIView+MPHelpers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+MPHelpers.h"; path = "Mixpanel/UIView+MPHelpers.h"; sourceTree = "<group>"; };
 		8D9ADB3BE4B5EB23FB58D6F2B76FA1E6 /* MixpanelPeoplePrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MixpanelPeoplePrivate.h; path = Mixpanel/MixpanelPeoplePrivate.h; sourceTree = "<group>"; };
 		8E29E3F4F87F6AC1B9F5B40BB19D323A /* MPABTestDesignerSnapshotRequestMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPABTestDesignerSnapshotRequestMessage.h; path = Mixpanel/MPABTestDesignerSnapshotRequestMessage.h; sourceTree = "<group>"; };
+		8E2AA2B1E6058025D3418D7768187799 /* Pods-FlexiPassApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FlexiPassApp.release.xcconfig"; sourceTree = "<group>"; };
 		8F919A1C9EA2F923F1218E05E346B8CD /* MPAbstractABTestDesignerMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPAbstractABTestDesignerMessage.h; path = Mixpanel/MPAbstractABTestDesignerMessage.h; sourceTree = "<group>"; };
 		90076E0A396086F30DC92ED25EC2FB05 /* AFNetworking-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AFNetworking-Info.plist"; sourceTree = "<group>"; };
 		9021DD5905ECB6AAD1A36E56442B4C94 /* MPClassDescription.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPClassDescription.h; path = Mixpanel/MPClassDescription.h; sourceTree = "<group>"; };
 		914FA2CD6D7C17B232A9D47F50B4B5C1 /* DDAbstractDatabaseLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDAbstractDatabaseLogger.h; path = Classes/DDAbstractDatabaseLogger.h; sourceTree = "<group>"; };
 		91E55014542F549A41BFB442565E8A47 /* NSThread+MPHelpers.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSThread+MPHelpers.m"; path = "Mixpanel/NSThread+MPHelpers.m"; sourceTree = "<group>"; };
 		92BCB61A5FDC9D43A1D87C3A2EB718E6 /* MPTweakStore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPTweakStore.h; path = Mixpanel/MPTweakStore.h; sourceTree = "<group>"; };
+		93546102029B923EDF154A3CE0929C88 /* Pods-FlexiPassApp-SIT-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FlexiPassApp-SIT-acknowledgements.markdown"; sourceTree = "<group>"; };
 		937AA0AE7A343F02B3DE9A4F18476124 /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+AFNetworking.h"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
 		946F889275D79014F2FC1B87EFFD5F21 /* SwiftyUserDefaults-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyUserDefaults-dummy.m"; sourceTree = "<group>"; };
+		955AF87BF49E7EBB27FEB8DC140FF222 /* Pods-FlexiPassApp-SIT */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-FlexiPassApp-SIT"; path = Pods_FlexiPassApp_SIT.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9579CCC33C0B50708892DC1B4B83F520 /* JSONModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONModel.h; path = JSONModel/JSONModel/JSONModel.h; sourceTree = "<group>"; };
 		95BBEF3C86E5AF1A51FBC6DD0B55023B /* BerTlv.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BerTlv.m; path = BerTlv/BerTlv.m; sourceTree = "<group>"; };
 		976EA0BB1AE60F74EC1432B6EADB6CD1 /* MPConnectIntegrations.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPConnectIntegrations.h; path = Mixpanel/MPConnectIntegrations.h; sourceTree = "<group>"; };
@@ -644,17 +770,17 @@
 		99F445B4BC53C8360DDAE5160825DEF2 /* BerTlvParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BerTlvParser.h; path = BerTlv/BerTlvParser.h; sourceTree = "<group>"; };
 		9A223F4C63161CA789EA4EA1426FDC06 /* MPCGColorRefToNSStringValueTransformer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPCGColorRefToNSStringValueTransformer.m; path = Mixpanel/MPCGColorRefToNSStringValueTransformer.m; sourceTree = "<group>"; };
 		9A4E60C1F09B14551903FD15707A9E15 /* placeholder-image.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "placeholder-image.png"; path = "Mixpanel/Images/placeholder-image.png"; sourceTree = "<group>"; };
+		9A7D296425B17A61758681EFD94CCF64 /* SeosMobileKeysSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SeosMobileKeysSDK.framework; sourceTree = "<group>"; };
 		9ADF96B06E0B96DB8E69425EF26A28DD /* DDFileLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDFileLogger.m; path = Classes/DDFileLogger.m; sourceTree = "<group>"; };
 		9B928E43763B6B8BD8665783ED08FDA0 /* UIImage+MPAverageColor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+MPAverageColor.m"; path = "Mixpanel/UIImage+MPAverageColor.m"; sourceTree = "<group>"; };
 		9BA4D61DA1F1240D9C54E04A6ECC1D83 /* UIViewController+AutomaticTracks.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+AutomaticTracks.h"; path = "Mixpanel/UIViewController+AutomaticTracks.h"; sourceTree = "<group>"; };
+		9C56CCECC613491EB522F8F9CF4087D8 /* Pods-FlexiPassApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FlexiPassApp-acknowledgements.markdown"; sourceTree = "<group>"; };
 		9C5C3BE5967BAE9393DCE816EE0912D6 /* Defaults.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Defaults.swift; path = Sources/Defaults.swift; sourceTree = "<group>"; };
 		9D3861E123B222B1F425125D84C64FE3 /* MPCloseButton@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "MPCloseButton@2x.png"; path = "Mixpanel/Images/MPCloseButton@2x.png"; sourceTree = "<group>"; };
 		9D503D5353CD0A5015FA74F8BEF03CDD /* MPNotification.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPNotification.h; path = Mixpanel/MPNotification.h; sourceTree = "<group>"; };
-		9D72DDA9E9A17B96D311D4F3AD965E9E /* SeosMobileKeysSDK-Debug.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "SeosMobileKeysSDK-Debug.debug.xcconfig"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E0423818A65458B90982BF090329E1B /* MPResources.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPResources.h; path = Mixpanel/MPResources.h; sourceTree = "<group>"; };
 		9E0FD012ADC3C7179C684035672383E5 /* KeychainSwift */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KeychainSwift; path = KeychainSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9F1DD6B96006C88A244F358C1BFBD3CD /* SeosMobileKeysSDK-Debug.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = "SeosMobileKeysSDK-Debug.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9FA1A3D5BB1DC4B4EDD199EC2D35D59D /* BerTlv */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BerTlv; path = BerTlv.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A01AFD59AEEF9AE46614F0E0FAEAA2BB /* MPObjectSerializerContext.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPObjectSerializerContext.m; path = Mixpanel/MPObjectSerializerContext.m; sourceTree = "<group>"; };
 		A07B6CCCB506A2F7CE655341022B22A5 /* KeychainSwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KeychainSwift-Info.plist"; sourceTree = "<group>"; };
@@ -673,6 +799,7 @@
 		A6B44D41C8482CC767AE7C1ADE672C53 /* MPTweakInline.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPTweakInline.m; path = Mixpanel/MPTweakInline.m; sourceTree = "<group>"; };
 		A720F5C761A8AB44E8D21DDB538CA527 /* MPResources.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPResources.m; path = Mixpanel/MPResources.m; sourceTree = "<group>"; };
 		A725B876FB3A762CB66C4C4D7458B6EF /* UIApplication+AutomaticTracks.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+AutomaticTracks.h"; path = "Mixpanel/UIApplication+AutomaticTracks.h"; sourceTree = "<group>"; };
+		A7DAE75FC75A517F1863E75C035D911B /* Pods-FlexiPassApp-SIT.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FlexiPassApp-SIT.debug.xcconfig"; sourceTree = "<group>"; };
 		A83F309160439D056C343029D14FC5B8 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPSessionManager.h; path = AFNetworking/AFHTTPSessionManager.h; sourceTree = "<group>"; };
 		A95A8ED8BE9471FBF97F83813DC9BAE9 /* DDASLLogCapture.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDASLLogCapture.m; path = Classes/DDASLLogCapture.m; sourceTree = "<group>"; };
 		A9877B7CFFAA2F226653958CEE297CDF /* MPLogo.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = MPLogo.png; path = Mixpanel/Images/MPLogo.png; sourceTree = "<group>"; };
@@ -687,11 +814,11 @@
 		B377DF51A61F942570B57566DB34A45A /* CocoaLumberjack-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaLumberjack-prefix.pch"; sourceTree = "<group>"; };
 		B3D7F92EFB800D3335766E12EEB84283 /* PropertyWrappers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PropertyWrappers.swift; path = Sources/PropertyWrappers.swift; sourceTree = "<group>"; };
 		B544BE1FD8406E6403A5AC46A450CDB1 /* MPObjectSerializerConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPObjectSerializerConfig.h; path = Mixpanel/MPObjectSerializerConfig.h; sourceTree = "<group>"; };
-		B54894C6DFDA28E4FB9DCF45E89CC0D6 /* Pods-FlexiPassApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FlexiPassApp-dummy.m"; sourceTree = "<group>"; };
 		B6FA88DECB37228B0705EE283765D480 /* MPABTestDesignerDeviceInfoResponseMessage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPABTestDesignerDeviceInfoResponseMessage.m; path = Mixpanel/MPABTestDesignerDeviceInfoResponseMessage.m; sourceTree = "<group>"; };
 		B7715718A7E1E513F9BC2E99B977FCA9 /* SwiftyUserDefaults */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyUserDefaults; path = SwiftyUserDefaults.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B918F8F3984DAFD346C5CB1211515DA3 /* Mixpanel+AutomaticTracks.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Mixpanel+AutomaticTracks.m"; path = "Mixpanel/Mixpanel+AutomaticTracks.m"; sourceTree = "<group>"; };
 		B91DE124A319AA098D6D20B416D9EE6C /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Accelerate.framework; sourceTree = DEVELOPER_DIR; };
+		B98832F283BF4C403BE3AD732C01D33A /* Pods-FlexiPassApp-SIT.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FlexiPassApp-SIT.modulemap"; sourceTree = "<group>"; };
 		BA3478577758626D2EE09CF1FF9636F8 /* DDOSLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDOSLogger.m; path = Classes/DDOSLogger.m; sourceTree = "<group>"; };
 		BA7208F1FAC9C6BA6600C04D8D7E4855 /* DDMultiFormatter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDMultiFormatter.m; path = Classes/Extensions/DDMultiFormatter.m; sourceTree = "<group>"; };
 		BAACA1BF7AB3DD28402C4F9A7C2FD104 /* JSONModel */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JSONModel; path = JSONModel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -705,7 +832,6 @@
 		BDFEA8AA69500266833AA637DF15FFAE /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		BE3A8E58E66E37073E7F8FE0F248E0F0 /* MixpanelExceptionHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MixpanelExceptionHandler.m; path = Mixpanel/MixpanelExceptionHandler.m; sourceTree = "<group>"; };
 		BE5352279E5A5EBD110EA33413746ED6 /* DDLoggerNames.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDLoggerNames.h; path = Classes/DDLoggerNames.h; sourceTree = "<group>"; };
-		BE66E538FA069DA1C7A31B1532013311 /* Pods-FlexiPassApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FlexiPassApp.debug.xcconfig"; sourceTree = "<group>"; };
 		BEA784368A77A7C4CE174D2BA588ACB8 /* DefaultsKeys.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DefaultsKeys.swift; path = Sources/DefaultsKeys.swift; sourceTree = "<group>"; };
 		BF70D38317014814B5BA82135A30DFD6 /* MPTakeoverNotification.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPTakeoverNotification.h; path = Mixpanel/MPTakeoverNotification.h; sourceTree = "<group>"; };
 		C016E32FA0EAD8AC3742E617DC235F86 /* AFImageDownloader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFImageDownloader.m; path = "UIKit+AFNetworking/AFImageDownloader.m"; sourceTree = "<group>"; };
@@ -714,13 +840,16 @@
 		C261436D14052AE3C35F240BCD155CAC /* CocoaLumberjack */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CocoaLumberjack; path = CocoaLumberjack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2C202295905FD9DF6DB4C4753BE8AA9 /* UIProgressView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIProgressView+AFNetworking.m"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.m"; sourceTree = "<group>"; };
 		C33F42BFBD695DAD3D4B4F4785AED45B /* CLIColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLIColor.h; path = Classes/CLI/CLIColor.h; sourceTree = "<group>"; };
+		C48B52B1FBFE2247D3BF43EDF5B0CAD6 /* Pods-FlexiPassApp-SIT-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FlexiPassApp-SIT-acknowledgements.plist"; sourceTree = "<group>"; };
 		C509E9D9F78EB20DFD3DCC9C93E2CF6A /* DefaultsAdapter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DefaultsAdapter.swift; path = Sources/DefaultsAdapter.swift; sourceTree = "<group>"; };
+		C6A9B49CEBD21874FBD497A9B953FB68 /* Pods-FlexiPassApp-SIT-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FlexiPassApp-SIT-frameworks.sh"; sourceTree = "<group>"; };
 		C74DDEAFFD778C1A4254AB831E0FCA76 /* MPABTestDesignerConnection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPABTestDesignerConnection.m; path = Mixpanel/MPABTestDesignerConnection.m; sourceTree = "<group>"; };
 		C7A82CE4B8D46D32293AFA4C5079525B /* MPUITableViewBinding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPUITableViewBinding.h; path = Mixpanel/MPUITableViewBinding.h; sourceTree = "<group>"; };
 		C85B802560BF04EE8C2875FE525A729A /* KeychainSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KeychainSwift-umbrella.h"; sourceTree = "<group>"; };
+		C903031ADD23C0F120F653E018694F8D /* Pods-FlexiPassApp-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FlexiPassApp-Info.plist"; sourceTree = "<group>"; };
 		C9AE26033DEBA6A30EC8DBC4DEE745CA /* BerTlvUmbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BerTlvUmbrella.h; path = BerTlv/BerTlvUmbrella.h; sourceTree = "<group>"; };
 		CA1904CFFE654EFA5D2FA4FCE50D286C /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLResponseSerialization.h; path = AFNetworking/AFURLResponseSerialization.h; sourceTree = "<group>"; };
-		CA8BD6B49BDED37047C6B74E8CB9B09F /* Pods-FlexiPassApp-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FlexiPassApp-Info.plist"; sourceTree = "<group>"; };
+		CA8C1C334003256D641C8D4B7470EBDE /* Pods-FlexiPassApp-SIT.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FlexiPassApp-SIT.release.xcconfig"; sourceTree = "<group>"; };
 		CAF42E552C6C7D301594DA488E1B60D4 /* _MPTweakBindObserver.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = _MPTweakBindObserver.m; path = Mixpanel/_MPTweakBindObserver.m; sourceTree = "<group>"; };
 		CB052DDF8EA29201AEE3AFFC049D47E2 /* DDFileLogger+Buffering.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "DDFileLogger+Buffering.h"; path = "Classes/Extensions/DDFileLogger+Buffering.h"; sourceTree = "<group>"; };
 		CC9D190A51D450F5C5CFC7624BF47110 /* BerTlv.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BerTlv.debug.xcconfig; sourceTree = "<group>"; };
@@ -759,7 +888,6 @@
 		DFEAA14376E5086208CEF4AAE2E46CF9 /* BerTlvs.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BerTlvs.h; path = BerTlv/BerTlvs.h; sourceTree = "<group>"; };
 		E0AAADC41F034D11C9F74B68FB9D273A /* UIKit+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIKit+AFNetworking.h"; path = "UIKit+AFNetworking/UIKit+AFNetworking.h"; sourceTree = "<group>"; };
 		E0C330C3FD1456046BDA7864CCA517EB /* DDAbstractDatabaseLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDAbstractDatabaseLogger.m; path = Classes/DDAbstractDatabaseLogger.m; sourceTree = "<group>"; };
-		E23447236F732E58C2425631689A6B39 /* SeosMobileKeysSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SeosMobileKeysSDK.framework; sourceTree = "<group>"; };
 		E26CB807714CEF1E8E2A657B83C8C32C /* MPSwizzle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPSwizzle.h; path = Mixpanel/MPSwizzle.h; sourceTree = "<group>"; };
 		E33AF137E8B1A3AAD193C83E70018D56 /* MPDesignerTrackMessage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPDesignerTrackMessage.m; path = Mixpanel/MPDesignerTrackMessage.m; sourceTree = "<group>"; };
 		E4EAD1DB3D5C6B320E51D769A940939F /* SessionMetadata.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SessionMetadata.m; path = Mixpanel/SessionMetadata.m; sourceTree = "<group>"; };
@@ -784,10 +912,10 @@
 		EF52122B29CF35AF9440DA5348C712F4 /* CocoaLumberjack-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CocoaLumberjack-Info.plist"; sourceTree = "<group>"; };
 		F1242666EE5995AC2E4CDA5FEA46C91B /* BerTlvParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BerTlvParser.m; path = BerTlv/BerTlvParser.m; sourceTree = "<group>"; };
 		F132F3B5FDC50FA6DC8BBD5851A9F371 /* DDASLLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDASLLogger.m; path = Classes/DDASLLogger.m; sourceTree = "<group>"; };
+		F2B9CA4B52E7AC1915ADC685FCFD0A7D /* Pods-FlexiPassApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FlexiPassApp-acknowledgements.plist"; sourceTree = "<group>"; };
 		F3DF17A28817F139D4B8C808B38CFE13 /* DDFileLogger+Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "DDFileLogger+Internal.h"; path = "Classes/DDFileLogger+Internal.h"; sourceTree = "<group>"; };
 		F429EB5E3509D804AD60C8A04129EE65 /* AFCompatibilityMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFCompatibilityMacros.h; path = AFNetworking/AFCompatibilityMacros.h; sourceTree = "<group>"; };
 		F50895447F2808746E097A48813314AD /* BerTlvBuilder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BerTlvBuilder.h; path = BerTlv/BerTlvBuilder.h; sourceTree = "<group>"; };
-		F5449B51D9959E440B58928187F9DF66 /* Pods-FlexiPassApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FlexiPassApp-frameworks.sh"; sourceTree = "<group>"; };
 		F65470C93CE6DB53931C6CF9738FDC8A /* UIButton+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+AFNetworking.m"; path = "UIKit+AFNetworking/UIButton+AFNetworking.m"; sourceTree = "<group>"; };
 		F944917B5396209F58F5F01F84C595FE /* Mixpanel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Mixpanel.modulemap; sourceTree = "<group>"; };
 		F94FC861309AB127FABE87EB1DC17C07 /* MPLogo@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "MPLogo@2x.png"; path = "Mixpanel/Images/MPLogo@2x.png"; sourceTree = "<group>"; };
@@ -826,6 +954,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		78B125E34DEBBF39F5025B438D194EBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67E34220CBCB66B97D1C0BA234B87093 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7DB3AC986EB47C69999CE1E27F42FC33 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -839,14 +975,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				C543B2A5CF83423F50EF2DFA3A7F1141 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A8ED55CB9AF1CF558714E121C30CA96F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9F5E70DF4BED681CBA0F6605A0A106DC /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -871,6 +999,14 @@
 				278932C4ED0C288EF6F12B578116ECD4 /* SystemConfiguration.framework in Frameworks */,
 				516E4E8BC4E7DBFC516FE46C93B94DB0 /* UIKit.framework in Frameworks */,
 				AFF64322B1E366FF2A825EC2CC0FC24B /* UserNotifications.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F187C6B106DCEE19E7BD25522E192BBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F185D54581ADEBA5BF798D8D89BC23E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -910,6 +1046,22 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		116FA786FE9FED9AC789620399B9B7CF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				40C6E1D2F58F180CE4621E82861D634A /* SeosMobileKeysSDK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		16D3BFE2454806274676D407BD4D713C /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				71C334426C27690DCC84E8B01BDFF190 /* SeosMobileKeysSDK-Debug.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		1783B2EA4E9CE548C891D0D6BA89BD7F /* KeychainSwift */ = {
 			isa = PBXGroup;
 			children = (
@@ -922,27 +1074,15 @@
 			path = KeychainSwift;
 			sourceTree = "<group>";
 		};
-		181E22D78923CDC3ABB8A95D11E95C32 /* Pod */ = {
+		1C82D0765A54E96057A97C00EEB37720 /* SeosMobileKeysSDK-Release */ = {
 			isa = PBXGroup;
 			children = (
-				9F1DD6B96006C88A244F358C1BFBD3CD /* SeosMobileKeysSDK-Debug.podspec */,
+				44BC9A8BE76928D1EE62492CDF1DA8F7 /* Frameworks */,
+				655C16DAEFA1A1FA7FCFE658FF6C4DB3 /* Pod */,
+				FD288AE4E9F4C11A6ABC7CD255B928FE /* Support Files */,
 			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		249DF915CF252EC1B8564167391443BB /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				A4FA15D44DF6BAC7550EDEED10862AA3 /* AFNetworking */,
-				9FA1A3D5BB1DC4B4EDD199EC2D35D59D /* BerTlv */,
-				C261436D14052AE3C35F240BCD155CAC /* CocoaLumberjack */,
-				BAACA1BF7AB3DD28402C4F9A7C2FD104 /* JSONModel */,
-				9E0FD012ADC3C7179C684035672383E5 /* KeychainSwift */,
-				1C230361F74CF7214D3D9A1CB61B5FF9 /* Mixpanel */,
-				C16F8C83CB6BF3CBA9B8CC47682947A4 /* Pods-FlexiPassApp */,
-				B7715718A7E1E513F9BC2E99B977FCA9 /* SwiftyUserDefaults */,
-			);
-			name = Products;
+			name = "SeosMobileKeysSDK-Release";
+			path = ../Mobile_Keys_IOS_SDK/Release;
 			sourceTree = "<group>";
 		};
 		2F974F686ECDC8D9364B023D988D6E50 /* AFNetworking */ = {
@@ -958,6 +1098,23 @@
 			);
 			name = AFNetworking;
 			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		333ADF1CF6BDEBCFFE666B761E60A26B /* Pods-FlexiPassApp */ = {
+			isa = PBXGroup;
+			children = (
+				6158385CB6F43510A704F638AAD971AA /* Pods-FlexiPassApp.modulemap */,
+				9C56CCECC613491EB522F8F9CF4087D8 /* Pods-FlexiPassApp-acknowledgements.markdown */,
+				F2B9CA4B52E7AC1915ADC685FCFD0A7D /* Pods-FlexiPassApp-acknowledgements.plist */,
+				4B56326CAB25FB77C3DA45E205845B29 /* Pods-FlexiPassApp-dummy.m */,
+				13ABA9B3DA1EFF3F38D8BB21FABA9289 /* Pods-FlexiPassApp-frameworks.sh */,
+				C903031ADD23C0F120F653E018694F8D /* Pods-FlexiPassApp-Info.plist */,
+				709886F7E754E851572E1FC9BCE12339 /* Pods-FlexiPassApp-umbrella.h */,
+				79B583E03567D8FC2C60E174BAABAF58 /* Pods-FlexiPassApp.debug.xcconfig */,
+				8E2AA2B1E6058025D3418D7768187799 /* Pods-FlexiPassApp.release.xcconfig */,
+			);
+			name = "Pods-FlexiPassApp";
+			path = "Target Support Files/Pods-FlexiPassApp";
 			sourceTree = "<group>";
 		};
 		370CC9EB40A1F2A703687DA5E004B9B5 /* Support Files */ = {
@@ -1014,21 +1171,49 @@
 			name = Core;
 			sourceTree = "<group>";
 		};
-		53C824A18D9217F0AEAA5285E0571502 /* Pods-FlexiPassApp */ = {
+		3D60B2E4D5025C5D1CBD394F33948358 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				16B6BEB3465EA2193D904F5C04CC0D9F /* Pods-FlexiPassApp.modulemap */,
-				7B57DA1F5EFD6CF135146BB488A41D91 /* Pods-FlexiPassApp-acknowledgements.markdown */,
-				87BA6779E4ADC70B7659F7EFBE30A3A4 /* Pods-FlexiPassApp-acknowledgements.plist */,
-				B54894C6DFDA28E4FB9DCF45E89CC0D6 /* Pods-FlexiPassApp-dummy.m */,
-				F5449B51D9959E440B58928187F9DF66 /* Pods-FlexiPassApp-frameworks.sh */,
-				CA8BD6B49BDED37047C6B74E8CB9B09F /* Pods-FlexiPassApp-Info.plist */,
-				1BFCE681F45D8EC017AE6795A2DC5FF4 /* Pods-FlexiPassApp-umbrella.h */,
-				BE66E538FA069DA1C7A31B1532013311 /* Pods-FlexiPassApp.debug.xcconfig */,
-				83165F5565ABDF34682F422CE8B2A123 /* Pods-FlexiPassApp.release.xcconfig */,
+				333ADF1CF6BDEBCFFE666B761E60A26B /* Pods-FlexiPassApp */,
+				47011997100D2BA693D90AD0E6E9084A /* Pods-FlexiPassApp-SIT */,
 			);
-			name = "Pods-FlexiPassApp";
-			path = "Target Support Files/Pods-FlexiPassApp";
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		44BC9A8BE76928D1EE62492CDF1DA8F7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9A7D296425B17A61758681EFD94CCF64 /* SeosMobileKeysSDK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		47011997100D2BA693D90AD0E6E9084A /* Pods-FlexiPassApp-SIT */ = {
+			isa = PBXGroup;
+			children = (
+				B98832F283BF4C403BE3AD732C01D33A /* Pods-FlexiPassApp-SIT.modulemap */,
+				93546102029B923EDF154A3CE0929C88 /* Pods-FlexiPassApp-SIT-acknowledgements.markdown */,
+				C48B52B1FBFE2247D3BF43EDF5B0CAD6 /* Pods-FlexiPassApp-SIT-acknowledgements.plist */,
+				768B780E29BDD5D24EE4C35B4E9C9881 /* Pods-FlexiPassApp-SIT-dummy.m */,
+				C6A9B49CEBD21874FBD497A9B953FB68 /* Pods-FlexiPassApp-SIT-frameworks.sh */,
+				02B574712CFC2B21670D3117240C25EF /* Pods-FlexiPassApp-SIT-Info.plist */,
+				5BE21B65BEF205F3C28D47460A80B703 /* Pods-FlexiPassApp-SIT-umbrella.h */,
+				A7DAE75FC75A517F1863E75C035D911B /* Pods-FlexiPassApp-SIT.debug.xcconfig */,
+				CA8C1C334003256D641C8D4B7470EBDE /* Pods-FlexiPassApp-SIT.release.xcconfig */,
+			);
+			name = "Pods-FlexiPassApp-SIT";
+			path = "Target Support Files/Pods-FlexiPassApp-SIT";
+			sourceTree = "<group>";
+		};
+		4E41422A879FC45A507F538F3C9E7E97 /* SeosMobileKeysSDK-Debug */ = {
+			isa = PBXGroup;
+			children = (
+				116FA786FE9FED9AC789620399B9B7CF /* Frameworks */,
+				16D3BFE2454806274676D407BD4D713C /* Pod */,
+				99F50D58AE2DEB7AFD4D36512174C0F4 /* Support Files */,
+			);
+			name = "SeosMobileKeysSDK-Debug";
+			path = ../Mobile_Keys_IOS_SDK/Debug;
 			sourceTree = "<group>";
 		};
 		55469E9BDE5DEAA6539DF660296A55DF /* Security */ = {
@@ -1053,6 +1238,14 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/SwiftyUserDefaults";
+			sourceTree = "<group>";
+		};
+		655C16DAEFA1A1FA7FCFE658FF6C4DB3 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				1721126F15216C84C45EF4B040C48AD8 /* SeosMobileKeysSDK-Release.podspec */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		690837D8D6C168C00C6BD15127225D19 /* Resources */ = {
@@ -1094,17 +1287,6 @@
 			path = "../Target Support Files/KeychainSwift";
 			sourceTree = "<group>";
 		};
-		8FAC05E9829D40D9385B89B9511EB214 /* SeosMobileKeysSDK-Debug */ = {
-			isa = PBXGroup;
-			children = (
-				B3338C26A0B9844A4F2A4B296FD24E7B /* Frameworks */,
-				181E22D78923CDC3ABB8A95D11E95C32 /* Pod */,
-				B2CA57636CCE2E8538C4ABDFE147F40F /* Support Files */,
-			);
-			name = "SeosMobileKeysSDK-Debug";
-			path = ../Mobile_Keys_IOS_SDK/Debug;
-			sourceTree = "<group>";
-		};
 		90F9566FA72AF4B80300D3CAE524B7BA /* Reachability */ = {
 			isa = PBXGroup;
 			children = (
@@ -1127,6 +1309,16 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/AFNetworking";
+			sourceTree = "<group>";
+		};
+		99F50D58AE2DEB7AFD4D36512174C0F4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				77A3A71169547573EF7F41E8EE679456 /* SeosMobileKeysSDK-Debug.debug.xcconfig */,
+				0857F6430C44BCAEA575F5D085C1663C /* SeosMobileKeysSDK-Debug.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../../Pods/Target Support Files/SeosMobileKeysSDK-Debug";
 			sourceTree = "<group>";
 		};
 		A23B3F4AF528D4C6A4EB241AA8E19955 /* SwiftyUserDefaults */ = {
@@ -1174,32 +1366,6 @@
 			path = CocoaLumberjack;
 			sourceTree = "<group>";
 		};
-		A77DA70CA6197F9D043EB43D7D45C6DE /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				8FAC05E9829D40D9385B89B9511EB214 /* SeosMobileKeysSDK-Debug */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		B2CA57636CCE2E8538C4ABDFE147F40F /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				9D72DDA9E9A17B96D311D4F3AD965E9E /* SeosMobileKeysSDK-Debug.debug.xcconfig */,
-				641C3A3B88A60F0D3E503CC3C3AB6FB3 /* SeosMobileKeysSDK-Debug.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../../Pods/Target Support Files/SeosMobileKeysSDK-Debug";
-			sourceTree = "<group>";
-		};
-		B3338C26A0B9844A4F2A4B296FD24E7B /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				E23447236F732E58C2425631689A6B39 /* SeosMobileKeysSDK.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		C95460395A06F215256C4491B457B582 /* BerTlv */ = {
 			isa = PBXGroup;
 			children = (
@@ -1228,12 +1394,37 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				A77DA70CA6197F9D043EB43D7D45C6DE /* Development Pods */,
+				DBA2DB5FCC89D42A5DF1E3D1D629391F /* Development Pods */,
 				0656CE04288357F0748AB498835BA03E /* Frameworks */,
 				0D0F16FC4875176D75A31FA61C780BBF /* Pods */,
-				249DF915CF252EC1B8564167391443BB /* Products */,
-				E6B40E2B42F4D117213D3E4A58CD2CC9 /* Targets Support Files */,
+				D7EEE03435A45C01366AFAA3588C2A61 /* Products */,
+				3D60B2E4D5025C5D1CBD394F33948358 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		D7EEE03435A45C01366AFAA3588C2A61 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4FA15D44DF6BAC7550EDEED10862AA3 /* AFNetworking */,
+				9FA1A3D5BB1DC4B4EDD199EC2D35D59D /* BerTlv */,
+				C261436D14052AE3C35F240BCD155CAC /* CocoaLumberjack */,
+				BAACA1BF7AB3DD28402C4F9A7C2FD104 /* JSONModel */,
+				9E0FD012ADC3C7179C684035672383E5 /* KeychainSwift */,
+				1C230361F74CF7214D3D9A1CB61B5FF9 /* Mixpanel */,
+				C16F8C83CB6BF3CBA9B8CC47682947A4 /* Pods-FlexiPassApp */,
+				955AF87BF49E7EBB27FEB8DC140FF222 /* Pods-FlexiPassApp-SIT */,
+				B7715718A7E1E513F9BC2E99B977FCA9 /* SwiftyUserDefaults */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DBA2DB5FCC89D42A5DF1E3D1D629391F /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4E41422A879FC45A507F538F3C9E7E97 /* SeosMobileKeysSDK-Debug */,
+				1C82D0765A54E96057A97C00EEB37720 /* SeosMobileKeysSDK-Release */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		DBE79F1713032C9E903EEFAA3EC83B37 /* Swift */ = {
@@ -1259,14 +1450,6 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/Mixpanel";
-			sourceTree = "<group>";
-		};
-		E6B40E2B42F4D117213D3E4A58CD2CC9 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				53C824A18D9217F0AEAA5285E0571502 /* Pods-FlexiPassApp */,
-			);
-			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		E81A54992F4234C612B7C88C5D08147F /* Support Files */ = {
@@ -1531,6 +1714,16 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		FD288AE4E9F4C11A6ABC7CD255B928FE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5DE5E0E4E45155633F0A2470056C0C19 /* SeosMobileKeysSDK-Release.debug.xcconfig */,
+				30BB80817E31B6C591174C3DA0014226 /* SeosMobileKeysSDK-Release.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../../Pods/Target Support Files/SeosMobileKeysSDK-Release";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -1720,11 +1913,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8F6B79BAA0660AE664594DB8B9EE105D /* Headers */ = {
+		92D0F915160E1742D9AF5383B20406BD /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				763B4A8F2C946E5B8286F26C74B7A395 /* Pods-FlexiPassApp-umbrella.h in Headers */,
+				82A55AE75F2C98DD665349CA86796514 /* Pods-FlexiPassApp-SIT-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB364FE2C41FA7450D29BB8F4B73A6B6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				943075B9B53346B655F4754080C7FD11 /* Pods-FlexiPassApp-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1747,6 +1948,33 @@
 			name = AFNetworking;
 			productName = AFNetworking;
 			productReference = A4FA15D44DF6BAC7550EDEED10862AA3 /* AFNetworking */;
+			productType = "com.apple.product-type.framework";
+		};
+		06B3B5CF2D023B11F2F55A8CE33AE1F8 /* Pods-FlexiPassApp-SIT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E84D34F25273358D598ACAFC1CA52565 /* Build configuration list for PBXNativeTarget "Pods-FlexiPassApp-SIT" */;
+			buildPhases = (
+				92D0F915160E1742D9AF5383B20406BD /* Headers */,
+				B7AABCE4D63A3D0C1737078D801739C4 /* Sources */,
+				F187C6B106DCEE19E7BD25522E192BBC /* Frameworks */,
+				C497062B13F08A1C14D40CB58B0C46D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4138B8848555D07B06861E3F4B97DE5A /* PBXTargetDependency */,
+				9DE9260C771880A25D534BE4F97D91E4 /* PBXTargetDependency */,
+				754F5CFA9D51C8F90F94BA1B579E9B89 /* PBXTargetDependency */,
+				7AD43A3A2CA27307D22D1B111286ABE7 /* PBXTargetDependency */,
+				301DB88F22BC405D00690D69BA1699B9 /* PBXTargetDependency */,
+				9B8ABF485833595A2E1C917BD61D447C /* PBXTargetDependency */,
+				7B957174803597948036F9644478CD03 /* PBXTargetDependency */,
+				34E3E59C8614EBA4CE663BDC64637375 /* PBXTargetDependency */,
+				4B773E696DE9A8C53067C20A8BEA6CCE /* PBXTargetDependency */,
+			);
+			name = "Pods-FlexiPassApp-SIT";
+			productName = Pods_FlexiPassApp_SIT;
+			productReference = 955AF87BF49E7EBB27FEB8DC140FF222 /* Pods-FlexiPassApp-SIT */;
 			productType = "com.apple.product-type.framework";
 		};
 		07E54A78BCF82272E99319D7F7F5E8C1 /* KeychainSwift */ = {
@@ -1787,24 +2015,25 @@
 		};
 		54579F59E42FA6E751423406B61828DA /* Pods-FlexiPassApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 384204CA73D5E8CA1C2D1F6F3C58BFEE /* Build configuration list for PBXNativeTarget "Pods-FlexiPassApp" */;
+			buildConfigurationList = 8646EEF0C3520B7988D40E0A268FEF74 /* Build configuration list for PBXNativeTarget "Pods-FlexiPassApp" */;
 			buildPhases = (
-				8F6B79BAA0660AE664594DB8B9EE105D /* Headers */,
-				422D65D29C324A0037449D77C14F7A80 /* Sources */,
-				A8ED55CB9AF1CF558714E121C30CA96F /* Frameworks */,
-				C4C1A0192AADD9E4021F1C18E5CA3070 /* Resources */,
+				EB364FE2C41FA7450D29BB8F4B73A6B6 /* Headers */,
+				2733F1D3C1D646D361F5480F37EBD59D /* Sources */,
+				78B125E34DEBBF39F5025B438D194EBD /* Frameworks */,
+				07757D68DE8DF58840088120EFC24915 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				D29845D9FB59D5D1F0DFB3DE1616FC76 /* PBXTargetDependency */,
-				7BD56A68FC772303F03779A66D592013 /* PBXTargetDependency */,
-				4C47BFD0FA18680C7D76C3177C9EC9AD /* PBXTargetDependency */,
-				B45762D9ADF90FEFDA8C17472B1AEC6C /* PBXTargetDependency */,
-				450562B0A6234A26F3DF6B1302F9B40D /* PBXTargetDependency */,
-				F60DDDC3E42830F8820A1982E1ECFC26 /* PBXTargetDependency */,
-				06AEC148FD759AF4CB59D88E677CA1C6 /* PBXTargetDependency */,
-				3B7BC0B8A0441AE3DA33DB5746239CAC /* PBXTargetDependency */,
+				D9065BB9C910BA940DDF059BBBA6EAFF /* PBXTargetDependency */,
+				C29AC90AFCBBBC353BB2DE333A0199FF /* PBXTargetDependency */,
+				41257F69D0BC5E40D608BD2CC1D70383 /* PBXTargetDependency */,
+				DD4BE8579B353FF780731E652F088373 /* PBXTargetDependency */,
+				CCCD55B7011785BA9BBE71D7504D7BF1 /* PBXTargetDependency */,
+				5BF9F13B321AC92CF66EE103539E1135 /* PBXTargetDependency */,
+				34D586804A398DFDD1F3735CC667439E /* PBXTargetDependency */,
+				476C0F422C94E01B32C676F26DC371A1 /* PBXTargetDependency */,
+				2D84312E8A2B72027BFEC228457149E0 /* PBXTargetDependency */,
 			);
 			name = "Pods-FlexiPassApp";
 			productName = Pods_FlexiPassApp;
@@ -1901,7 +2130,7 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 249DF915CF252EC1B8564167391443BB /* Products */;
+			productRefGroup = D7EEE03435A45C01366AFAA3588C2A61 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -1912,13 +2141,22 @@
 				07E54A78BCF82272E99319D7F7F5E8C1 /* KeychainSwift */,
 				537B4CFD82E0DD77F4C26221EBD8EDCA /* Mixpanel */,
 				54579F59E42FA6E751423406B61828DA /* Pods-FlexiPassApp */,
+				06B3B5CF2D023B11F2F55A8CE33AE1F8 /* Pods-FlexiPassApp-SIT */,
 				D0CD85F259A74EAF05A59863BD5A0469 /* SeosMobileKeysSDK-Debug */,
+				48BBEF1EFB64A9F5B723F2FCC6ED815C /* SeosMobileKeysSDK-Release */,
 				A049F3164EBC335A7982A4E1FB3A5EAA /* SwiftyUserDefaults */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		07757D68DE8DF58840088120EFC24915 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		190AACACA9CDB95D885C843407BD9947 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1985,7 +2223,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C4C1A0192AADD9E4021F1C18E5CA3070 /* Resources */ = {
+		C497062B13F08A1C14D40CB58B0C46D2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -2049,6 +2287,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		2733F1D3C1D646D361F5480F37EBD59D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A53E2405A99E94C773C779A835B076C2 /* Pods-FlexiPassApp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		27429ECFAA0B46393CF2868590187F44 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -2057,14 +2303,6 @@
 				B39BF720A3E471DC10CDC6CC3986D2A9 /* KeychainSwift-dummy.m in Sources */,
 				FAA9422DBF165F89AA81D94DB2DBF457 /* KeychainSwiftAccessOptions.swift in Sources */,
 				6C133193471A0A93B4CE45491148072A /* TegKeychainConstants.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		422D65D29C324A0037449D77C14F7A80 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F497362FA419B29F36C4C7B7E127CD8B /* Pods-FlexiPassApp-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2086,6 +2324,14 @@
 				7B6970CFAA2A3D910BF2E1C55069BC11 /* OptionalType.swift in Sources */,
 				E068C4789C3392280D36005B2223CAD7 /* PropertyWrappers.swift in Sources */,
 				F9A02C58490047BB3A9797070C329791 /* SwiftyUserDefaults-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7AABCE4D63A3D0C1737078D801739C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				742147C1D423633636DA21C843615513 /* Pods-FlexiPassApp-SIT-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2202,81 +2448,202 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		06AEC148FD759AF4CB59D88E677CA1C6 /* PBXTargetDependency */ = {
+		05E77E160F441B04C2DA09EBB2FF5F14 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "SeosMobileKeysSDK-Debug";
-			target = D0CD85F259A74EAF05A59863BD5A0469 /* SeosMobileKeysSDK-Debug */;
-			targetProxy = F8CE71001E9EE953C2C7386F1F440615 /* PBXContainerItemProxy */;
+			name = CocoaLumberjack;
+			target = E95654B155D25890BE8E26081FCA8265 /* CocoaLumberjack */;
+			targetProxy = 0148700C282CFEB57DBEA1965C7E066F /* PBXContainerItemProxy */;
 		};
-		3B7BC0B8A0441AE3DA33DB5746239CAC /* PBXTargetDependency */ = {
+		2D84312E8A2B72027BFEC228457149E0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SwiftyUserDefaults;
 			target = A049F3164EBC335A7982A4E1FB3A5EAA /* SwiftyUserDefaults */;
-			targetProxy = 6CEDC13C7EC5250E99928BCC787ADE4C /* PBXContainerItemProxy */;
+			targetProxy = 186ADEBE68A99281C8AD2943A8F527E8 /* PBXContainerItemProxy */;
 		};
-		450562B0A6234A26F3DF6B1302F9B40D /* PBXTargetDependency */ = {
+		301DB88F22BC405D00690D69BA1699B9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = KeychainSwift;
 			target = 07E54A78BCF82272E99319D7F7F5E8C1 /* KeychainSwift */;
-			targetProxy = 93386ED3FAB0636552F70920A01D7F86 /* PBXContainerItemProxy */;
+			targetProxy = D35756EAE4E46B464F2916D453EDB187 /* PBXContainerItemProxy */;
 		};
-		46A12E1FFD17E4D9414D89B31635D1D4 /* PBXTargetDependency */ = {
+		34D586804A398DFDD1F3735CC667439E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = BerTlv;
-			target = 62C2863D6FA80948AF8CE76C9AEFAA37 /* BerTlv */;
-			targetProxy = 2C7FFA6FC81A59331AD7683E19A2B764 /* PBXContainerItemProxy */;
+			name = "SeosMobileKeysSDK-Debug";
+			target = D0CD85F259A74EAF05A59863BD5A0469 /* SeosMobileKeysSDK-Debug */;
+			targetProxy = 5092C9D7F783D94CC9985B710DCB4CA9 /* PBXContainerItemProxy */;
 		};
-		4C47BFD0FA18680C7D76C3177C9EC9AD /* PBXTargetDependency */ = {
+		34E3E59C8614EBA4CE663BDC64637375 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = CocoaLumberjack;
-			target = E95654B155D25890BE8E26081FCA8265 /* CocoaLumberjack */;
-			targetProxy = 79D6EEEE4C291586257786FECEA35A93 /* PBXContainerItemProxy */;
+			name = "SeosMobileKeysSDK-Release";
+			target = 48BBEF1EFB64A9F5B723F2FCC6ED815C /* SeosMobileKeysSDK-Release */;
+			targetProxy = E30484BD43199205C79AE4624069144D /* PBXContainerItemProxy */;
 		};
-		7BD56A68FC772303F03779A66D592013 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = BerTlv;
-			target = 62C2863D6FA80948AF8CE76C9AEFAA37 /* BerTlv */;
-			targetProxy = 08635EEF2E810DE557FBC5BE17FD1D22 /* PBXContainerItemProxy */;
-		};
-		9C61D2AC427BB2F56FFD1AF203BCFF12 /* PBXTargetDependency */ = {
+		36BEAE65E5226BECDFD211B9171D871C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = CocoaLumberjack;
 			target = E95654B155D25890BE8E26081FCA8265 /* CocoaLumberjack */;
-			targetProxy = 5C2049105CDEC6D3E82FB90827BE3CF3 /* PBXContainerItemProxy */;
+			targetProxy = B6EB5F0068A509FC9C09C33E289BEB1A /* PBXContainerItemProxy */;
 		};
-		A847B154CAAEA1527B45F314B7276DD4 /* PBXTargetDependency */ = {
+		3ADD64EBB02873A00F6F80E4EC0C301A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = Mixpanel;
-			target = 537B4CFD82E0DD77F4C26221EBD8EDCA /* Mixpanel */;
-			targetProxy = A8F84CD58BE03A17F266C87A49C9ABDB /* PBXContainerItemProxy */;
+			name = BerTlv;
+			target = 62C2863D6FA80948AF8CE76C9AEFAA37 /* BerTlv */;
+			targetProxy = 47AE71D3A4ED6B528755C5206671A4C9 /* PBXContainerItemProxy */;
 		};
-		B45762D9ADF90FEFDA8C17472B1AEC6C /* PBXTargetDependency */ = {
+		41257F69D0BC5E40D608BD2CC1D70383 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = JSONModel;
-			target = E0EAF4371C6E4B30A1779D513CB4355B /* JSONModel */;
-			targetProxy = C98371A264E122AF07D37ABBFB3814A1 /* PBXContainerItemProxy */;
+			name = CocoaLumberjack;
+			target = E95654B155D25890BE8E26081FCA8265 /* CocoaLumberjack */;
+			targetProxy = 2CCF4EEC838EBE159C8DD60D4E179C56 /* PBXContainerItemProxy */;
 		};
-		D29845D9FB59D5D1F0DFB3DE1616FC76 /* PBXTargetDependency */ = {
+		4138B8848555D07B06861E3F4B97DE5A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = AFNetworking;
 			target = 0130B3724283586C0E9D2A112D4F2AA1 /* AFNetworking */;
-			targetProxy = 126FAECC52AAD6ED96344140B7B8FF93 /* PBXContainerItemProxy */;
+			targetProxy = 3AC2D3C88C2BF88362072069FBAF8144 /* PBXContainerItemProxy */;
 		};
-		EBD88FCF2F3A12DFDB25FE1349C8765D /* PBXTargetDependency */ = {
+		476C0F422C94E01B32C676F26DC371A1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = JSONModel;
-			target = E0EAF4371C6E4B30A1779D513CB4355B /* JSONModel */;
-			targetProxy = A5A3E03E5058BDC4B9E3017DB783E5B5 /* PBXContainerItemProxy */;
+			name = "SeosMobileKeysSDK-Release";
+			target = 48BBEF1EFB64A9F5B723F2FCC6ED815C /* SeosMobileKeysSDK-Release */;
+			targetProxy = C935988052813B8721A1E5B2A1D0AAFF /* PBXContainerItemProxy */;
 		};
-		F60DDDC3E42830F8820A1982E1ECFC26 /* PBXTargetDependency */ = {
+		4B773E696DE9A8C53067C20A8BEA6CCE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyUserDefaults;
+			target = A049F3164EBC335A7982A4E1FB3A5EAA /* SwiftyUserDefaults */;
+			targetProxy = 043355D2191B18D314058774DDD8E3AD /* PBXContainerItemProxy */;
+		};
+		5BF9F13B321AC92CF66EE103539E1135 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Mixpanel;
 			target = 537B4CFD82E0DD77F4C26221EBD8EDCA /* Mixpanel */;
-			targetProxy = E0D1CC349C5AF787C6797C17F430DB0A /* PBXContainerItemProxy */;
+			targetProxy = 672F8CC23E10B6CFE328BECD5A61F3DF /* PBXContainerItemProxy */;
+		};
+		754F5CFA9D51C8F90F94BA1B579E9B89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CocoaLumberjack;
+			target = E95654B155D25890BE8E26081FCA8265 /* CocoaLumberjack */;
+			targetProxy = 994FD125C6A576DB2D6716030E288044 /* PBXContainerItemProxy */;
+		};
+		7AD43A3A2CA27307D22D1B111286ABE7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JSONModel;
+			target = E0EAF4371C6E4B30A1779D513CB4355B /* JSONModel */;
+			targetProxy = F4E0FC5139B09B427097648184C350AF /* PBXContainerItemProxy */;
+		};
+		7B957174803597948036F9644478CD03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SeosMobileKeysSDK-Debug";
+			target = D0CD85F259A74EAF05A59863BD5A0469 /* SeosMobileKeysSDK-Debug */;
+			targetProxy = 916B25167AFD5F5C9FF2195486E935B7 /* PBXContainerItemProxy */;
+		};
+		9B8ABF485833595A2E1C917BD61D447C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Mixpanel;
+			target = 537B4CFD82E0DD77F4C26221EBD8EDCA /* Mixpanel */;
+			targetProxy = 853BC84DF616CABDA3D3B27012EFD415 /* PBXContainerItemProxy */;
+		};
+		9CA7152FCF33200C553B8D4C503B373C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Mixpanel;
+			target = 537B4CFD82E0DD77F4C26221EBD8EDCA /* Mixpanel */;
+			targetProxy = D3651CE8690C313C55F075BD66DFFB4F /* PBXContainerItemProxy */;
+		};
+		9DE9260C771880A25D534BE4F97D91E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BerTlv;
+			target = 62C2863D6FA80948AF8CE76C9AEFAA37 /* BerTlv */;
+			targetProxy = 5AD00543B520A543596817AA9BF4A46F /* PBXContainerItemProxy */;
+		};
+		A30EEA966A3C6851507D7E7CD2542605 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BerTlv;
+			target = 62C2863D6FA80948AF8CE76C9AEFAA37 /* BerTlv */;
+			targetProxy = 29E87DFF814F2CA5DFB91C38AED27D72 /* PBXContainerItemProxy */;
+		};
+		ADCEF57828AC9352AD4CB346464C886A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JSONModel;
+			target = E0EAF4371C6E4B30A1779D513CB4355B /* JSONModel */;
+			targetProxy = 8188584471750FC027E68CAE3EF86960 /* PBXContainerItemProxy */;
+		};
+		AFEB2936178D724E7431366F6EEED914 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JSONModel;
+			target = E0EAF4371C6E4B30A1779D513CB4355B /* JSONModel */;
+			targetProxy = CDD923BBA16B770D4D1215158CAC568D /* PBXContainerItemProxy */;
+		};
+		C29AC90AFCBBBC353BB2DE333A0199FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BerTlv;
+			target = 62C2863D6FA80948AF8CE76C9AEFAA37 /* BerTlv */;
+			targetProxy = C559D46BA5013E3D307223EB0529B2C0 /* PBXContainerItemProxy */;
+		};
+		CA6EA04986A6FAF21929C066C5DBC473 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Mixpanel;
+			target = 537B4CFD82E0DD77F4C26221EBD8EDCA /* Mixpanel */;
+			targetProxy = E602C669715FE4C7E64A6967E22714D6 /* PBXContainerItemProxy */;
+		};
+		CCCD55B7011785BA9BBE71D7504D7BF1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KeychainSwift;
+			target = 07E54A78BCF82272E99319D7F7F5E8C1 /* KeychainSwift */;
+			targetProxy = F557380AED097428A07CA0477CE95EB2 /* PBXContainerItemProxy */;
+		};
+		D9065BB9C910BA940DDF059BBBA6EAFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AFNetworking;
+			target = 0130B3724283586C0E9D2A112D4F2AA1 /* AFNetworking */;
+			targetProxy = 2E7500A2E93CB5251A6A575FD4555D3B /* PBXContainerItemProxy */;
+		};
+		DD4BE8579B353FF780731E652F088373 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JSONModel;
+			target = E0EAF4371C6E4B30A1779D513CB4355B /* JSONModel */;
+			targetProxy = A03918F11CA49308EE82E2481550AAAF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		01F7AC7EB30F10D7C1FAC2B04231FC05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79B583E03567D8FC2C60E174BAABAF58 /* Pods-FlexiPassApp.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FlexiPassApp/Pods-FlexiPassApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FlexiPassApp/Pods-FlexiPassApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		06D375A9A7018C8AE50010772A051396 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D51EFC439AF87EB27C6D6933BD151438 /* BerTlv.release.xcconfig */;
@@ -2347,43 +2714,6 @@
 			};
 			name = Release;
 		};
-		18417A2F585328F793BCDC5D17690510 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BE66E538FA069DA1C7A31B1532013311 /* Pods-FlexiPassApp.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-FlexiPassApp/Pods-FlexiPassApp-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-FlexiPassApp/Pods-FlexiPassApp.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		1E5C0840C6190338AAC7E71362C91E35 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CC9D190A51D450F5C5CFC7624BF47110 /* BerTlv.debug.xcconfig */;
@@ -2415,6 +2745,60 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		214AEFC1B2842E4C8C832A7F5E29204C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7DAE75FC75A517F1863E75C035D911B /* Pods-FlexiPassApp-SIT.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FlexiPassApp-SIT/Pods-FlexiPassApp-SIT-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FlexiPassApp-SIT/Pods-FlexiPassApp-SIT.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		21583F152B3A6A87165F4BF87DDD81AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5DE5E0E4E45155633F0A2470056C0C19 /* SeosMobileKeysSDK-Release.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -2454,7 +2838,7 @@
 		};
 		38D04A0775CF19C26A13B4D0E52FA9A1 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 641C3A3B88A60F0D3E503CC3C3AB6FB3 /* SeosMobileKeysSDK-Debug.release.xcconfig */;
+			baseConfigurationReference = 0857F6430C44BCAEA575F5D085C1663C /* SeosMobileKeysSDK-Debug.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -2677,6 +3061,44 @@
 			};
 			name = Debug;
 		};
+		8BFD7E7E8A86C2CDC49D0E1987294EE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA8C1C334003256D641C8D4B7470EBDE /* Pods-FlexiPassApp-SIT.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FlexiPassApp-SIT/Pods-FlexiPassApp-SIT-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FlexiPassApp-SIT/Pods-FlexiPassApp-SIT.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		8D8AB206431FADC5A74C5B8E50CCA23F /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7606E6282381D511C097DBFCE0E92E8E /* CocoaLumberjack.release.xcconfig */;
@@ -2840,47 +3262,9 @@
 			};
 			name = Debug;
 		};
-		B85CD02F19AFCF99786369389DF69F77 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 83165F5565ABDF34682F422CE8B2A123 /* Pods-FlexiPassApp.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-FlexiPassApp/Pods-FlexiPassApp-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-FlexiPassApp/Pods-FlexiPassApp.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		C1CB0AAD5E461A43BC9E3DA1E013CB23 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9D72DDA9E9A17B96D311D4F3AD965E9E /* SeosMobileKeysSDK-Debug.debug.xcconfig */;
+			baseConfigurationReference = 77A3A71169547573EF7F41E8EE679456 /* SeosMobileKeysSDK-Debug.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -2894,6 +3278,24 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
+		};
+		CD3E9A8E5F463272375A175A443DD02F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30BB80817E31B6C591174C3DA0014226 /* SeosMobileKeysSDK-Release.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
 		};
 		D2F78367C06F341A16DEF595FE4BB14C /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -2928,6 +3330,44 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		E23D2694D1AD87AF496866372FD29960 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E2AA2B1E6058025D3418D7768187799 /* Pods-FlexiPassApp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FlexiPassApp/Pods-FlexiPassApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FlexiPassApp/Pods-FlexiPassApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		EEED8A3120CB1D06DA2E369D565B9DC1 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -3019,15 +3459,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		384204CA73D5E8CA1C2D1F6F3C58BFEE /* Build configuration list for PBXNativeTarget "Pods-FlexiPassApp" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				18417A2F585328F793BCDC5D17690510 /* Debug */,
-				B85CD02F19AFCF99786369389DF69F77 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		3E75B87A50ED77718B226D7595EDE4CD /* Build configuration list for PBXNativeTarget "Mixpanel" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -3055,6 +3486,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		8646EEF0C3520B7988D40E0A268FEF74 /* Build configuration list for PBXNativeTarget "Pods-FlexiPassApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01F7AC7EB30F10D7C1FAC2B04231FC05 /* Debug */,
+				E23D2694D1AD87AF496866372FD29960 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		8B22511FD4C112F7911CB746E59F6639 /* Build configuration list for PBXNativeTarget "CocoaLumberjack" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -3073,11 +3513,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		CFEA2C113A067079ADC2E8C9F4807E92 /* Build configuration list for PBXAggregateTarget "SeosMobileKeysSDK-Release" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21583F152B3A6A87165F4BF87DDD81AC /* Debug */,
+				CD3E9A8E5F463272375A175A443DD02F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		D5480C5D42AA8B0CF0C71E4D89BF03BF /* Build configuration list for PBXNativeTarget "AFNetworking" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5CE1ACD8F38293A418223DB2AFCED7F3 /* Debug */,
 				06D3C0633EA3B734D3E23B7290CE862F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E84D34F25273358D598ACAFC1CA52565 /* Build configuration list for PBXNativeTarget "Pods-FlexiPassApp-SIT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				214AEFC1B2842E4C8C832A7F5E29204C /* Debug */,
+				8BFD7E7E8A86C2CDC49D0E1987294EE6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

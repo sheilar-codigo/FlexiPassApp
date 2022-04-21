@@ -1,0 +1,6 @@
+framework module Pods_FlexiPassApp_SIT {
+  umbrella header "Pods-FlexiPassApp-SIT-umbrella.h"
+
+  export *
+  module * { export * }
+}

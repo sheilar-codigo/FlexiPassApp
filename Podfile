@@ -2,8 +2,14 @@ source 'https://github.com/CocoaPods/Specs.git'
 platform :ios, '11.0'
 use_frameworks!
 
+project 'FlexiPassApp', {
+    'Debug' => :debug,
+    'Release' => :release,
+}
+
 def applibs
-  pod 'SeosMobileKeysSDK-Debug', :path  => 'Mobile_Keys_IOS_SDK/Debug/SeosMobileKeysSDK-Debug.podspec'
+  pod 'SeosMobileKeysSDK-Debug', :configuration => ['Debug'], :path  => 'Mobile_Keys_IOS_SDK/Debug/SeosMobileKeysSDK-Debug.podspec'
+  pod 'SeosMobileKeysSDK-Release', :configuration => ['Release'], :path  => 'Mobile_Keys_IOS_SDK/Release/SeosMobileKeysSDK-Release.podspec'
   pod 'AFNetworking', '~> 4.0'
   pod 'JSONModel'
   pod 'SwiftyUserDefaults', '~> 5.0'

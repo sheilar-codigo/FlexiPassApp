@@ -26,6 +26,11 @@ PODS:
     - CocoaLumberjack/Swift (~> 3.5.3)
     - JSONModel (~> 1.8.0)
     - Mixpanel (~> 3.4.9)
+  - SeosMobileKeysSDK-Release (7.5.2):
+    - BerTlv (~> 0.2.5)
+    - CocoaLumberjack/Swift (~> 3.5.3)
+    - JSONModel (~> 1.8.0)
+    - Mixpanel (~> 3.4.9)
   - SwiftyUserDefaults (5.3.0)
 
 DEPENDENCIES:
@@ -33,6 +38,7 @@ DEPENDENCIES:
   - JSONModel
   - KeychainSwift (~> 20.0)
   - SeosMobileKeysSDK-Debug (from `Mobile_Keys_IOS_SDK/Debug/SeosMobileKeysSDK-Debug.podspec`)
+  - SeosMobileKeysSDK-Release (from `Mobile_Keys_IOS_SDK/Release/SeosMobileKeysSDK-Release.podspec`)
   - SwiftyUserDefaults (~> 5.0)
 
 SPEC REPOS:
@@ -48,6 +54,8 @@ SPEC REPOS:
 EXTERNAL SOURCES:
   SeosMobileKeysSDK-Debug:
     :path: Mobile_Keys_IOS_SDK/Debug/SeosMobileKeysSDK-Debug.podspec
+  SeosMobileKeysSDK-Release:
+    :path: Mobile_Keys_IOS_SDK/Release/SeosMobileKeysSDK-Release.podspec
 
 SPEC CHECKSUMS:
   AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
@@ -57,8 +65,9 @@ SPEC CHECKSUMS:
   KeychainSwift: 0ce6a4d13f7228054d1a71bb1b500448fb2ab837
   Mixpanel: 5aca6e506b34650b96dc759a208513d86650fac7
   SeosMobileKeysSDK-Debug: 05bfe00e52a0357c5e22a99d176c726987b6de84
+  SeosMobileKeysSDK-Release: e327ef0fc15eae3d4714377a47bf69d2ddb44bcd
   SwiftyUserDefaults: 63f80248cf5bfb3458825d9a78f2eb7e1293a040
 
-PODFILE CHECKSUM: 53718142f8f9ce723e65ac6b38daa7a6121b4b39
+PODFILE CHECKSUM: d437602be7df5a20e521f5068f8ea8b87d98eb1c
 
 COCOAPODS: 1.11.3
