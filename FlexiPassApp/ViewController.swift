@@ -118,7 +118,6 @@ class ViewController: UIViewController {
         showLoading()
         flexipass.startReader()
         flexipass.isSetupComplete()
-
     }
     
     @objc func handleUpdateKey() {
@@ -155,9 +154,9 @@ class ViewController: UIViewController {
             btnUpdate.isHidden = true
             btnRemove.isHidden = true
             
-            txtMobileKeyCode.isHidden = false
-            btnSetup.isHidden = false
-            txtMobileKeyCode.text = ""
+            // txtMobileKeyCode.isHidden = false
+            // btnSetup.isHidden = false
+            // txtMobileKeyCode.text = ""
 
         case .hide:
             keyInfoStackView.isHidden = false
@@ -165,9 +164,9 @@ class ViewController: UIViewController {
             btnUpdate.isHidden = false
             btnRemove.isHidden = false
             
-            txtMobileKeyCode.isHidden = true
-            btnSetup.isHidden = true
-            txtMobileKeyCode.resignFirstResponder()
+            // txtMobileKeyCode.isHidden = true
+            // btnSetup.isHidden = true
+            // txtMobileKeyCode.resignFirstResponder()
         }
         
     }
@@ -201,6 +200,7 @@ extension ViewController: FlexipassCallbackDelegate {
             switch fpco.result {
                 
             case .setup_success:
+                self?.handleUpdateKey()
                 // 1.
                 self?.hideLoading()
                 self?.logs.append("Successfully setup the key on this device. Digital Key is ready to use ✅.")
