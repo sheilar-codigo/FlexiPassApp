@@ -2648,6 +2648,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D51EFC439AF87EB27C6D6933BD151438 /* BerTlv.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -2683,6 +2684,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8693DA08354CB028AC090979B6328691 /* AFNetworking.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -2718,6 +2720,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CC9D190A51D450F5C5CFC7624BF47110 /* BerTlv.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -2789,6 +2792,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5DE5E0E4E45155633F0A2470056C0C19 /* SeosMobileKeysSDK-Release.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -2806,6 +2810,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 51E27925BCFAAEAD5B4F65A107D39B90 /* SwiftyUserDefaults.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -2840,6 +2845,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0857F6430C44BCAEA575F5D085C1663C /* SeosMobileKeysSDK-Debug.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -2858,6 +2864,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3F0B7D3AB7F8D4BF3A067E2DE50E5CCA /* AFNetworking.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -2892,6 +2899,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A2C81C37EDD110CFF99451D62C7BCBCE /* SwiftyUserDefaults.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -2927,6 +2935,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 82CDCE6EEEE2C2A779E6603567A0098E /* Mixpanel.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -2961,6 +2970,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 88722182B9DF7B1E4F6D773DF19B989C /* KeychainSwift.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -2996,6 +3006,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2D6579117BB22B67747D7C3B5713F65C /* Mixpanel.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -3031,6 +3042,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 89BB4F24C36327D24B00DB02A0ED9C5F /* CocoaLumberjack.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -3103,6 +3115,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7606E6282381D511C097DBFCE0E92E8E /* CocoaLumberjack.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -3266,6 +3279,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 77A3A71169547573EF7F41E8EE679456 /* SeosMobileKeysSDK-Debug.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -3283,6 +3297,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 30BB80817E31B6C591174C3DA0014226 /* SeosMobileKeysSDK-Release.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -3301,6 +3316,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = AB9EEE55E22C8815677F836AE44D1CFE /* KeychainSwift.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -3373,6 +3389,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E5069FD5BB47BFD63D29A664940A04FB /* JSONModel.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -3407,6 +3424,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BD3699F0AC9CC7B8B1269DBA4B58BC49 /* JSONModel.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";

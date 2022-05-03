@@ -42,7 +42,7 @@ DEPENDENCIES:
   - SwiftyUserDefaults (~> 5.0)
 
 SPEC REPOS:
-  https://github.com/CocoaPods/Specs.git:
+  trunk:
     - AFNetworking
     - BerTlv
     - CocoaLumberjack
@@ -68,6 +68,6 @@ SPEC CHECKSUMS:
   SeosMobileKeysSDK-Release: e327ef0fc15eae3d4714377a47bf69d2ddb44bcd
   SwiftyUserDefaults: 63f80248cf5bfb3458825d9a78f2eb7e1293a040
 
-PODFILE CHECKSUM: d437602be7df5a20e521f5068f8ea8b87d98eb1c
+PODFILE CHECKSUM: fc0dbd11daae3dcf1a42bba193428b1da4873e78
 
 COCOAPODS: 1.11.3

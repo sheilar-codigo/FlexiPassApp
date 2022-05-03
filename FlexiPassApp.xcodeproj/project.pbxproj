@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		170DA4A7C069E981941202D9 /* Pods_FlexiPassApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 694CBE4E0525CE1158725A62 /* Pods_FlexiPassApp.framework */; };
-		971AC3B9EDD4CAD838CE7920 /* Pods_FlexiPassApp_SIT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08096BFB4712A95F06FF4E75 /* Pods_FlexiPassApp_SIT.framework */; };
+		664BE32C0F2A99756CE528B1 /* Pods_FlexiPassApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12F3C333D000262A2855181B /* Pods_FlexiPassApp.framework */; };
+		7E2DD7EA2D45CB1DF43F223E /* Pods_FlexiPassApp_SIT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ACF47479CB305167D0DDCD0 /* Pods_FlexiPassApp_SIT.framework */; };
 		AF093A3A2811134E001C5925 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF093A392811134E001C5925 /* AppDelegate.swift */; };
 		AF093A3C2811134E001C5925 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF093A3B2811134E001C5925 /* SceneDelegate.swift */; };
 		AF093A3E2811134E001C5925 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF093A3D2811134E001C5925 /* ViewController.swift */; };
@@ -25,7 +25,6 @@
 		AF14101A28116D0E009DEEB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF093A422811134F001C5925 /* Assets.xcassets */; };
 		AF14101B28116D0E009DEEB0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF093A3F2811134E001C5925 /* Main.storyboard */; };
 		AF14101E28116D0E009DEEB0 /* FlexipassSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AF093A4D281117BC001C5925 /* FlexipassSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		B89006501B173A31A044DCC5 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -54,12 +53,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		08096BFB4712A95F06FF4E75 /* Pods_FlexiPassApp_SIT.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlexiPassApp_SIT.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0AD682DD35068018C6FE33C4 /* Pods-FlexiPassApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlexiPassApp.debug.xcconfig"; path = "Target Support Files/Pods-FlexiPassApp/Pods-FlexiPassApp.debug.xcconfig"; sourceTree = "<group>"; };
-		133F9191D5678203F1FF88BE /* Pods-FlexiPassApp-SIT.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlexiPassApp-SIT.release.xcconfig"; path = "Target Support Files/Pods-FlexiPassApp-SIT/Pods-FlexiPassApp-SIT.release.xcconfig"; sourceTree = "<group>"; };
-		5A0DD8865592BF4E8EBCDF6A /* Pods-FlexiPassApp-SIT.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlexiPassApp-SIT.debug.xcconfig"; path = "Target Support Files/Pods-FlexiPassApp-SIT/Pods-FlexiPassApp-SIT.debug.xcconfig"; sourceTree = "<group>"; };
-		694CBE4E0525CE1158725A62 /* Pods_FlexiPassApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlexiPassApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7D27ECE97A30EB14AAF9AB21 /* Pods-FlexiPassApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlexiPassApp.release.xcconfig"; path = "Target Support Files/Pods-FlexiPassApp/Pods-FlexiPassApp.release.xcconfig"; sourceTree = "<group>"; };
+		12F3C333D000262A2855181B /* Pods_FlexiPassApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlexiPassApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		17C2157FD491F3D9674D32DA /* Pods-FlexiPassApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlexiPassApp.release.xcconfig"; path = "Target Support Files/Pods-FlexiPassApp/Pods-FlexiPassApp.release.xcconfig"; sourceTree = "<group>"; };
+		1A69AFDC7A9A7BDB7DA3EACF /* Pods-FlexiPassApp-SIT.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlexiPassApp-SIT.release.xcconfig"; path = "Target Support Files/Pods-FlexiPassApp-SIT/Pods-FlexiPassApp-SIT.release.xcconfig"; sourceTree = "<group>"; };
+		38C022D99042B4935F163462 /* Pods-FlexiPassApp-SIT.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlexiPassApp-SIT.debug.xcconfig"; path = "Target Support Files/Pods-FlexiPassApp-SIT/Pods-FlexiPassApp-SIT.debug.xcconfig"; sourceTree = "<group>"; };
+		7ACF47479CB305167D0DDCD0 /* Pods_FlexiPassApp_SIT.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlexiPassApp_SIT.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		82EAA8A94F66371CF2A7BEE0 /* Pods-FlexiPassApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlexiPassApp.debug.xcconfig"; path = "Target Support Files/Pods-FlexiPassApp/Pods-FlexiPassApp.debug.xcconfig"; sourceTree = "<group>"; };
 		AF093A362811134E001C5925 /* FlexiPassApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlexiPassApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF093A392811134E001C5925 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AF093A3B2811134E001C5925 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -78,9 +77,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B89006501B173A31A044DCC5 /* BuildFile in Frameworks */,
 				AF093A4F28111862001C5925 /* FlexipassSDK.framework in Frameworks */,
-				170DA4A7C069E981941202D9 /* Pods_FlexiPassApp.framework in Frameworks */,
+				664BE32C0F2A99756CE528B1 /* Pods_FlexiPassApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,20 +87,29 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF14101728116D0E009DEEB0 /* FlexipassSDK.framework in Frameworks */,
-				971AC3B9EDD4CAD838CE7920 /* Pods_FlexiPassApp_SIT.framework in Frameworks */,
+				7E2DD7EA2D45CB1DF43F223E /* Pods_FlexiPassApp_SIT.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0EFB5D86D64C4E48AE88BBCA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				12F3C333D000262A2855181B /* Pods_FlexiPassApp.framework */,
+				7ACF47479CB305167D0DDCD0 /* Pods_FlexiPassApp_SIT.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		48149575C0105DBC1084E713 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				0AD682DD35068018C6FE33C4 /* Pods-FlexiPassApp.debug.xcconfig */,
-				7D27ECE97A30EB14AAF9AB21 /* Pods-FlexiPassApp.release.xcconfig */,
-				5A0DD8865592BF4E8EBCDF6A /* Pods-FlexiPassApp-SIT.debug.xcconfig */,
-				133F9191D5678203F1FF88BE /* Pods-FlexiPassApp-SIT.release.xcconfig */,
+				82EAA8A94F66371CF2A7BEE0 /* Pods-FlexiPassApp.debug.xcconfig */,
+				17C2157FD491F3D9674D32DA /* Pods-FlexiPassApp.release.xcconfig */,
+				38C022D99042B4935F163462 /* Pods-FlexiPassApp-SIT.debug.xcconfig */,
+				1A69AFDC7A9A7BDB7DA3EACF /* Pods-FlexiPassApp-SIT.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -114,8 +121,8 @@
 				AF093A382811134E001C5925 /* FlexiPassApp */,
 				AF093A372811134E001C5925 /* Products */,
 				48149575C0105DBC1084E713 /* Pods */,
-				BB8C6FDE4A3FAE4BF18FA089 /* Frameworks */,
 				AF14102328116D0F009DEEB0 /* FlexiPassApp copy-Info.plist */,
+				0EFB5D86D64C4E48AE88BBCA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -142,15 +149,6 @@
 			path = FlexiPassApp;
 			sourceTree = "<group>";
 		};
-		BB8C6FDE4A3FAE4BF18FA089 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				08096BFB4712A95F06FF4E75 /* Pods_FlexiPassApp_SIT.framework */,
-				694CBE4E0525CE1158725A62 /* Pods_FlexiPassApp.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -158,12 +156,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AF093A4A2811134F001C5925 /* Build configuration list for PBXNativeTarget "FlexiPassApp" */;
 			buildPhases = (
-				62A4928ABB3D4B359969BC15 /* [CP] Check Pods Manifest.lock */,
+				25F909549245882C7ADF5338 /* [CP] Check Pods Manifest.lock */,
 				AF093A322811134E001C5925 /* Sources */,
 				AF093A332811134E001C5925 /* Frameworks */,
 				AF093A342811134E001C5925 /* Resources */,
-				7940A2E265A2CF8AA00E3E2E /* [CP] Embed Pods Frameworks */,
 				AF093A5128111862001C5925 /* Embed Frameworks */,
+				CE50491D0B4C9E7E37B68C4B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -178,12 +176,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AF14101F28116D0E009DEEB0 /* Build configuration list for PBXNativeTarget "FlexiPassApp-SIT" */;
 			buildPhases = (
-				AF14101028116D0E009DEEB0 /* [CP] Check Pods Manifest.lock */,
+				E020FCEDE830A16F9D964679 /* [CP] Check Pods Manifest.lock */,
 				AF14101128116D0E009DEEB0 /* Sources */,
 				AF14101528116D0E009DEEB0 /* Frameworks */,
 				AF14101828116D0E009DEEB0 /* Resources */,
-				AF14101C28116D0E009DEEB0 /* [CP] Embed Pods Frameworks */,
 				AF14101D28116D0E009DEEB0 /* Embed Frameworks */,
+				3940CE219A79BEB48655AA8C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -252,7 +250,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		62A4928ABB3D4B359969BC15 /* [CP] Check Pods Manifest.lock */ = {
+		25F909549245882C7ADF5338 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -274,7 +272,24 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		7940A2E265A2CF8AA00E3E2E /* [CP] Embed Pods Frameworks */ = {
+		3940CE219A79BEB48655AA8C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FlexiPassApp-SIT/Pods-FlexiPassApp-SIT-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FlexiPassApp-SIT/Pods-FlexiPassApp-SIT-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FlexiPassApp-SIT/Pods-FlexiPassApp-SIT-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE50491D0B4C9E7E37B68C4B /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -291,7 +306,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FlexiPassApp/Pods-FlexiPassApp-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		AF14101028116D0E009DEEB0 /* [CP] Check Pods Manifest.lock */ = {
+		E020FCEDE830A16F9D964679 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -311,23 +326,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		AF14101C28116D0E009DEEB0 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-FlexiPassApp-SIT/Pods-FlexiPassApp-SIT-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-FlexiPassApp-SIT/Pods-FlexiPassApp-SIT-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FlexiPassApp-SIT/Pods-FlexiPassApp-SIT-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -491,14 +489,14 @@
 		};
 		AF093A4B2811134F001C5925 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0AD682DD35068018C6FE33C4 /* Pods-FlexiPassApp.debug.xcconfig */;
+			baseConfigurationReference = 82EAA8A94F66371CF2A7BEE0 /* Pods-FlexiPassApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = PDYS8RZ74Y;
+				DEVELOPMENT_TEAM = 3LGZY3S9Q5;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -518,9 +516,9 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.sheilarcodigo.FlexiPassApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kyawcodigo.FlexiPassApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = FlexiPassApp_Dist;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -529,14 +527,14 @@
 		};
 		AF093A4C2811134F001C5925 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7D27ECE97A30EB14AAF9AB21 /* Pods-FlexiPassApp.release.xcconfig */;
+			baseConfigurationReference = 17C2157FD491F3D9674D32DA /* Pods-FlexiPassApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = PDYS8RZ74Y;
+				DEVELOPMENT_TEAM = 3LGZY3S9Q5;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -556,9 +554,9 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.sheilarcodigo.FlexiPassApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kyawcodigo.FlexiPassApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = FlexiPassApp_Dist;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -567,14 +565,14 @@
 		};
 		AF14102028116D0E009DEEB0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5A0DD8865592BF4E8EBCDF6A /* Pods-FlexiPassApp-SIT.debug.xcconfig */;
+			baseConfigurationReference = 38C022D99042B4935F163462 /* Pods-FlexiPassApp-SIT.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = PDYS8RZ74Y;
+				DEVELOPMENT_TEAM = 3LGZY3S9Q5;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -594,9 +592,9 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.sheilarcodigo.FlexiPassApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kyawcodigo.FlexiPassApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = FlexiPassApp_Dist;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -605,14 +603,14 @@
 		};
 		AF14102128116D0E009DEEB0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 133F9191D5678203F1FF88BE /* Pods-FlexiPassApp-SIT.release.xcconfig */;
+			baseConfigurationReference = 1A69AFDC7A9A7BDB7DA3EACF /* Pods-FlexiPassApp-SIT.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = PDYS8RZ74Y;
+				DEVELOPMENT_TEAM = 3LGZY3S9Q5;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -632,9 +630,9 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.sheilarcodigo.FlexiPassApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kyawcodigo.FlexiPassApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = FlexiPassApp_Dist;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
