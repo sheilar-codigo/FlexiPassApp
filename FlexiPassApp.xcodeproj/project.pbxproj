@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		170DA4A7C069E981941202D9 /* Pods_FlexiPassApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 694CBE4E0525CE1158725A62 /* Pods_FlexiPassApp.framework */; };
 		971AC3B9EDD4CAD838CE7920 /* Pods_FlexiPassApp_SIT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08096BFB4712A95F06FF4E75 /* Pods_FlexiPassApp_SIT.framework */; };
 		AF093A3A2811134E001C5925 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF093A392811134E001C5925 /* AppDelegate.swift */; };
 		AF093A3C2811134E001C5925 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF093A3B2811134E001C5925 /* SceneDelegate.swift */; };
@@ -24,7 +25,7 @@
 		AF14101A28116D0E009DEEB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF093A422811134F001C5925 /* Assets.xcassets */; };
 		AF14101B28116D0E009DEEB0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF093A3F2811134E001C5925 /* Main.storyboard */; };
 		AF14101E28116D0E009DEEB0 /* FlexipassSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AF093A4D281117BC001C5925 /* FlexipassSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		B89006501B173A31A044DCC5 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
+		B89006501B173A31A044DCC5 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -57,6 +58,7 @@
 		0AD682DD35068018C6FE33C4 /* Pods-FlexiPassApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlexiPassApp.debug.xcconfig"; path = "Target Support Files/Pods-FlexiPassApp/Pods-FlexiPassApp.debug.xcconfig"; sourceTree = "<group>"; };
 		133F9191D5678203F1FF88BE /* Pods-FlexiPassApp-SIT.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlexiPassApp-SIT.release.xcconfig"; path = "Target Support Files/Pods-FlexiPassApp-SIT/Pods-FlexiPassApp-SIT.release.xcconfig"; sourceTree = "<group>"; };
 		5A0DD8865592BF4E8EBCDF6A /* Pods-FlexiPassApp-SIT.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlexiPassApp-SIT.debug.xcconfig"; path = "Target Support Files/Pods-FlexiPassApp-SIT/Pods-FlexiPassApp-SIT.debug.xcconfig"; sourceTree = "<group>"; };
+		694CBE4E0525CE1158725A62 /* Pods_FlexiPassApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlexiPassApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D27ECE97A30EB14AAF9AB21 /* Pods-FlexiPassApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlexiPassApp.release.xcconfig"; path = "Target Support Files/Pods-FlexiPassApp/Pods-FlexiPassApp.release.xcconfig"; sourceTree = "<group>"; };
 		AF093A362811134E001C5925 /* FlexiPassApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlexiPassApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF093A392811134E001C5925 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -76,8 +78,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B89006501B173A31A044DCC5 /* (null) in Frameworks */,
+				B89006501B173A31A044DCC5 /* BuildFile in Frameworks */,
 				AF093A4F28111862001C5925 /* FlexipassSDK.framework in Frameworks */,
+				170DA4A7C069E981941202D9 /* Pods_FlexiPassApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,6 +146,7 @@
 			isa = PBXGroup;
 			children = (
 				08096BFB4712A95F06FF4E75 /* Pods_FlexiPassApp_SIT.framework */,
+				694CBE4E0525CE1158725A62 /* Pods_FlexiPassApp.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
