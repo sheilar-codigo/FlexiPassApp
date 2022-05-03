@@ -164,11 +164,158 @@
             </objects>
             <point key="canvasLocation" x="18.840579710144929" y="79.6875"/>
         </scene>
+        <!--AddMobileKeyVC-->
+        <scene sceneID="H1v-39-o5N">
+            <objects>
+                <viewController storyboardIdentifier="AddMobileKeyVC" id="rt9-9r-R0f" customClass="AddMobileKeyVC" customModule="FlexiPassApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ooZ-fM-RCd">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="22" translatesAutoresizingMaskIntoConstraints="NO" id="j19-lY-f41">
+                                <rect key="frame" x="40" y="326" width="334" height="124"/>
+                                <subviews>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter mobile key code" textAlignment="natural" minimumFontSize="18" translatesAutoresizingMaskIntoConstraints="NO" id="izx-y5-Dgs">
+                                        <rect key="frame" x="0.0" y="0.0" width="334" height="54"/>
+                                        <color key="backgroundColor" systemColor="systemGray5Color"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="54" id="iuX-Ej-Qpd"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tM2-Mf-vez">
+                                        <rect key="frame" x="0.0" y="76" width="334" height="48"/>
+                                        <color key="backgroundColor" systemColor="linkColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="48" id="guJ-Uc-g8I"/>
+                                        </constraints>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="See my key card">
+                                            <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </buttonConfiguration>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="12"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="tM2-Mf-vez" firstAttribute="width" secondItem="j19-lY-f41" secondAttribute="width" id="0UA-OY-7wT"/>
+                                    <constraint firstItem="izx-y5-Dgs" firstAttribute="width" secondItem="j19-lY-f41" secondAttribute="width" id="RoS-g8-LDE"/>
+                                </constraints>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Your digital key card is ready." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LDp-Dm-ICr">
+                                <rect key="frame" x="40" y="128" width="334" height="23"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle2"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="kg4-x5-Hzt"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="kg4-x5-Hzt" firstAttribute="trailing" secondItem="LDp-Dm-ICr" secondAttribute="trailing" constant="40" id="PQF-7p-B9M"/>
+                            <constraint firstItem="LDp-Dm-ICr" firstAttribute="top" secondItem="kg4-x5-Hzt" secondAttribute="top" constant="40" id="UT3-Xt-hu8"/>
+                            <constraint firstItem="LDp-Dm-ICr" firstAttribute="leading" secondItem="kg4-x5-Hzt" secondAttribute="leading" constant="40" id="XId-yF-Qqg"/>
+                            <constraint firstItem="j19-lY-f41" firstAttribute="centerY" secondItem="ooZ-fM-RCd" secondAttribute="centerY" constant="-60" id="a1p-sZ-t6w"/>
+                            <constraint firstItem="j19-lY-f41" firstAttribute="centerX" secondItem="ooZ-fM-RCd" secondAttribute="centerX" id="tyV-sU-Ms5"/>
+                            <constraint firstItem="kg4-x5-Hzt" firstAttribute="trailing" secondItem="j19-lY-f41" secondAttribute="trailing" constant="40" id="y3y-Fd-pyO"/>
+                            <constraint firstItem="j19-lY-f41" firstAttribute="leading" secondItem="kg4-x5-Hzt" secondAttribute="leading" constant="40" id="zxB-2s-WRB"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="AddMobileKeyVC" id="Qyw-mo-Yoj"/>
+                    <connections>
+                        <outlet property="btnSetupKey" destination="tM2-Mf-vez" id="gkv-Sz-lJi"/>
+                        <outlet property="txtKeyCode" destination="izx-y5-Dgs" id="fPS-8a-I1p"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XKT-Db-AL5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="928.98550724637687" y="762.72321428571422"/>
+        </scene>
+        <!--UnlockHotelKeyVC-->
+        <scene sceneID="ybA-wY-2Ts">
+            <objects>
+                <viewController storyboardIdentifier="UnlockHotelKeyVC" title="UnlockHotelKeyVC" id="fBz-np-qsi" customClass="UnlockHotelKeyVC" customModule="FlexiPassApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="d9n-QG-3KE">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Click on the key above and hold your phone near the door to unlock it." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nAb-pw-MTs">
+                                <rect key="frame" x="40" y="124" width="334" height="47"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle2"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8rV-4X-Hdp">
+                                <rect key="frame" x="83" y="324" width="248" height="248"/>
+                                <color key="backgroundColor" name="AccentColor"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Unlock Door">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3YT-TU-we7" customClass="SpinnerView" customModule="FlexiPassApp" customModuleProvider="target">
+                                <rect key="frame" x="165.5" y="406.5" width="83" height="83"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="3YT-TU-we7" secondAttribute="height" multiplier="1:1" id="q4F-fH-v3H"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="ydi-IA-vaG"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="8rV-4X-Hdp" firstAttribute="width" secondItem="d9n-QG-3KE" secondAttribute="width" multiplier="0.6" id="6KX-qw-yAb"/>
+                            <constraint firstItem="3YT-TU-we7" firstAttribute="centerX" secondItem="d9n-QG-3KE" secondAttribute="centerX" id="7as-Z8-Dtb"/>
+                            <constraint firstItem="3YT-TU-we7" firstAttribute="width" secondItem="d9n-QG-3KE" secondAttribute="width" multiplier="0.2" id="Bsh-hq-Qst"/>
+                            <constraint firstItem="8rV-4X-Hdp" firstAttribute="centerX" secondItem="d9n-QG-3KE" secondAttribute="centerX" id="Bxf-ps-JD9"/>
+                            <constraint firstItem="3YT-TU-we7" firstAttribute="centerY" secondItem="d9n-QG-3KE" secondAttribute="centerY" id="JJt-GW-9Io"/>
+                            <constraint firstItem="8rV-4X-Hdp" firstAttribute="centerY" secondItem="d9n-QG-3KE" secondAttribute="centerY" id="Lk0-nb-VXl"/>
+                            <constraint firstAttribute="trailing" secondItem="nAb-pw-MTs" secondAttribute="trailing" constant="40" id="P8n-6r-s1U"/>
+                            <constraint firstItem="8rV-4X-Hdp" firstAttribute="height" secondItem="d9n-QG-3KE" secondAttribute="width" multiplier="0.6" id="Uq8-jy-QOE"/>
+                            <constraint firstItem="nAb-pw-MTs" firstAttribute="leading" secondItem="ydi-IA-vaG" secondAttribute="leading" constant="40" id="cLx-bW-Fi2"/>
+                            <constraint firstItem="nAb-pw-MTs" firstAttribute="top" secondItem="ydi-IA-vaG" secondAttribute="top" constant="80" id="tfk-ZI-XbL"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="btnUnlockDoor" destination="8rV-4X-Hdp" id="CPc-py-TH5"/>
+                        <outlet property="spinnerView" destination="3YT-TU-we7" id="Otk-xf-EgK"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="riV-Vk-RXL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1713" y="763"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="eQ8-LV-FT6">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="gQ4-2t-wrK" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="MMW-A9-0ei">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="rt9-9r-R0f" kind="relationship" relationship="rootViewController" id="SC0-2h-hNx"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="N2K-hC-lc1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="18.840579710144929" y="762.72321428571422"/>
+        </scene>
     </scenes>
     <resources>
         <namedColor name="AccentColor">
             <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
+        <systemColor name="linkColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

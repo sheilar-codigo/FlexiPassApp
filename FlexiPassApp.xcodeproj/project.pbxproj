@@ -25,6 +25,18 @@
 		AF14101A28116D0E009DEEB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF093A422811134F001C5925 /* Assets.xcassets */; };
 		AF14101B28116D0E009DEEB0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF093A3F2811134E001C5925 /* Main.storyboard */; };
 		AF14101E28116D0E009DEEB0 /* FlexipassSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AF093A4D281117BC001C5925 /* FlexipassSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C8FD97BB2820FFAC00A9282D /* AddMobileKeyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8FD97BA2820FFAC00A9282D /* AddMobileKeyVC.swift */; };
+		C8FD97BD2821035000A9282D /* UnlockHotelKeyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8FD97BC2821035000A9282D /* UnlockHotelKeyVC.swift */; };
+		C8FD97C02821182A00A9282D /* UIStoryboard+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8FD97BF2821182A00A9282D /* UIStoryboard+Extension.swift */; };
+		C8FD97C2282118B400A9282D /* NSObject+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8FD97C1282118B400A9282D /* NSObject+Extension.swift */; };
+		C8FD97C328211FCB00A9282D /* AddMobileKeyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8FD97BA2820FFAC00A9282D /* AddMobileKeyVC.swift */; };
+		C8FD97C428211FCE00A9282D /* UnlockHotelKeyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8FD97BC2821035000A9282D /* UnlockHotelKeyVC.swift */; };
+		C8FD97C9282121AC00A9282D /* SpinnerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8FD97C8282121AC00A9282D /* SpinnerView.swift */; };
+		C8FD97CA282121AE00A9282D /* SpinnerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8FD97C8282121AC00A9282D /* SpinnerView.swift */; };
+		C8FD97CC282121BE00A9282D /* SpinnerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C8FD97CB282121BE00A9282D /* SpinnerView.xib */; };
+		C8FD97CD282121BE00A9282D /* SpinnerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C8FD97CB282121BE00A9282D /* SpinnerView.xib */; };
+		C8FD97CF2821227000A9282D /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8FD97CE2821227000A9282D /* UIView+Extension.swift */; };
+		C8FD97D02821227000A9282D /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8FD97CE2821227000A9282D /* UIView+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -70,6 +82,13 @@
 		AF093A4D281117BC001C5925 /* FlexipassSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FlexipassSDK.framework; sourceTree = "<group>"; };
 		AF14102228116D0E009DEEB0 /* FlexiPassApp-SIT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FlexiPassApp-SIT.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF14102328116D0F009DEEB0 /* FlexiPassApp copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "FlexiPassApp copy-Info.plist"; path = "/Users/sheilarcodigo/Documents/Workspace/Projects/FlexiPassApp/FlexiPassApp copy-Info.plist"; sourceTree = "<absolute>"; };
+		C8FD97BA2820FFAC00A9282D /* AddMobileKeyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMobileKeyVC.swift; sourceTree = "<group>"; };
+		C8FD97BC2821035000A9282D /* UnlockHotelKeyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnlockHotelKeyVC.swift; sourceTree = "<group>"; };
+		C8FD97BF2821182A00A9282D /* UIStoryboard+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStoryboard+Extension.swift"; sourceTree = "<group>"; };
+		C8FD97C1282118B400A9282D /* NSObject+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSObject+Extension.swift"; sourceTree = "<group>"; };
+		C8FD97C8282121AC00A9282D /* SpinnerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinnerView.swift; sourceTree = "<group>"; };
+		C8FD97CB282121BE00A9282D /* SpinnerView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SpinnerView.xib; sourceTree = "<group>"; };
+		C8FD97CE2821227000A9282D /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +157,9 @@
 		AF093A382811134E001C5925 /* FlexiPassApp */ = {
 			isa = PBXGroup;
 			children = (
+				C8FD97C52821218D00A9282D /* Views */,
+				C8FD97BE2821180C00A9282D /* Extensions */,
+				C8FD97B92820FF9000A9282D /* ViewControllers */,
 				AF093A392811134E001C5925 /* AppDelegate.swift */,
 				AF093A3B2811134E001C5925 /* SceneDelegate.swift */,
 				AF093A3D2811134E001C5925 /* ViewController.swift */,
@@ -147,6 +169,34 @@
 				AF093A472811134F001C5925 /* Info.plist */,
 			);
 			path = FlexiPassApp;
+			sourceTree = "<group>";
+		};
+		C8FD97B92820FF9000A9282D /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				C8FD97BA2820FFAC00A9282D /* AddMobileKeyVC.swift */,
+				C8FD97BC2821035000A9282D /* UnlockHotelKeyVC.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		C8FD97BE2821180C00A9282D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C8FD97BF2821182A00A9282D /* UIStoryboard+Extension.swift */,
+				C8FD97C1282118B400A9282D /* NSObject+Extension.swift */,
+				C8FD97CE2821227000A9282D /* UIView+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		C8FD97C52821218D00A9282D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C8FD97C8282121AC00A9282D /* SpinnerView.swift */,
+				C8FD97CB282121BE00A9282D /* SpinnerView.xib */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +283,7 @@
 			files = (
 				AF093A462811134F001C5925 /* LaunchScreen.storyboard in Resources */,
 				AF093A432811134F001C5925 /* Assets.xcassets in Resources */,
+				C8FD97CC282121BE00A9282D /* SpinnerView.xib in Resources */,
 				AF093A412811134E001C5925 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -243,6 +294,7 @@
 			files = (
 				AF14101928116D0E009DEEB0 /* LaunchScreen.storyboard in Resources */,
 				AF14101A28116D0E009DEEB0 /* Assets.xcassets in Resources */,
+				C8FD97CD282121BE00A9282D /* SpinnerView.xib in Resources */,
 				AF14101B28116D0E009DEEB0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -335,8 +387,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8FD97BD2821035000A9282D /* UnlockHotelKeyVC.swift in Sources */,
 				AF093A3E2811134E001C5925 /* ViewController.swift in Sources */,
+				C8FD97C02821182A00A9282D /* UIStoryboard+Extension.swift in Sources */,
+				C8FD97CF2821227000A9282D /* UIView+Extension.swift in Sources */,
 				AF093A3A2811134E001C5925 /* AppDelegate.swift in Sources */,
+				C8FD97C2282118B400A9282D /* NSObject+Extension.swift in Sources */,
+				C8FD97BB2820FFAC00A9282D /* AddMobileKeyVC.swift in Sources */,
+				C8FD97C9282121AC00A9282D /* SpinnerView.swift in Sources */,
 				AF093A3C2811134E001C5925 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -345,8 +403,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8FD97C428211FCE00A9282D /* UnlockHotelKeyVC.swift in Sources */,
+				C8FD97D02821227000A9282D /* UIView+Extension.swift in Sources */,
 				AF14101228116D0E009DEEB0 /* ViewController.swift in Sources */,
 				AF14101328116D0E009DEEB0 /* AppDelegate.swift in Sources */,
+				C8FD97C328211FCB00A9282D /* AddMobileKeyVC.swift in Sources */,
+				C8FD97CA282121AE00A9282D /* SpinnerView.swift in Sources */,
 				AF14101428116D0E009DEEB0 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
