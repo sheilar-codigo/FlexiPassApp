@@ -29,6 +29,8 @@
 		C8F382D428222A5900C9758A /* KeyInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F382D228222A5900C9758A /* KeyInfoVC.swift */; };
 		C8F382D62822735400C9758A /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F382D52822735400C9758A /* UIViewController+Extension.swift */; };
 		C8F382D72822735400C9758A /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F382D52822735400C9758A /* UIViewController+Extension.swift */; };
+		C8F382D8282283A700C9758A /* UIStoryboard+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8FD97BF2821182A00A9282D /* UIStoryboard+Extension.swift */; };
+		C8F382D9282283AA00C9758A /* NSObject+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8FD97C1282118B400A9282D /* NSObject+Extension.swift */; };
 		C8FD97BB2820FFAC00A9282D /* AddMobileKeyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8FD97BA2820FFAC00A9282D /* AddMobileKeyVC.swift */; };
 		C8FD97BD2821035000A9282D /* UnlockHotelKeyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8FD97BC2821035000A9282D /* UnlockHotelKeyVC.swift */; };
 		C8FD97C02821182A00A9282D /* UIStoryboard+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8FD97BF2821182A00A9282D /* UIStoryboard+Extension.swift */; };
@@ -417,6 +419,8 @@
 				C8F382D428222A5900C9758A /* KeyInfoVC.swift in Sources */,
 				C8FD97C428211FCE00A9282D /* UnlockHotelKeyVC.swift in Sources */,
 				C8FD97D02821227000A9282D /* UIView+Extension.swift in Sources */,
+				C8F382D9282283AA00C9758A /* NSObject+Extension.swift in Sources */,
+				C8F382D8282283A700C9758A /* UIStoryboard+Extension.swift in Sources */,
 				AF14101228116D0E009DEEB0 /* ViewController.swift in Sources */,
 				AF14101328116D0E009DEEB0 /* AppDelegate.swift in Sources */,
 				C8FD97C328211FCB00A9282D /* AddMobileKeyVC.swift in Sources */,
