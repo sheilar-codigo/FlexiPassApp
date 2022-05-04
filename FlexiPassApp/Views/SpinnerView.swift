@@ -12,8 +12,6 @@ class SpinnerView: UIView {
     @IBOutlet weak var spinnerContainerView: UIView!
     @IBOutlet weak var activityIndicator: UIActivityIndicatorView!
     
-    var delegate: SpinnerViewDelegate?
-    
     // MARK: Init
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -38,18 +36,10 @@ class SpinnerView: UIView {
     func startSpinning() {
         activityIndicator.startAnimating()
         self.isHidden = false
-        delegate?.spinnerViewStartLoading()
     }
     
     func stopSpinning() {
         activityIndicator.stopAnimating()
         self.isHidden = true
-        delegate?.spinnerViewStopLoading()
     }
-}
-
-protocol SpinnerViewDelegate {
-    
-    func spinnerViewStartLoading()
-    func spinnerViewStopLoading()
 }

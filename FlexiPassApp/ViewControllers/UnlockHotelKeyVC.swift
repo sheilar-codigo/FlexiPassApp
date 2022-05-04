@@ -9,11 +9,10 @@ import UIKit
 
 class UnlockHotelKeyVC: UIViewController {
     
+    // MARK: - IBOutlets
     @IBOutlet weak var btnUnlockDoor: UIButton!
     @IBOutlet weak var spinnerView: SpinnerView!
     
-    var isSpinnerViewAnimating: Bool = false
-
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -22,7 +21,6 @@ class UnlockHotelKeyVC: UIViewController {
     
     private func setupView() {
         btnUnlockDoor.layer.cornerRadius = btnUnlockDoor.frame.width / 2
-        spinnerView.delegate = self
         
         navigationItem.leftBarButtonItem = UIBarButtonItem(image: UIImage(systemName: "xmark"), style: .plain, target: self, action: #selector(handleCloseBarButtonTapped))
             
@@ -37,17 +35,5 @@ class UnlockHotelKeyVC: UIViewController {
     
     @objc private func handleCloseBarButtonTapped() {
         self.dismiss(animated: true)
-    }
-}
-
-extension UnlockHotelKeyVC: SpinnerViewDelegate {
-    func spinnerViewStartLoading() {
-        btnUnlockDoor.backgroundColor = .systemGray
-        btnUnlockDoor.setTitle("Cancel", for: .normal)
-    }
-    
-    func spinnerViewStopLoading() {
-        btnUnlockDoor.backgroundColor = .systemGreen
-        btnUnlockDoor.setTitle("Door opened", for: .normal)
     }
 }
