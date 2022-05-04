@@ -21,4 +21,8 @@ extension UIStoryboard {
         return Storyboard.MainStoryboard.instance(UnlockHotelKeyVC.className) as? UnlockHotelKeyVC
     }
     
+    class func KeyInfoScreen() -> KeyInfoVC? {
+        return Storyboard.MainStoryboard.instance(KeyInfoVC.className) as? KeyInfoVC
+    }
+    
 }

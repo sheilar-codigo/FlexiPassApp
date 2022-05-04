@@ -27,9 +27,10 @@ class AddMobileKeyVC: UIViewController {
     }
     
     @objc private func routeToUnlockHotelKey() {
-        guard let unlockHomeKeyVC = UIStoryboard.UnlockHotelKeyScreen() else { return }
-        let vc = UINavigationController(rootViewController: unlockHomeKeyVC)
-        self.navigationController?.present(vc, animated: true)
+        guard let keyInfoVC = UIStoryboard.KeyInfoScreen() else { return }
+        let navVC = UINavigationController(rootViewController: keyInfoVC)
+        navVC.modalPresentationStyle = .fullScreen
+        self.navigationController?.present(navVC, animated: true)
     }
     
 }
