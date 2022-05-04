@@ -38,7 +38,7 @@ class AddMobileKeyVC: UIViewController {
     }
     
     private func setupFlexipass() {
-        flexipass = Flexipass()
+        flexipass = FlexipassManager.shared.flexipass
         flexipass.delegate = self
     }
     

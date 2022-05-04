@@ -31,6 +31,8 @@
 		C8F382D72822735400C9758A /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F382D52822735400C9758A /* UIViewController+Extension.swift */; };
 		C8F382D8282283A700C9758A /* UIStoryboard+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8FD97BF2821182A00A9282D /* UIStoryboard+Extension.swift */; };
 		C8F382D9282283AA00C9758A /* NSObject+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8FD97C1282118B400A9282D /* NSObject+Extension.swift */; };
+		C8F382DC28228AD300C9758A /* FlexipassManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F382DB28228AD300C9758A /* FlexipassManager.swift */; };
+		C8F382DD28228AD300C9758A /* FlexipassManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F382DB28228AD300C9758A /* FlexipassManager.swift */; };
 		C8FD97BB2820FFAC00A9282D /* AddMobileKeyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8FD97BA2820FFAC00A9282D /* AddMobileKeyVC.swift */; };
 		C8FD97BD2821035000A9282D /* UnlockHotelKeyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8FD97BC2821035000A9282D /* UnlockHotelKeyVC.swift */; };
 		C8FD97C02821182A00A9282D /* UIStoryboard+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8FD97BF2821182A00A9282D /* UIStoryboard+Extension.swift */; };
@@ -90,6 +92,7 @@
 		AF14102328116D0F009DEEB0 /* FlexiPassApp copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "FlexiPassApp copy-Info.plist"; path = "/Users/sheilarcodigo/Documents/Workspace/Projects/FlexiPassApp/FlexiPassApp copy-Info.plist"; sourceTree = "<absolute>"; };
 		C8F382D228222A5900C9758A /* KeyInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyInfoVC.swift; sourceTree = "<group>"; };
 		C8F382D52822735400C9758A /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		C8F382DB28228AD300C9758A /* FlexipassManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlexipassManager.swift; sourceTree = "<group>"; };
 		C8FD97BA2820FFAC00A9282D /* AddMobileKeyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMobileKeyVC.swift; sourceTree = "<group>"; };
 		C8FD97BC2821035000A9282D /* UnlockHotelKeyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnlockHotelKeyVC.swift; sourceTree = "<group>"; };
 		C8FD97BF2821182A00A9282D /* UIStoryboard+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStoryboard+Extension.swift"; sourceTree = "<group>"; };
@@ -165,6 +168,7 @@
 		AF093A382811134E001C5925 /* FlexiPassApp */ = {
 			isa = PBXGroup;
 			children = (
+				C8F382DA28228ACC00C9758A /* Utils */,
 				C8FD97C52821218D00A9282D /* Views */,
 				C8FD97BE2821180C00A9282D /* Extensions */,
 				C8FD97B92820FF9000A9282D /* ViewControllers */,
@@ -177,6 +181,14 @@
 				AF093A472811134F001C5925 /* Info.plist */,
 			);
 			path = FlexiPassApp;
+			sourceTree = "<group>";
+		};
+		C8F382DA28228ACC00C9758A /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				C8F382DB28228AD300C9758A /* FlexipassManager.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 		C8FD97B92820FF9000A9282D /* ViewControllers */ = {
@@ -400,6 +412,7 @@
 				C8F382D328222A5900C9758A /* KeyInfoVC.swift in Sources */,
 				C8F382D62822735400C9758A /* UIViewController+Extension.swift in Sources */,
 				C8FD97BD2821035000A9282D /* UnlockHotelKeyVC.swift in Sources */,
+				C8F382DC28228AD300C9758A /* FlexipassManager.swift in Sources */,
 				AF093A3E2811134E001C5925 /* ViewController.swift in Sources */,
 				C8FD97C02821182A00A9282D /* UIStoryboard+Extension.swift in Sources */,
 				C8FD97CF2821227000A9282D /* UIView+Extension.swift in Sources */,
@@ -418,6 +431,7 @@
 				C8F382D72822735400C9758A /* UIViewController+Extension.swift in Sources */,
 				C8F382D428222A5900C9758A /* KeyInfoVC.swift in Sources */,
 				C8FD97C428211FCE00A9282D /* UnlockHotelKeyVC.swift in Sources */,
+				C8F382DD28228AD300C9758A /* FlexipassManager.swift in Sources */,
 				C8FD97D02821227000A9282D /* UIView+Extension.swift in Sources */,
 				C8F382D9282283AA00C9758A /* NSObject+Extension.swift in Sources */,
 				C8F382D8282283A700C9758A /* UIStoryboard+Extension.swift in Sources */,
