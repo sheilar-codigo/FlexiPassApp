@@ -212,15 +212,30 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="M1g-tR-O9g" customClass="SpinnerView" customModule="FlexiPassApp" customModuleProvider="target">
+                                <rect key="frame" x="165.5" y="406.5" width="83" height="83"/>
+                                <color key="backgroundColor" systemColor="systemFillColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="M1g-tR-O9g" secondAttribute="height" multiplier="1:1" id="E4N-94-JRp"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="8"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="kg4-x5-Hzt"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="M1g-tR-O9g" firstAttribute="width" secondItem="ooZ-fM-RCd" secondAttribute="width" multiplier="0.2" id="LcS-SN-gkl"/>
                             <constraint firstItem="kg4-x5-Hzt" firstAttribute="trailing" secondItem="LDp-Dm-ICr" secondAttribute="trailing" constant="40" id="PQF-7p-B9M"/>
                             <constraint firstItem="LDp-Dm-ICr" firstAttribute="top" secondItem="kg4-x5-Hzt" secondAttribute="top" constant="40" id="UT3-Xt-hu8"/>
                             <constraint firstItem="LDp-Dm-ICr" firstAttribute="leading" secondItem="kg4-x5-Hzt" secondAttribute="leading" constant="40" id="XId-yF-Qqg"/>
+                            <constraint firstItem="M1g-tR-O9g" firstAttribute="centerX" secondItem="ooZ-fM-RCd" secondAttribute="centerX" id="XW0-7h-90h"/>
                             <constraint firstItem="j19-lY-f41" firstAttribute="centerY" secondItem="ooZ-fM-RCd" secondAttribute="centerY" constant="-60" id="a1p-sZ-t6w"/>
                             <constraint firstItem="j19-lY-f41" firstAttribute="centerX" secondItem="ooZ-fM-RCd" secondAttribute="centerX" id="tyV-sU-Ms5"/>
+                            <constraint firstItem="M1g-tR-O9g" firstAttribute="centerY" secondItem="ooZ-fM-RCd" secondAttribute="centerY" id="v2d-xE-zP4"/>
                             <constraint firstItem="kg4-x5-Hzt" firstAttribute="trailing" secondItem="j19-lY-f41" secondAttribute="trailing" constant="40" id="y3y-Fd-pyO"/>
                             <constraint firstItem="j19-lY-f41" firstAttribute="leading" secondItem="kg4-x5-Hzt" secondAttribute="leading" constant="40" id="zxB-2s-WRB"/>
                         </constraints>
@@ -228,6 +243,7 @@
                     <navigationItem key="navigationItem" title="AddMobileKeyVC" id="Qyw-mo-Yoj"/>
                     <connections>
                         <outlet property="btnSetupKey" destination="tM2-Mf-vez" id="gkv-Sz-lJi"/>
+                        <outlet property="spinnerView" destination="M1g-tR-O9g" id="Gug-Z4-b49"/>
                         <outlet property="txtKeyCode" destination="izx-y5-Dgs" id="fPS-8a-I1p"/>
                     </connections>
                 </viewController>
@@ -437,10 +453,15 @@
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3YT-TU-we7" customClass="SpinnerView" customModule="FlexiPassApp" customModuleProvider="target">
                                 <rect key="frame" x="165.5" y="406.5" width="83" height="83"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="backgroundColor" systemColor="systemFillColor"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="3YT-TU-we7" secondAttribute="height" multiplier="1:1" id="q4F-fH-v3H"/>
                                 </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="8"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="ydi-IA-vaG"/>
@@ -501,6 +522,9 @@
         </systemColor>
         <systemColor name="systemBrownColor">
             <color red="0.63529411764705879" green="0.51764705882352946" blue="0.36862745098039218" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemFillColor">
+            <color red="0.47058823529411764" green="0.47058823529411764" blue="0.50196078431372548" alpha="0.20000000000000001" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemGray5Color">
             <color red="0.89803921568627454" green="0.89803921568627454" blue="0.91764705882352937" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

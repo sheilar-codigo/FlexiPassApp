@@ -11,6 +11,7 @@ class AddMobileKeyVC: UIViewController {
     
     @IBOutlet weak var txtKeyCode: UITextField!
     @IBOutlet weak var btnSetupKey: UIButton!
+    @IBOutlet weak var spinnerView: SpinnerView!
 
     var key: String {
         return txtKeyCode.text ?? ""
