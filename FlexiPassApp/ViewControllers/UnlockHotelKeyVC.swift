@@ -94,7 +94,7 @@ class UnlockHotelKeyVC: UIViewController {
             btnUnlockDoor.setTitle("Unlock Door", for: .normal)
         case .unlocking:
             btnUnlockDoor.backgroundColor = .systemGray
-            btnUnlockDoor.setTitle("Cancel", for: .normal)
+            btnUnlockDoor.setTitle("Stop", for: .normal)
         case .completed(let success):
             btnUnlockDoor.backgroundColor = success ? .systemGreen : .systemRed
             btnUnlockDoor.setTitle(
