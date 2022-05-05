@@ -7,6 +7,8 @@
 
 import UIKit
 import KeychainSwift
+import FlexipassSDK
+import PKHUD
 
 class KeyInfoVC: UIViewController {
 
@@ -16,35 +18,85 @@ class KeyInfoVC: UIViewController {
     @IBOutlet weak var lblCheckOut: UILabel!
     @IBOutlet weak var btnUnlock: UIButton!
     
-    private var keychain: KeychainSwift!
+    private var flexipassManager: FlexipassManager!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        setupKeychain()
-        setupView()
+        // 1.
+        flexipassManager = .shared
+        flexipassManager.delegate = self
+        flexipassManager.revokeKeyDelegate = self
+        if let keyInfo = flexipassManager.getKeyInfo() {
+            showData(keyInfo: keyInfo)
+        }
+        // 2.
         setupInteractions()
+        // temp
     }
     
     
     // MARK: - Set up funcs
-    private func setupView() {
-        lblKeyCode.text = keychain.get(KeychainKeys.DIGITAL_KEY_CODE)
-        lblDoor.text = keychain.get(KeychainKeys.DIGITAL_KEY_ROOM)
-        lblCheckIn.text = keychain.get(KeychainKeys.DIGITAL_KEY_CHECKIN)
-        lblCheckOut.text = keychain.get(KeychainKeys.DIGITAL_KEY_CHECKOUT)
+    private func showData(keyInfo: KeyInfo) {
+        lblKeyCode.text = keyInfo.keyCode
+        lblDoor.text = keyInfo.door
+        lblCheckIn.text = keyInfo.checkIn
+        lblCheckOut.text = keyInfo.checkOut
     }
-    
-    private func setupKeychain() {
-        keychain = KeychainSwift()
-    }
+  
     private func setupInteractions() {
         btnUnlock.addTarget(self, action: #selector(handleBtnTapped), for: .touchUpInside)
     }
     
+    private func openKeySetupScreen() {
+        guard let vc = UIStoryboard.AddMobileKeyScreen() else {
+            return
+        }
+        self.replaceRootViewController(with: vc)
+    }
+    
     @objc private func handleBtnTapped() {
-        guard let unlockHomeKeyVC = UIStoryboard.UnlockHotelKeyScreen() else { return }
-        let vc = UINavigationController(rootViewController: unlockHomeKeyVC)
-        self.navigationController?.present(vc, animated: true)
+        guard let vc = UIStoryboard.UnlockHotelKeyScreen() else { return }
+        vc.modalPresentationStyle = .fullScreen
+        self.present(vc, animated: true)
+    }
+    
+    @IBAction func handleRevokeKey(_ sender: Any) {
+        showLoading()
+        flexipassManager.terminateMobileKey()
+    }
+    
+}
+
+extension KeyInfoVC: FlexipassManagerDelegate, RevokeKeyDelegate {
+  
+    func didStartUpSuccess() {
+        showLoading()
+        flexipassManager.updateMobileKey()
+    }
+    
+    func didStartUpFailed(error: String) {
+        showAlert(title: "Error", message: error)
+    }
+    
+    func didSetupNotCompleted(error: String) {
+        flexipassManager.clearKeyInfo()
+        openKeySetupScreen()
+    }
+    
+    func didUpdateSuccess() {
+        hideLoading()
+    }
+    
+    func didTerminated() {
+        hideLoading()
+        showAlert(title: "Success", message: "Key is revoked!", onAction: { [weak self] in
+            self?.flexipassManager.clearKeyInfo()
+            self?.openKeySetupScreen()
+        })
+    }
+    
+    func didFailed(error: String) {
+        hideLoading()
+        showAlert(title: "Error", message: error)
     }
 }

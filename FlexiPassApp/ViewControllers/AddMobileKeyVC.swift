@@ -14,10 +14,9 @@ class AddMobileKeyVC: UIViewController {
     // MARK: - IBOutlets
     @IBOutlet weak var txtKeyCode: UITextField!
     @IBOutlet weak var btnSetupKey: UIButton!
-    @IBOutlet weak var spinnerView: SpinnerView!
 
     private var keychain: KeychainSwift!
-    private var flexipass: Flexipass!
+    private var flexipassManager: FlexipassManager!
 
     private var key: String {
         return txtKeyCode.text ?? ""
@@ -38,8 +37,13 @@ class AddMobileKeyVC: UIViewController {
     }
     
     private func setupFlexipass() {
-        flexipass = FlexipassManager.shared.flexipass
-        flexipass.delegate = self
+        flexipassManager = .shared
+        flexipassManager.delegate = self
+        flexipassManager.setupDelegate = self
+        if !flexipassManager.isStartUpFinished {
+            btnSetupKey.isUserInteractionEnabled = false
+            btnSetupKey.backgroundColor = .gray
+        }
     }
     
     private func setupInteraction() {
@@ -48,60 +52,49 @@ class AddMobileKeyVC: UIViewController {
     
     // MARK: - Action Handlers
     @objc private func handleKeySetup() {
-        spinnerView.startSpinning()
+        txtKeyCode.resignFirstResponder()
+        showLoading()
         
-        flexipass.useMobileKey(key, saveToKeychain, handleKeySetupFailure)
-    }
-    
-    // MARK: - Helpers
-    private func saveToKeychain(_ keyInfo: KeyInformationObject) {
-        DispatchQueue.main.async { [weak self] in
-            guard let self = self else { return }
-            self.keychain.set(self.key, forKey: KeychainKeys.DIGITAL_KEY_CODE)
-            self.keychain.set(keyInfo.doorID, forKey: KeychainKeys.DIGITAL_KEY_ROOM)
-            self.keychain.set(keyInfo.checkInDate, forKey: KeychainKeys.DIGITAL_KEY_CHECKIN)
-            self.keychain.set(keyInfo.checkOutDate, forKey: KeychainKeys.DIGITAL_KEY_CHECKOUT)
-        }
-        
-    }
-    
-    private func handleKeySetupFailure(_ error: Error) {
-        DispatchQueue.main.async { [weak self] in
-            self?.spinnerView.stopSpinning()
-            self?.showAlert(message: error.localizedDescription)
-        }
+        flexipassManager.useMobileKey(keyCode: key)
     }
     
     // MARK: - Routing Logic
-    private func routeToUnlockHotelKey() {
+    private func openKeyInfoScreen() {
         guard let keyInfoVC = UIStoryboard.KeyInfoScreen() else { return }
         let navVC = UINavigationController(rootViewController: keyInfoVC)
         navVC.modalPresentationStyle = .fullScreen
-        self.navigationController?.present(navVC, animated: true)
+        self.replaceRootViewController(with: navVC)
     }
     
+    deinit {
+        print("deinit: \(self)")
+    }
 }
 
 // MARK: - FlexipassCallbackDelegate
-extension AddMobileKeyVC: FlexipassCallbackDelegate {
-    func callback_listener(_ fpco: FlexipassCallbackObject) {
-        DispatchQueue.main.async { [weak self] in
-            guard let self = self else { return }
-            
-            switch fpco.result {
-            case .setup_success:
-                self.flexipass.updateMobileKey()
-                print(("Successfully setup the key on this device. Digital Key is ready to use ✅."))
-            case .update_success:
-                self.spinnerView.stopSpinning()
-                self.routeToUnlockHotelKey()
-                print("Key is updated successfully ✅.")
-            case .update_failed:
-                self.spinnerView.stopSpinning()
-                print("Can't update key ⚠️.")
-            default:
-                ()
-            }
-        }
+extension AddMobileKeyVC: FlexipassManagerDelegate, KeySetupDelegate {
+    
+    func didStartUpSuccess() {
+        print("startup_success")
+        btnSetupKey.isUserInteractionEnabled = true
+        btnSetupKey.backgroundColor = .blue
+    }
+    
+    func didStartUpFailed(error: String) {
+        showAlert(title: "Error", message: error)
+    }
+    
+    func didSetupNotCompleted(error: String) {
+        showAlert(title: "Error", message: error)
+    }
+    
+    func didSuccess() {
+        hideLoading()
+        openKeyInfoScreen()
+    }
+    
+    func didFailed(error: String) {
+        hideLoading()
+        showAlert(title: "Error", message: error)
     }
 }

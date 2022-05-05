@@ -58,15 +58,7 @@ class ViewController: UIViewController {
             showOrHideSetupKeyForm(.show)
         }
     }
-    
-    private func showLoading() {
-        loading.startAnimating()
-    }
-
-    private func hideLoading() {
-        loading.stopAnimating()
-    }
-    
+  
     private func setupFlexipass() {
         flexipass = Flexipass()
         flexipass.delegate = self
@@ -77,7 +69,7 @@ class ViewController: UIViewController {
     }
     
     private func setupInitUI() {
-        hideLoading()
+        loading.isHidden = true
         keyInfoStackView.isHidden = true
         
         txtMobileKeyCode.text = ""

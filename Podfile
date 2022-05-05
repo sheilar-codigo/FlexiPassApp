@@ -15,6 +15,7 @@ def applibs
   pod 'SwiftyUserDefaults', '~> 5.0'
   pod 'KeychainSwift', '~> 20.0'
   pod 'SwiftyUserDefaults', '~> 5.0'
+  pod 'PKHUD'
 end
 
 target 'FlexiPassApp' do
