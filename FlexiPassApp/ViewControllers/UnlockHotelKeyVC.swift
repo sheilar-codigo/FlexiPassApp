@@ -129,6 +129,7 @@ extension UnlockHotelKeyVC: FlexipassCallbackDelegate {
                 self.spinnerView.startSpinning()
                 print("Start reading...")
             case .reader_stopped:
+                self.spinnerView.stopSpinning()
                 print("Reading stop")
             case .lock_opened:
                 self.currentButtonState = .completed(true)
