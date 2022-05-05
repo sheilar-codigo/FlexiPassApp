@@ -6,14 +6,37 @@
 //
 
 import UIKit
+import KeychainSwift
+import SwiftyUserDefaults
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
-
+    var window: UIWindow?
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        window = UIWindow(frame: UIScreen.main.bounds)
+        
+        let keychain = KeychainSwift()
+        
+        if Defaults[\.isFirstLaunch] {
+            keychain.clear()
+            Defaults[\.isFirstLaunch] = false
+        }
+        
+        if (keychain.get(KeychainKeys.DIGITAL_KEY_CODE) ?? "").isEmpty {
+            // add key screen
+            guard let vc = UIStoryboard.AddMobileKeyScreen() else { return true }
+            let navVC = UINavigationController(rootViewController: vc)
+            window?.rootViewController = navVC
+        } else {
+            // key info
+            guard let vc = UIStoryboard.KeyInfoScreen() else { return true }
+            let navVC = UINavigationController(rootViewController: vc)
+            window?.rootViewController = navVC
+        }
+        
+        window?.makeKeyAndVisible()
         return true
     }
 

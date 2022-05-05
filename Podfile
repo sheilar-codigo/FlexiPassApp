@@ -14,6 +14,7 @@ def applibs
   pod 'JSONModel'
   pod 'SwiftyUserDefaults', '~> 5.0'
   pod 'KeychainSwift', '~> 20.0'
+  pod 'SwiftyUserDefaults', '~> 5.0'
 end
 
 target 'FlexiPassApp' do

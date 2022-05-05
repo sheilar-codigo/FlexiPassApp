@@ -17,6 +17,10 @@ extension UIStoryboard {
         }
     }
     
+    class func AddMobileKeyScreen() -> AddMobileKeyVC? {
+        return Storyboard.MainStoryboard.instance(AddMobileKeyVC.className) as? AddMobileKeyVC
+    }
+    
     class func UnlockHotelKeyScreen() -> UnlockHotelKeyVC? {
         return Storyboard.MainStoryboard.instance(UnlockHotelKeyVC.className) as? UnlockHotelKeyVC
     }
