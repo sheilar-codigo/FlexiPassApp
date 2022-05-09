@@ -8,6 +8,10 @@
 import UIKit
 import KeychainSwift
 import SwiftyUserDefaults
+import FlexipassSDK
+
+
+let fp = Flexipass()
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,7 +20,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         window = UIWindow(frame: UIScreen.main.bounds)
-        
+                
         let keychain = KeychainSwift()
         
         if Defaults[\.isFirstLaunch] {

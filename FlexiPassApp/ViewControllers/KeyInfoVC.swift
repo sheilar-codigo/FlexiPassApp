@@ -18,29 +18,28 @@ class KeyInfoVC: UIViewController {
     @IBOutlet weak var lblCheckOut: UILabel!
     @IBOutlet weak var btnUnlock: UIButton!
     
-    private var flexipassManager: FlexipassManager!
+    var isComeFromSetupScreen: Bool = false
+    let keychain = KeychainSwift()
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // 1.
-        flexipassManager = .shared
-        flexipassManager.delegate = self
-        flexipassManager.revokeKeyDelegate = self
-        if let keyInfo = flexipassManager.getKeyInfo() {
-            showData(keyInfo: keyInfo)
-        }
-        // 2.
+        fp.delegate = self
         setupInteractions()
-        // temp
+        showData()
     }
     
     
     // MARK: - Set up funcs
-    private func showData(keyInfo: KeyInfo) {
-        lblKeyCode.text = keyInfo.keyCode
-        lblDoor.text = keyInfo.door
-        lblCheckIn.text = keyInfo.checkIn
-        lblCheckOut.text = keyInfo.checkOut
+    private func showData() {
+        let keyCode = keychain.get(KeychainKeys.DIGITAL_KEY_CODE) ?? ""
+        let door = keychain.get(KeychainKeys.DIGITAL_KEY_ROOM) ?? ""
+        let checkIn = keychain.get(KeychainKeys.DIGITAL_KEY_CHECKIN) ?? ""
+        let checkOut = keychain.get(KeychainKeys.DIGITAL_KEY_CHECKOUT) ?? ""
+        
+        lblKeyCode.text = keyCode
+        lblDoor.text = door
+        lblCheckIn.text = checkIn
+        lblCheckOut.text = checkOut
     }
   
     private func setupInteractions() {
@@ -62,41 +61,57 @@ class KeyInfoVC: UIViewController {
     
     @IBAction func handleRevokeKey(_ sender: Any) {
         showLoading()
-        flexipassManager.terminateMobileKey()
+        fp.updateMobileKey()
+    }
+
+    deinit {
+        print("deinit: \(self)")
     }
     
 }
 
-extension KeyInfoVC: FlexipassManagerDelegate, RevokeKeyDelegate {
-  
-    func didStartUpSuccess() {
-        showLoading()
-        flexipassManager.updateMobileKey()
-    }
+// MARK: - FlexipassCallbackDelegate
+extension KeyInfoVC: FlexipassCallbackDelegate {
     
-    func didStartUpFailed(error: String) {
-        showAlert(title: "Error", message: error)
-    }
-    
-    func didSetupNotCompleted(error: String) {
-        flexipassManager.clearKeyInfo()
-        openKeySetupScreen()
-    }
-    
-    func didUpdateSuccess() {
-        hideLoading()
-    }
-    
-    func didTerminated() {
-        hideLoading()
-        showAlert(title: "Success", message: "Key is revoked!", onAction: { [weak self] in
-            self?.flexipassManager.clearKeyInfo()
-            self?.openKeySetupScreen()
-        })
-    }
-    
-    func didFailed(error: String) {
-        hideLoading()
-        showAlert(title: "Error", message: error)
+    func callback_listener(_ fpco: FlexipassCallbackObject) {
+        DispatchQueue.main.async { [weak self] in
+            
+            switch fpco.result {
+                
+            case .startup_success:
+                print("Key Info Screen: startup_success")
+            
+            case .update_success:
+                fp.terminateMobileKey()
+                print("Key Info Screen: update_success")
+                print("Key Info Screen: key count => \(String(describing: fp.mobileKeyCount()))")
+                
+            case .update_failed:
+                print("Key Info Screen: update_failed")
+                self?.hideLoading()
+                self?.showAlert(title: "Error", message: "setup_failed")
+                
+            case .terminated:
+                self?.hideLoading()
+                self?.keychain.delete(KeychainKeys.DIGITAL_KEY_CODE)
+                self?.keychain.delete(KeychainKeys.DIGITAL_KEY_ROOM)
+                self?.keychain.delete(KeychainKeys.DIGITAL_KEY_CHECKIN)
+                self?.keychain.delete(KeychainKeys.DIGITAL_KEY_CHECKOUT)
+                self?.openKeySetupScreen()
+                
+            case .termination_failed:
+                self?.hideLoading()
+                self?.showAlert(title: "Error", message: "termination_failed")
+          
+            case .setupNotCompleted:
+                self?.hideLoading()
+                self?.showAlert(title: "Error", message: "setupNotCompleted")
+                
+            default:
+                self?.hideLoading()
+                self?.showAlert(title: "Error", message: "Something went wrong")
+            }
+        }
     }
 }
+

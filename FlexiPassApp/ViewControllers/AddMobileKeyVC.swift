@@ -16,7 +16,6 @@ class AddMobileKeyVC: UIViewController {
     @IBOutlet weak var btnSetupKey: UIButton!
 
     private var keychain: KeychainSwift!
-    private var flexipassManager: FlexipassManager!
 
     private var key: String {
         return txtKeyCode.text ?? ""
@@ -25,9 +24,8 @@ class AddMobileKeyVC: UIViewController {
     // MARK: - Lifecycle
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        setupKeychain()
         setupFlexipass()
+        setupKeychain()
         setupInteraction()
     }
     
@@ -37,13 +35,7 @@ class AddMobileKeyVC: UIViewController {
     }
     
     private func setupFlexipass() {
-        flexipassManager = .shared
-        flexipassManager.delegate = self
-        flexipassManager.setupDelegate = self
-        if !flexipassManager.isStartUpFinished {
-            btnSetupKey.isUserInteractionEnabled = false
-            btnSetupKey.backgroundColor = .gray
-        }
+        fp.delegate = self
     }
     
     private func setupInteraction() {
@@ -54,16 +46,25 @@ class AddMobileKeyVC: UIViewController {
     @objc private func handleKeySetup() {
         txtKeyCode.resignFirstResponder()
         showLoading()
-        
-        flexipassManager.useMobileKey(keyCode: key)
+        fp.useMobileKey(key) { [weak self] keyInfo in
+            self?.keychain.set(self?.key ?? "", forKey: KeychainKeys.DIGITAL_KEY_CODE)
+            self?.keychain.set(keyInfo.doorID, forKey: KeychainKeys.DIGITAL_KEY_ROOM)
+            self?.keychain.set(keyInfo.checkInDate, forKey: KeychainKeys.DIGITAL_KEY_CHECKIN)
+            self?.keychain.set(keyInfo.checkOutDate, forKey: KeychainKeys.DIGITAL_KEY_CHECKOUT)
+        } _: { [weak self] error in
+            DispatchQueue.main.async {
+                self?.hideLoading()
+                self?.showAlert(title: "Error", message: error.localizedDescription)
+            }
+        }
     }
     
     // MARK: - Routing Logic
     private func openKeyInfoScreen() {
         guard let keyInfoVC = UIStoryboard.KeyInfoScreen() else { return }
-        let navVC = UINavigationController(rootViewController: keyInfoVC)
-        navVC.modalPresentationStyle = .fullScreen
-        self.replaceRootViewController(with: navVC)
+        keyInfoVC.modalPresentationStyle = .fullScreen
+        keyInfoVC.isComeFromSetupScreen = true
+        self.present(keyInfoVC, animated: true, completion: nil)
     }
     
     deinit {
@@ -72,29 +73,43 @@ class AddMobileKeyVC: UIViewController {
 }
 
 // MARK: - FlexipassCallbackDelegate
-extension AddMobileKeyVC: FlexipassManagerDelegate, KeySetupDelegate {
+extension AddMobileKeyVC: FlexipassCallbackDelegate {
     
-    func didStartUpSuccess() {
-        print("startup_success")
-        btnSetupKey.isUserInteractionEnabled = true
-        btnSetupKey.backgroundColor = .blue
-    }
-    
-    func didStartUpFailed(error: String) {
-        showAlert(title: "Error", message: error)
-    }
-    
-    func didSetupNotCompleted(error: String) {
-        showAlert(title: "Error", message: error)
-    }
-    
-    func didSuccess() {
-        hideLoading()
-        openKeyInfoScreen()
-    }
-    
-    func didFailed(error: String) {
-        hideLoading()
-        showAlert(title: "Error", message: error)
+    func callback_listener(_ fpco: FlexipassCallbackObject) {
+        DispatchQueue.main.async { [weak self] in
+            
+            switch fpco.result {
+            case .startup_success:
+                print("Add Key Screen: startup_success")
+                
+            case .startup_failed:
+                self?.showAlert(title: "Error", message: "startup_failed")
+                
+            case .setup_success:
+                print("Add Key Screen: setup_success")
+                self?.showLoading()
+                fp.updateMobileKey()
+                
+            case .setup_failed:
+                self?.showAlert(title: "Error", message: "setup_failed")
+                
+            case .update_success:
+                print("Add Key Screen: update_success")
+                print("Add Key Screen: key count => \(String(describing: fp.mobileKeyCount()))")
+                self?.hideLoading()
+                self?.openKeyInfoScreen()
+                
+            case .update_failed:
+                self?.hideLoading()
+                self?.showAlert(title: "Error", message: "update_failed")
+                
+            case .setupNotCompleted:
+                print("setupNotCompleted")
+                
+            default:
+                break
+            }
+        }
     }
 }
+

@@ -14,7 +14,7 @@ class UnlockHotelKeyVC: UIViewController {
     // MARK: - IBOutlets
     @IBOutlet weak var btnUnlockDoor: UIButton!
     @IBOutlet weak var spinner: UIActivityIndicatorView!
-    
+        
     private var currentButtonState: ButtonState? {
         willSet {
             handleButtonStyle(basedOn: newValue)
@@ -22,7 +22,6 @@ class UnlockHotelKeyVC: UIViewController {
     }
     
     private var isReading: Bool = false
-    private var flexipassManager: FlexipassManager!
     private var bluetoothManager: CBCentralManager!
     
     override func viewDidLayoutSubviews() {
@@ -37,25 +36,20 @@ class UnlockHotelKeyVC: UIViewController {
         setupBluetooth()
         setupFlexipass()
         setupInteractions()
-    }
-    
-    override func viewDidAppear(_ animated: Bool) {
-        super.viewDidAppear(animated)
-        // load key
+        
         showLoading()
-        flexipassManager.updateMobileKey()
+        fp.updateMobileKey()
     }
     
     override func viewWillDisappear(_ animated: Bool) {
         super.viewWillDisappear(animated)
         if isReading {
-            flexipassManager.stopReader()
+            fp.stopReader()
         }
     }
     
     // MARK: - Set up funcs
     private func setupView() {
-        btnUnlockDoor.isHidden = true
         currentButtonState = .neutral
         spinner.stopAnimating()
         navigationItem.leftBarButtonItem = UIBarButtonItem(image: UIImage(systemName: "xmark"), style: .plain, target: self, action: #selector(handleCloseBarButtonTapped))
@@ -66,9 +60,7 @@ class UnlockHotelKeyVC: UIViewController {
     }
     
     private func setupFlexipass() {
-        flexipassManager = .shared
-        flexipassManager.delegate = self
-        flexipassManager.doorUnlockDelegate = self
+        fp.delegate = self
     }
     
     private func setupInteractions() {
@@ -97,20 +89,25 @@ class UnlockHotelKeyVC: UIViewController {
     }
     
     @IBAction func handleClose(_ sender: Any) {
-        self.dismiss(animated: true)
+        openKeyInfoScreen()
     }
     
     @objc private func handleCloseBarButtonTapped() {
-        self.dismiss(animated: true)
+        openKeyInfoScreen()
+    }
+    
+    private func openKeyInfoScreen() {
+        guard let vc = UIStoryboard.KeyInfoScreen() else { return }
+        replaceRootViewController(with: vc)
     }
     
     // MARK: - Private Helpers
     private func startUnlocking() {
-        flexipassManager.startReader()
+        fp.startReader()
     }
     
     private func stopUnlocking() {
-        flexipassManager.stopReader()
+        fp.stopReader()
     }
     
     private func handleButtonStyle(basedOn state: ButtonState?) {
@@ -178,72 +175,65 @@ extension UnlockHotelKeyVC: CBCentralManagerDelegate {
     }
 }
 
-extension UnlockHotelKeyVC: FlexipassManagerDelegate, DoorUnlockDelegate {
+// MARK: - FlexipassCallbackDelegate
+
+extension UnlockHotelKeyVC: FlexipassCallbackDelegate {
     
-    
-    func didStartUpSuccess() {
-        flexipassManager.updateMobileKey()
-    }
-    
-    func didStartUpFailed(error: String) {
-        showAlert(title: "Error", message: error)
-    }
-    
-    func didSetupNotCompleted(error: String) {
-        hideLoading()
-        showAlert(title: "Error", message: error)
-    }
-    
-    func didUpdateSuccess() {
-        hideLoading()
-        btnUnlockDoor.isHidden = false
-    }
-    
-    func didUpdateFailed(error: String) {
-        spinner.stopAnimating()
-        showAlert(title: "Error", message: error)
-    }
-    
-    func didLockOpened() {
-        currentButtonState = .completed(true)
-        spinner.stopAnimating()
-        print("Door lock is opened. You can now go into the room 🥳.")
-    }
-    
-    func didLockFailed(error: String) {
-        spinner.stopAnimating()
-        currentButtonState = .completed(false)
-        spinner.stopAnimating()
-        showAlert(title: "Error", message: error)
-    }
-    
-    func didReaderStarted() {
-        spinner.startAnimating()
-        currentButtonState = .unlocking
-        isReading = true
-    }
-    
-    func didReaderStopped() {
-        print("reader_stop")
-        spinner.stopAnimating()
-        currentButtonState = .neutral
-        isReading = false
-    }
-    
-    func didLoadReaderFailure(error: String) {
-        spinner.stopAnimating()
-        showAlert(title: "Error", message: error)
-    }
-    
-    func didLockBusy() {
-        currentButtonState = .completed(false)
-        spinner.stopAnimating()
-        showAlert(title: "Error", message: "lock_busy")
-    }
-    
-    func didLockTimeout() {
-        currentButtonState = .completed(false)
-        spinner.stopAnimating()
-        showAlert(title: "lock_timed_out", message: "Lock timeout error ⚠️.")
+    func callback_listener(_ fpco: FlexipassCallbackObject) {
+        DispatchQueue.main.async { [weak self] in
+            
+            switch fpco.result {
+                
+            case .update_success:
+                self?.hideLoading()
+                print("Unlock Screen: update_success")
+                print("Unlock Screen: key count => \(String(describing: fp.mobileKeyCount()))")
+                
+            case .update_failed:
+                print("Unlock Screen: update_failed")
+                self?.hideLoading()
+                self?.showAlert(title: "Error", message: "setup_failed")
+                
+            case .reader_stared:
+                print("reader_stared")
+                self?.spinner.startAnimating()
+                self?.currentButtonState = .unlocking
+                self?.isReading = true
+                
+            case .reader_stopped:
+                print("reader_stopped")
+                self?.spinner.stopAnimating()
+                self?.currentButtonState = .neutral
+                self?.isReading = false
+                
+            case .lock_reader_failure:
+                self?.spinner.stopAnimating()
+                self?.showAlert(title: "Error", message: "lock_reader_failure")
+                
+            case .lock_opened:
+                self?.currentButtonState = .completed(true)
+                self?.spinner.stopAnimating()
+                print("lock_opened")
+                
+            case .lock_failed:
+                self?.spinner.stopAnimating()
+                self?.currentButtonState = .completed(false)
+                self?.spinner.stopAnimating()
+                self?.showAlert(title: "Error", message: "lock_failed")
+                
+            case .setupNotCompleted:
+                self?.hideLoading()
+                self?.showAlert(title: "Error", message: "setupNotCompleted")
+                
+            case .lock_timed_out:
+                self?.currentButtonState = .completed(false)
+                self?.spinner.stopAnimating()
+                self?.showAlert(title: "Error", message: "lock_timed_out")
+                
+            default:
+                self?.spinner.stopAnimating()
+                self?.showAlert(title: "Error", message: "Something went wrong")
+            }
+        }
     }
 }

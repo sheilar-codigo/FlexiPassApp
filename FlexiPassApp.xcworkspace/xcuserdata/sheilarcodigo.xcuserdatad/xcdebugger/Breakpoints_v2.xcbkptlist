@@ -327,71 +327,7 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "1DF8BC93-E75D-4894-A08F-7B915592B3AF"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "FlexiPassApp/ViewControllers/AddMobileKeyVC.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "84"
-            endingLineNumber = "84"
-            landmarkName = "didStartUpFailed(error:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "ADCD1A74-15F8-4886-A33F-BEC37D10E3D3"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "FlexiPassApp/ViewControllers/AddMobileKeyVC.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "88"
-            endingLineNumber = "88"
-            landmarkName = "didSetupNotCompleted(error:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "A925C4D6-D984-4FC5-97EB-D7A6D4BE9FC4"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "FlexiPassApp/ViewControllers/AddMobileKeyVC.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "80"
-            endingLineNumber = "80"
-            landmarkName = "didStartUpSuccess()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "04796A90-516E-4820-96F7-F8351E4BF49E"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "FlexiPassApp/Utils/FlexipassManager.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "117"
-            endingLineNumber = "117"
-            landmarkName = "useMobileKey(keyCode:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "8FD44E3E-6BEC-47B0-A895-360E801B1ACA"
+            uuid = "0C46F9F0-1F1E-40FF-9E0D-081458DA2A8D"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
@@ -402,59 +338,28 @@
             endingLineNumber = "114"
             landmarkName = "useMobileKey(keyCode:)"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "8FD44E3E-6BEC-47B0-A895-360E801B1ACA - 866921f89a63c84e"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "FlexiPassApp.FlexipassManager.useMobileKey(keyCode: Swift.String) -&gt; ()"
-                  moduleName = "FlexiPassApp"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/sheilarcodigo/Documents/Workspace/Projects/FlexiPassApp/FlexiPassApp/Utils/FlexipassManager.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "114"
-                  endingLineNumber = "114"
-                  offsetFromSymbolStart = "432">
-               </Location>
-               <Location
-                  uuid = "8FD44E3E-6BEC-47B0-A895-360E801B1ACA - d7027d6789116a5c"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #2 (Swift.Error) -&gt; () in FlexiPassApp.FlexipassManager.useMobileKey(keyCode: Swift.String) -&gt; ()"
-                  moduleName = "FlexiPassApp"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/sheilarcodigo/Documents/Workspace/Projects/FlexiPassApp/FlexiPassApp/Utils/FlexipassManager.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "114"
-                  endingLineNumber = "114"
-                  offsetFromSymbolStart = "220">
-               </Location>
-               <Location
-                  uuid = "8FD44E3E-6BEC-47B0-A895-360E801B1ACA - a985a8b22c0a55cd"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #2 (Swift.Error) -&gt; () in FlexiPassApp.FlexipassManager.useMobileKey(keyCode: Swift.String) -&gt; ()"
-                  moduleName = "FlexiPassApp"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/sheilarcodigo/Documents/Workspace/Projects/FlexiPassApp/FlexiPassApp/Utils/FlexipassManager.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "114"
-                  endingLineNumber = "114"
-                  offsetFromSymbolStart = "28">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "ED1F2F6F-A293-455A-BED5-96C0E0F60488"
+            uuid = "45685264-7691-448A-868D-0844B4EBD8E8"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FlexiPassApp/Utils/FlexipassManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "116"
+            endingLineNumber = "116"
+            landmarkName = "useMobileKey(keyCode:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "71AACED3-4AB0-4C75-839F-1C162E39F707"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
@@ -464,6 +369,22 @@
             startingLineNumber = "110"
             endingLineNumber = "110"
             landmarkName = "useMobileKey(keyCode:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "289CC39D-CF8D-4ED0-896F-8C4EA1ED6F5A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FlexiPassApp/ViewControllers/KeyInfoVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "112"
+            endingLineNumber = "112"
+            landmarkName = "callback_listener(_:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
